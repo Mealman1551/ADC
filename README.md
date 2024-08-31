@@ -1,3 +1,5 @@
+![afbeelding](https://github.com/user-attachments/assets/901a40aa-330b-473b-83ab-a417245313fb)
+
 # ADC (ArchivedDataCodec)
 
 ![License: GPL-3.0](https://img.shields.io/badge/License-GPL--3.0-orange.svg)
@@ -23,7 +25,7 @@
 ### Installation
 
 #### Windows
-1. Download the official installer here: [![Windows](https://custom-icon-badges.demolab.com/badge/Windows-0078D6?logo=windows11&logoColor=white)](link here)
+1. Download the official installer here: [![Windows](https://custom-icon-badges.demolab.com/badge/ADC Setup-0078D6?logo=windows11&logoColor=white)](link here)
 #### Linux
 1. Clone the repository:
     ```bash
