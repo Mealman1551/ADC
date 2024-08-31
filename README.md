@@ -25,7 +25,7 @@
 ### Installation
 
 #### Windows
-1. Download the official installer here: [![Windows](https://custom-icon-badges.demolab.com/badge/ADC Setup-0078D6?logo=windows11&logoColor=white)](link here)
+1. Download the official installer here: [![Windows](https://custom-icon-badges.demolab.com/badge/ADC%20Setup-0078D6?logo=windows11&logoColor=white)](link here)
 #### Linux
 1. Clone the repository:
     ```bash
