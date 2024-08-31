@@ -11,7 +11,7 @@
 - **Custom Compression Algorithm**: Utilizes zlib for efficient compression.
 - **Cross-Platform**: Compatible with both Windows and Linux.
 - **Command-Line Interface**: Simple and intuitive interface.
-- **Unicode Transformation**: Supports a wide range of file types.
+- **Support**: Supports a wide range of file types.
 
 ## Getting Started
 
@@ -22,9 +22,12 @@
 
 ### Installation
 
+#### Windows
+1. Download the official installer here: [![Windows](https://custom-icon-badges.demolab.com/badge/Windows-0078D6?logo=windows11&logoColor=white)](link here)
+#### Linux
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/adc.git
+    git clone https://github.com/Mealman1551/adc.git
     ```
 2. Navigate to the project directory:
     ```bash
@@ -51,7 +54,7 @@ Contributions are welcome! Open an issue or submit a pull request if you'd like 
 
 ## Contact
 
-Have questions or want to learn more? Feel free to reach out via [your-email@example.com](mailto:your-email@example.com).
+Have questions or want to learn more? Feel free to reach out via [This mail address](mailto:nathandubuy4@gmail.com).
 
 ---
 
