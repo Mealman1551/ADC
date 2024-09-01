@@ -3,7 +3,7 @@
 Compatible with: <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Windows_logo_-_2021.svg/1024px-Windows_logo_-_2021.svg.png" alt="Windows 11" width="15"/> **&** <img src="https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg" alt="Linux" width="15"/>
 
 # ADC (ArchivedDataCodec) 
-![License: GPL-3.0](https://img.shields.io/badge/License-GNU-GPL--3.0-orange.svg)
+![License: GPL-3.0](https://img.shields.io/badge/License-GNU%20GPL--3.0-orange.svg)
 ![Platform: Windows/Linux](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux-blue.svg)
 ![Python Version](https://img.shields.io/badge/Python-3.x-yellow.svg)
 
