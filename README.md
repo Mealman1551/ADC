@@ -1,17 +1,15 @@
-![afbeelding](https://github.com/user-attachments/assets/901a40aa-330b-473b-83ab-a417245313fb)
-
-Compatible with: <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Windows_logo_-_2021.svg/1024px-Windows_logo_-_2021.svg.png" alt="Windows 11" width="15"/> **&** <img src="https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg" alt="Linux" width="15"/>
-
 # ADC (ArchivedDataCodec) 
 ![License: GPL-3.0](https://img.shields.io/badge/License-GNU%20GPL--3.0-orange.svg)
 ![Platform: Windows/Linux](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux-blue.svg)
 ![Python Version](https://img.shields.io/badge/Python-3.x-yellow.svg)
 
+Compatible with: <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Windows_logo_-_2021.svg/1024px-Windows_logo_-_2021.svg.png" alt="Windows 11" width="15"/> **&** <img src="https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg" alt="Linux" width="15"/>
+
 **ADC (ArchivedDataCodec)** is an open-source file extension and archiving/compression tool that uses zlib for efficient compression and decompression of various file types. With a simple command-line interface, ADC supports both Windows and Linux, making it easy for users to archive and extract files.
 
 ## Features
 
-- **Custom Compression Algorithm**: Utilizes zlib for efficient compression.
+- **Great Compression Algorithm**: Utilizes zlib for efficient compression.
 - **Cross-Platform**: Compatible with both Windows and Linux.
 - **Command-Line Interface**: Simple and intuitive interface.
 - **Support**: Supports a wide range of file types.
@@ -26,7 +24,7 @@ Compatible with: <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/
 ### Installation
 
 #### Windows
-1. Download the official installer here: [![Windows](https://custom-icon-badges.demolab.com/badge/ADC%20Setup-0078D6?logo=windows11&logoColor=white)](link here)
+1. Download the official installer here: [![Windows](https://custom-icon-badges.demolab.com/badge/ADC%20Setup-0078D6?logo=windows11&logoColor=white)](https://github.com/Mealman1551/ADC/releases/download/ADC_Archiver_v1.0.0/ADC.1.0.0.Setup.exe)
 #### Linux
 1. Clone the repository:
     ```bash
@@ -34,11 +32,11 @@ Compatible with: <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/
     ```
 2. Navigate to the project directory:
     ```bash
-    cd adc
+    cd "Main file (Linux only)"
     ```
 3. Run the script:
     ```bash
-    python _The ADC Python file_.py
+    python "ADC Archiver 1.0.0.py"
     ```
 
 ## Usage
