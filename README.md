@@ -1,12 +1,13 @@
 ![afbeelding](https://github.com/user-attachments/assets/901a40aa-330b-473b-83ab-a417245313fb)
 
-# ADC (ArchivedDataCodec)
+Compatible with: <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Windows_logo_-_2021.svg/1024px-Windows_logo_-_2021.svg.png" alt="Windows 11" width="15"/> **&** <img src="https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg" alt="Linux" width="15"/>
 
+# ADC (ArchivedDataCodec) 
 ![License: GPL-3.0](https://img.shields.io/badge/License-GPL--3.0-orange.svg)
 ![Platform: Windows/Linux](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux-blue.svg)
 ![Python Version](https://img.shields.io/badge/Python-3.x-yellow.svg)
 
-**ADC (ArchivedDataCodec)** is an open-source file archiving and compression tool that uses zlib for efficient compression and decompression of various file types. With a simple command-line interface, ADC supports both Windows and Linux, making it easy for users to archive and extract files.
+**ADC (ArchivedDataCodec)** is an open-source file extension and archiving/compression tool that uses zlib for efficient compression and decompression of various file types. With a simple command-line interface, ADC supports both Windows and Linux, making it easy for users to archive and extract files.
 
 ## Features
 
@@ -37,14 +38,12 @@
     ```
 3. Run the script:
     ```bash
-    python adc_archiver.py
+    python _The ADC Python file_.py
     ```
 
 ## Usage
 
-1. Double-click `adc_archiver.py` or run the script via the command line.
-2. Choose 'c' to compress files or 'e' to extract files.
-3. Follow the prompts to select and save files.
+Download the setup for Windows or use Git clone in Linux and run the Python script.
 
 ## License
 
