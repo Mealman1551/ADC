@@ -17,9 +17,12 @@ Compatible with: <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/
 ## Getting Started
 
 ### Prerequisites
-
+***Developers:***
 - Python 3.x
 - Zlib library (typically included with Python)
+***Users***
+- Python 3.x (**Linux only**)
+- Microsft Windows 10 or 11
 
 ### Installation
 
