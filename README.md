@@ -26,15 +26,19 @@ Compatible with: <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/
 #### Windows
 1. Download the official installer here: [![Windows](https://custom-icon-badges.demolab.com/badge/ADC%20Setup-0078D6?logo=windows11&logoColor=white)](https://github.com/Mealman1551/ADC/releases/download/ADC_Archiver_v1.0.0/ADC.1.0.0.Setup.exe)
 #### Linux
-1. Clone the repository:
+1. Install Git:
+    ```bash
+    sudo apt install git
+
+2. Clone the repository:
     ```bash
     git clone https://github.com/Mealman1551/adc.git
     ```
-2. Navigate to the project directory:
+3. Navigate to the project directory:
     ```bash
     cd "Main file (Linux only)"
     ```
-3. Run the script:
+5. Run the script:
     ```bash
     python "ADC Archiver 1.0.0.py"
     ```
