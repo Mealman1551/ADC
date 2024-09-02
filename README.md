@@ -23,7 +23,7 @@ Compatible with: <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/
 
 ***Users***
 - Python 3.x (**Linux only**)
-- Microsft Windows 10 or 11
+- Microsft Windows 10 or 11 (**Doesn't require Python**)
 
 ### Installation
 
