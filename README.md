@@ -36,11 +36,11 @@ Compatible with: <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/
     ```
 3. Navigate to the project directory:
     ```bash
-    cd "Main file (Linux only)"
+    cd "/home/user/ADC/Main file (Linux only)"
     ```
 5. Run the script:
     ```bash
-    python "ADC Archiver 1.0.0.py"
+    python3 "ADC Archiver 1.0.0.py"
     ```
 
 ## Usage
