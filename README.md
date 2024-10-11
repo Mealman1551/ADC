@@ -2,6 +2,8 @@
 ![License: GPL-3.0](https://img.shields.io/badge/License-GNU%20GPL--3.0-orange.svg)
 ![Platform: Windows/Linux](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux-blue.svg)
 ![Python Version](https://img.shields.io/badge/Python-3.x-yellow.svg)
+![Development](https://img.shields.io/badge/Development-Active-brightgreen)
+![Latest version](https://img.shields.io/badge/Latest%20version-1.1.0-brightgreen)
 
 Compatible with: <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Windows_logo_-_2021.svg/1024px-Windows_logo_-_2021.svg.png" alt="Windows 11" width="15"/> **&** <img src="https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg" alt="Linux" width="15"/>
 
@@ -28,7 +30,7 @@ Compatible with: <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/
 ### Installation
 
 #### Windows
-1. Download the official installer here: [![Windows](https://custom-icon-badges.demolab.com/badge/ADC%20Setup-0078D6?logo=windows11&logoColor=white)](https://github.com/Mealman1551/ADC/releases/download/ADC_Archiver_v1.0.0/ADC.1.0.0.Setup.exe)
+1. Download the official installer here: [![Windows](https://custom-icon-badges.demolab.com/badge/ADC%20Setup-0078D6?logo=windows11&logoColor=white)](https://github.com/Mealman1551/ADC/releases/tag/ADC_Archiver_v1.1.0)
 #### Linux
 1. Install Git:
     ```bash
@@ -40,11 +42,11 @@ Compatible with: <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/
     ```
 3. Navigate to the project directory:
     ```bash
-    cd "/home/user/ADC/Main file (Linux only)"
+    cd "/home/user/ADC/Linux-release"
     ```
 5. Run the script:
     ```bash
-    python3 "ADC Archiver 1.0.0.py"
+    python3 "adc1.1.py"
     ```
 
 ## Usage
