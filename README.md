@@ -42,7 +42,7 @@ Compatible with: <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/
     ```
 3. Navigate to the project directory:
     ```bash
-    cd "/home/user/ADC/Linux-release"
+    cd /home/username/adc/Linux-release
     ```
 5. Run the script:
     ```bash
