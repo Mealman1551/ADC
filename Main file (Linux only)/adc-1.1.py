@@ -1,3 +1,6 @@
+#!/usr/bin/env python3
+
+
 import os
 import zlib
 import tkinter as tk
