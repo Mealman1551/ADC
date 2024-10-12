@@ -34,6 +34,8 @@ Compatible with: <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/
 
 Hash 256 should be: `96E1F3F203D5A8C66661E6F39BA92FC1D3444B9CF2370FFD89FBE1791B4D9CAD`
 #### Linux
+
+##### This is the "Terminal way (Requires Python3)", for more installation options visit the [Wiki!](https://github.com/Mealman1551/ADC/wiki/Linux-installation)
 1. Install Git:
     ```bash
     sudo apt install git
