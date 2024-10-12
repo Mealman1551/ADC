@@ -31,6 +31,8 @@ Compatible with: <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/
 
 #### Windows
 1. Download the official installer here: [![Windows](https://custom-icon-badges.demolab.com/badge/ADC%20Setup-0078D6?logo=windows11&logoColor=white)](https://github.com/Mealman1551/ADC/releases/tag/ADC_Archiver_v1.1.0)
+
+Hash 256 should be: `96E1F3F203D5A8C66661E6F39BA92FC1D3444B9CF2370FFD89FBE1791B4D9CAD`
 #### Linux
 1. Install Git:
     ```bash
@@ -48,6 +50,7 @@ Compatible with: <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/
     ```bash
     python3 "adc1.1.py"
     ```
+ADC Script hash 256 should be: `FB0CBB02E53E6178FB8923924F929B32AE228A3643143832805E348732A5991B`
 
 ## Usage
 
