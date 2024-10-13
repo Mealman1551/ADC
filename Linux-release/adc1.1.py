@@ -6,7 +6,7 @@ import zlib
 import tkinter as tk
 from tkinter import filedialog
 
-ascii_art = """
+programboot = """
     _     ___     ___       _                _      _                   
    /_\   |   \   / __|     /_\    _ _   __  | |_   (_) __ __  ___   _ _ 
   / _ \  | |) | | (__     / _ \  | '_| / _| | ' \  | | \ V / / -_) | '_|
@@ -19,7 +19,7 @@ ascii_art = """
 
 """
 
-print(ascii_art)
+print(programboot)
 
 
 def read_binary_file(file_path):
