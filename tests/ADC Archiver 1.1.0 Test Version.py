@@ -3,6 +3,14 @@ import zlib
 import tkinter as tk
 from tkinter import filedialog
 
+test="""
+
+Hello World
+
+
+"""
+print(test)
+
 def read_binary_file(file_path):
     with open(file_path, 'rb') as file:
         return file.read()
