@@ -6,6 +6,22 @@ import zlib
 import tkinter as tk
 from tkinter import filedialog
 
+ascii_art = """
+    _     ___     ___       _                _      _                   
+   /_\   |   \   / __|     /_\    _ _   __  | |_   (_) __ __  ___   _ _ 
+  / _ \  | |) | | (__     / _ \  | '_| / _| | ' \  | | \ V / / -_) | '_|
+ /_/ \_\ |___/   \___|   /_/ \_\ |_|   \__| |_||_| |_|  \_/  \___| |_|  
+                                                                        
+   __                 _      _                                          
+  / _|  ___   _ _    | |    (_)  _ _    _  _  __ __                     
+ |  _| / _ \ | '_|   | |__  | | | ' \  | || | \ \ /                     
+ |_|   \___/ |_|     |____| |_| |_||_|  \_,_| /_\_\                     
+
+"""
+
+print(ascii_art)
+
+
 def read_binary_file(file_path):
     with open(file_path, 'rb') as file:
         return file.read()
