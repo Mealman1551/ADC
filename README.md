@@ -7,7 +7,7 @@
 
 Compatible with: <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Windows_logo_-_2021.svg/1024px-Windows_logo_-_2021.svg.png" alt="Windows 11" width="15"/> **&** <img src="https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg" alt="Linux" width="15"/>
 
-**ADC (ArchivedDataCodec)** is an open-source file extension and archiving/compression tool that uses zlib for efficient compression and decompression of various file types. With a simple command-line interface, ADC supports both Windows and Linux, making it easy for users to archive and extract files.
+**ADC (ArchivedDataCodec)** is an open-source<img src="https://svgur.com/i/1Bdn.svg" alt="Open-Source" width="15"/> file extension and archiving/compression tool that uses zlib for efficient compression and decompression of various file types. With a simple command-line interface, ADC supports both Windows and Linux, making it easy for users to archive and extract files.
 
 ## Features
 
