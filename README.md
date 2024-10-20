@@ -35,7 +35,7 @@ Compatible with: <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/
 Hash 256 should be: `96E1F3F203D5A8C66661E6F39BA92FC1D3444B9CF2370FFD89FBE1791B4D9CAD`
 #### Linux
 
-##### This is the "Terminal way (Requires Python3)", for more installation options visit the [Wiki!](https://github.com/Mealman1551/ADC/wiki/Linux-installation)
+##### This is the "Terminal way", for more installation options visit the [Wiki!](https://github.com/Mealman1551/ADC/wiki/Linux-installation)
 1. Install Git:
     ```bash
     sudo apt install git
@@ -48,11 +48,15 @@ Hash 256 should be: `96E1F3F203D5A8C66661E6F39BA92FC1D3444B9CF2370FFD89FBE1791B4
     ```bash
     cd ~/adc/Linux-release
     ```
+4. Admin rights:
+    ```bash
+    chmod +x adc1.1
+    ```
 5. Run the script:
     ```bash
-    python3 "adc1.1.py"
+    ./adc1.1
     ```
-ADC Script Hash 256 should be: `FB0CBB02E53E6178FB8923924F929B32AE228A3643143832805E348732A5991B`
+ADC Script Hash 256 should be: `F4B350056C23EE7624A7CEACC1050C3F76886B754D282923578CBEE1E88E941A`
 
 ## Usage
 
