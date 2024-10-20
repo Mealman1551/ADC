@@ -24,8 +24,8 @@ Compatible with: <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/
 - Zlib library (typically included with Python)
 
 ***Users***
-Windows 10 or higher
-Debian based Linux distro
+- Windows 10 or higher
+- Debian based Linux distro
 
 ### Installation
 
