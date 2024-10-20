@@ -24,8 +24,8 @@ Compatible with: <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/
 - Zlib library (typically included with Python)
 
 ***Users***
-- Python 3.x (**Linux only**)
-- Microsft Windows 10 or 11 (**Doesn't require Python**)
+Windows 10 or higher
+Debian based Linux distro
 
 ### Installation
 
