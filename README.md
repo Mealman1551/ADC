@@ -72,6 +72,8 @@ Contributions are welcome! Open an issue or submit a pull request if you'd like 
 
 ## Contact
 
+Create a issue really easy with [this from](https://docs.google.com/forms/d/e/1FAIpQLSckLmPxVy7rW30_va7YpE42GAY5UKZqD8tjQgrSGWdbfRJUvA/viewform)
+
 Have questions or want to learn more? Feel free to reach out via [This mail address](mailto:nathandubuy4@gmail.com).
 
 ---
