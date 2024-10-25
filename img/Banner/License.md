@@ -1,1 +1,1 @@
-Thanks to [ArtBrodo on DeviantArt](https://www.deviantart.com/artbrodo) for the banner image.
+Thanks to [PiXEL-iMP on DeviantArt](https://www.deviantart.com/pixel-imp) for the banner image.
