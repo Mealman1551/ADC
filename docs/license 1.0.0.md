@@ -2,7 +2,7 @@
 
 ***1. INTRODUCTION***
 
-This is an agreement between you (\"User\") and \[Mealman1551
+This is an agreement between you (\"User\") and \Mealman1551
 (\"Developer\") regarding the use of the software ADC
 (ArchivedDataCodec) (\"Software\"). By installing, using, or modifying
 the Software, you agree to the terms of this agreement.
