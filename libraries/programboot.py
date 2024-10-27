@@ -15,3 +15,5 @@ programboot = """
 """
 
 print(programboot)
+
+#Changelog# added new "FIGlet font in the archiver for Linux
