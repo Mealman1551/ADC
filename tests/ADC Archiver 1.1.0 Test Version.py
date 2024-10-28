@@ -102,33 +102,38 @@ def main():
         input("Press any key to close...")
         return
 
-    print("Welcome to the ADC Archiver!")
-    print("Type 'c' to create an archive or 'e' to extract an archive.")
-    command = input("Enter your choice: ").strip().lower()
+def main():
+    while True:
+        print("Welcome to the ADC Archiver!")
+        print("Type 'c' to create an archive, 'e' to extract an archive, or 'q' to quit.")
+        command = input("Enter your choice: ").strip().lower()
 
-    if command == 'c':
-        files_to_archive = select_files_for_archiving()
-        if files_to_archive:
-            output_archive = save_archive_file()
-            if output_archive:
-                create_adc_archive(files_to_archive, output_archive)
+        if command == 'c':
+            files_to_archive = select_files_for_archiving()
+            if files_to_archive:
+                output_archive = save_archive_file()
+                if output_archive:
+                    create_adc_archive(files_to_archive, output_archive)
+                else:
+                    print("No output file specified. Aborting.")
             else:
-                print("No output file specified. Aborting.")
-        else:
-            print("No files selected. Aborting.")
-    elif command == 'e':
-        archive_to_extract = open_archive_file()
-        if archive_to_extract:
-            extraction_directory = select_directory_for_extraction()
-            if extraction_directory:
-                extract_adc_archive(archive_to_extract, extraction_directory)
+                print("No files selected. Aborting.")
+        elif command == 'e':
+            archive_to_extract = open_archive_file()
+            if archive_to_extract:
+                extraction_directory = select_directory_for_extraction()
+                if extraction_directory:
+                    extract_adc_archive(archive_to_extract, extraction_directory)
+                else:
+                    print("No output directory specified. Aborting.")
             else:
-                print("No output directory specified. Aborting.")
+                print("No archive selected. Aborting.")
+        elif command == 'q':
+            print("Thank you for using ADC Archiver!")
+            break
         else:
-            print("No archive selected. Aborting.")
-    else:
-        print("Invalid command. Please type 'c' to create an archive or 'e' to extract one.")
-    input("Press any key to close...")
+            print("Invalid command. Please type 'c' to create an archive, 'e' to extract one, or 'q' to quit.")
 
 if __name__ == "__main__":
     main()
+
