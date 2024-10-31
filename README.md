@@ -69,13 +69,15 @@ Download the setup for Windows or use Git clone in Linux and run the Python scri
 
 This project is licensed under the [GNU GPL-3.0 License](LICENSE).
 
+## Issues
+
+Create a issue really easy without the need of a GitHub account via [this from](https://docs.google.com/forms/d/e/1FAIpQLSckLmPxVy7rW30_va7YpE42GAY5UKZqD8tjQgrSGWdbfRJUvA/viewform)
+
 ## Contributing
 
 Contributions are welcome! Open an issue or submit a pull request if you'd like to contribute.
 
 ## Contact
-
-Create a issue really easy without a GitHub account via [this from](https://docs.google.com/forms/d/e/1FAIpQLSckLmPxVy7rW30_va7YpE42GAY5UKZqD8tjQgrSGWdbfRJUvA/viewform)
 
 Have questions or want to learn more? Feel free to reach out via [This mail address](mailto:nathandubuy4@gmail.com).
 
