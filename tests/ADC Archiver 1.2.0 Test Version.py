@@ -105,7 +105,7 @@ def main():
 def main():
     while True:
         print("Welcome to the ADC Archiver!")
-        print("Type 'c' to create an archive, 'e' to extract an archive, or 'q' to quit.")
+        print("Type 'c' to create an archive, 'e' to extract an archive, 'i' for info or 'q' to quit.")
         command = input("Enter your choice: ").strip().lower()
 
         if command == 'c':
@@ -126,13 +126,19 @@ def main():
                     extract_adc_archive(archive_to_extract, extraction_directory)
                 else:
                     print("No output directory specified. Aborting.")
+
+
+          #Work in progress
+            #elif command == 'i':
+                #print("ADC Archiver Version 1.2.0 | (c) 2024 Mealman1551")
+
             else:
                 print("No archive selected. Aborting.")
         elif command == 'q':
             print("Thank you for using ADC Archiver!")
             break
         else:
-            print("Invalid command. Please type 'c' to create an archive, 'e' to extract one, or 'q' to quit.")
+            print("Invalid command. Please type 'c' to create an archive, 'e' to extract one, 'i' for info or 'q' to quit.")
 
 if __name__ == "__main__":
     main()
