@@ -11,7 +11,8 @@
 Compatible with: <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Windows_logo_-_2021.svg" alt="Windows 11" width="15"/> **&** <img src="https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg" alt="Linux" width="15"/>
 
 **ADC (ArchivedDataCodec)** is an open-source<img src="https://svgur.com/i/1Bdn.svg" alt="Open-Source" width="15"/> file extension and archiving/compression tool that uses zlib for efficient compression and decompression of various file types. With a simple command-line interface, ADC supports both Windows and Linux, making it easy for users to archive and extract files.
-ADC Archiver uses a byte-key of 4, this means that it can create archives up to 4gb.
+
+ADC Archiver uses a byte-key of 4, meaning that it can create archives up to 4GB. This limit is ideal for standard file archiving but may not be suitable for very large files or datasets. Future updates may include support for larger archives.
 
 ## Features
 
