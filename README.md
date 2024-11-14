@@ -49,7 +49,7 @@ Hash 256 should be: `96E1F3F203D5A8C66661E6F39BA92FC1D3444B9CF2370FFD89FBE1791B4
 
   ```bash
   sudo apt update
-  sudo apt install git -y
+  sudo apt install git
   ```
 </details>
 
@@ -57,7 +57,7 @@ Hash 256 should be: `96E1F3F203D5A8C66661E6F39BA92FC1D3444B9CF2370FFD89FBE1791B4
   <summary>Fedora</summary>
 
   ```bash
-  sudo dnf install git -y
+  sudo dnf install git
   ```
 </details>
 
@@ -65,12 +65,12 @@ Hash 256 should be: `96E1F3F203D5A8C66661E6F39BA92FC1D3444B9CF2370FFD89FBE1791B4
   <summary>CentOS (RHEL)</summary>
 
   ```bash
-  sudo yum install git -y
+  sudo yum install git
   ```
 
   **Voor CentOS 8+ en RHEL 8+ (met dnf):**
   ```bash
-  sudo dnf install git -y
+  sudo dnf install git
   ```
 </details>
 
