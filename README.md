@@ -106,6 +106,30 @@ Hash 256 should be: `96E1F3F203D5A8C66661E6F39BA92FC1D3444B9CF2370FFD89FBE1791B4
   ```
 </details>
 
+<details>
+  <summary>Void Linux</summary>
+
+  ```bash
+  sudo xbps-install -S git
+  ```
+  </details>
+
+  <details>
+  <summary>Snap</summary>
+
+  ```bash
+  sudo snap install git --classic
+  ```
+  </details>
+
+ <details>
+  <summary>Flatpak</summary>
+
+  ```bash
+  sudo flatpak install flathub com.git.Git
+  ```
+  </details>
+ 
  
 
 2. Clone the repository:
