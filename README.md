@@ -68,7 +68,7 @@ Hash 256 should be: `96E1F3F203D5A8C66661E6F39BA92FC1D3444B9CF2370FFD89FBE1791B4
   sudo yum install git
   ```
 
-  **Voor CentOS 8+ en RHEL 8+ (met dnf):**
+  **for CentOS 8+ en RHEL 8+ (with dnf):**
   ```bash
   sudo dnf install git
   ```
