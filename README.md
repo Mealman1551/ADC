@@ -15,14 +15,14 @@ Compatible with: <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/W
 
 ADC Archiver uses a byte-key of 4, meaning that it can create archives up to 4GB. This limit is ideal for standard file archiving but may not be suitable for very large files or datasets. Future updates may include support for larger archives.
 
-## Features
+# Features
 
 - **Great Compression Algorithm**: Utilizes zlib for efficient compression.
 - **Cross-Platform**: Compatible with both Windows and Linux.
 - **Command-Line Interface**: Simple and intuitive interface.
 - **Support**: Supports a wide range of file types.
 
-## Getting Started
+# Getting Started
 
 ### Prerequisites
 ***Developers:***
@@ -31,20 +31,82 @@ ADC Archiver uses a byte-key of 4, meaning that it can create archives up to 4GB
 
 ***Users***
 - Windows 10 or higher
-- Debian based Linux distro
+- A Linux distro
 
-### Installation
+# Installation
 
-#### Windows
+## Windows
 1. Download the official installer here: [![Windows](https://custom-icon-badges.demolab.com/badge/ADC%20Setup-0078D6?logo=windows11&logoColor=white)](https://github.com/Mealman1551/ADC/releases/tag/ADC_Archiver_v1.1.0)
 
 Hash 256 should be: `96E1F3F203D5A8C66661E6F39BA92FC1D3444B9CF2370FFD89FBE1791B4D9CAD`
-#### Linux
+## Linux
 
 ##### This is the "Terminal way", for more installation options visit the [Wiki!](https://github.com/Mealman1551/ADC/wiki/Linux-installation)
+
 1. Install Git:
-    ```bash
-    sudo apt install git
+<details>
+  <summary>Debian (Ubuntu, Mint etc.)</summary>
+
+  ```bash
+  sudo apt update
+  sudo apt install git -y
+  ```
+</details>
+
+<details>
+  <summary>Fedora</summary>
+
+  ```bash
+  sudo dnf install git -y
+  ```
+</details>
+
+<details>
+  <summary>CentOS (RHEL)</summary>
+
+  ```bash
+  sudo yum install git -y
+  ```
+
+  **Voor CentOS 8+ en RHEL 8+ (met dnf):**
+  ```bash
+  sudo dnf install git -y
+  ```
+</details>
+
+<details>
+  <summary>openSUSE</summary>
+
+  ```bash
+  sudo zypper install git
+  ```
+</details>
+
+<details>
+  <summary>Arch Linux</summary>
+
+  ```bash
+  sudo pacman -S git
+  ```
+</details>
+
+<details>
+  <summary>Alpine Linux</summary>
+
+  ```bash
+  sudo apk add git
+  ```
+</details>
+
+<details>
+  <summary>Gentoo</summary>
+
+  ```bash
+  sudo emerge --ask dev-vcs/git
+  ```
+</details>
+
+ 
 
 2. Clone the repository:
     ```bash
@@ -64,23 +126,23 @@ Hash 256 should be: `96E1F3F203D5A8C66661E6F39BA92FC1D3444B9CF2370FFD89FBE1791B4
     ```
 ADC Script Hash 256 should be: `F4B350056C23EE7624A7CEACC1050C3F76886B754D282923578CBEE1E88E941A`
 
-## Usage
+# Usage
 
 Download the setup for Windows or use Git clone in Linux and run the Python script.
 
-## License
+# License
 
 This project is licensed under the [GNU GPL-3.0 License](LICENSE).
 
-## Issues
+# Issues
 
 Create a issue really easy without the need of a GitHub account via [this from](https://docs.google.com/forms/d/e/1FAIpQLSckLmPxVy7rW30_va7YpE42GAY5UKZqD8tjQgrSGWdbfRJUvA/viewform)
 
-## Contributing
+# Contributing
 
 Contributions are welcome! Open an issue or submit a pull request if you'd like to contribute.
 
-## Contact
+# Contact
 
 Have questions or want to learn more? Feel free to reach out via [This mail address](mailto:nathandubuy4@gmail.com).
 
