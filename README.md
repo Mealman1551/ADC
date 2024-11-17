@@ -24,14 +24,18 @@ ADC Archiver uses a byte-key of 4, meaning that it can create archives up to 4GB
 
 # Getting Started
 
-### Prerequisites
+## Prerequisites
 ***Developers:***
 - Python 3.x
 - Zlib library (typically included with Python)
 
 ***Users***
+#### Windows
 - Windows 10 or higher
+#### Linux
 - A Linux distro
+-Python3
+-Tkinter
 
 # Installation
 
