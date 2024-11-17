@@ -34,8 +34,8 @@ ADC Archiver uses a byte-key of 4, meaning that it can create archives up to 4GB
 - Windows 10 or higher
 #### Linux
 - A Linux distro
--Python3
--Tkinter
+- Python3
+- Tkinter
 
 # Installation
 
