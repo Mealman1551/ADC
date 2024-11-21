@@ -13,6 +13,8 @@ Compatible with: <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/W
 
 **ADC (ArchivedDataCodec)** is an open-source <img src="https://raw.githubusercontent.com/Mealman1551/ADC/362a969f45ab6f17883ec68cb6172dc4ad3ce58b/img/svg/open-source-icn.svg" alt="Open-Source" width="30"/> file extension and archiving/compression tool that uses zlib for efficient compression and decompression of various file types. With a simple command-line interface, ADC supports both Windows and Linux, making it easy for users to archive and extract files.
 
+For the unstable release see [ADC Aurora](https://github.com/Mealman1551/ADC/blob/main/ADC%201.2%20Unstable%20(Aurora)%F0%9F%8C%8C/readme.md)
+
 ADC Archiver uses a byte-key of 4, meaning that it can create archives up to 4GB. This limit is ideal for standard file archiving but may not be suitable for very large files or datasets. Future updates may include support for larger archives.
 
 # Features
