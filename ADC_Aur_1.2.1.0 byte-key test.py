@@ -36,7 +36,7 @@ def extract_adc_archive(archive_path, output_dir):
                 break
             filename_len = int.from_bytes(filename_len_bytes, 'big')
             filename = archive_file.read(filename_len).decode('utf-8')
-            compressed_data_len_bytes = archive_file.read(4)
+            compressed_data_len_bytes = archive_file.read(4, 8)
             compressed_data_len = int.from_bytes(compressed_data_len_bytes, 'big')
             compressed_data = archive_file.read(compressed_data_len)
             decompressed_data = parma_decompress(compressed_data)
