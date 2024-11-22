@@ -1,3 +1,3 @@
-This is the unstable release of ADC aka Aurora!
+This is the unstable/rolling release of ADC aka Aurora!
 
-For stability use 1.1.0
+For stability use 1.2.0
