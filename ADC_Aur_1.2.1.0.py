@@ -2,6 +2,9 @@ import os
 import zlib
 import tkinter as tk
 from tkinter import filedialog
+import socket
+
+dev = socket.gethostname()
 
 def read_binary_file(file_path):
     with open(file_path, 'rb') as file:
@@ -86,6 +89,7 @@ def main():
     s_msg ="""
     You've found a secret message #easter-egggg
     """
+
 while True:
     command = input("Welcome to the ADC Archiver! Enter command (c to create, e to extract, i for info, q to quit): ").strip().lower()
     
@@ -112,7 +116,7 @@ while True:
             print("No archive selected. Aborting.")
 
     elif command == 'i':
-        info = r"""
+        info = f"""
              ####        %%%%%%%%%%%         ********  
             ######       %%%%%%%%%%%%     *************
            ### ###      %%%%      %%%%   ****      ****
@@ -123,7 +127,10 @@ while True:
      ####       ###   %%%%%%%%%%%%%     ************   
     ####        ####  %%%%%%%%%%          *******      
         
-    | ADC Archiver | Version 1.2.0 | byte-key: 4 |
+    | ADC Archiver | Version 1.2.0 (Aurora)| byte-key: 4 |
+
+    You are using ADC on:
+    {dev}
     
     Github page: https://github.com/Mealman1551/ADC
     Webpage: https://mealman1551.github.io/adc.html
