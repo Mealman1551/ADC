@@ -15,7 +15,7 @@ Compatible with: <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/W
 
 ADC Archiver uses a byte-key of 4, meaning that it can create archives up to 4GB. This limit is ideal for standard file archiving but may not be suitable for very large files or datasets. Future updates may include support for larger archives.
 
-For the unstable/rolling release see [ADC Aurora](https://github.com/Mealman1551/ADC/tree/ADC-Unstable-(Aurora))
+For the unstable/rolling release see: [ADC Aurora](https://github.com/Mealman1551/ADC/tree/ADC-Unstable-(Aurora))
 
 # Features
 
