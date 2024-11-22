@@ -20,20 +20,12 @@ Aurora works with a rolling release model by updating the source code to a highe
 ### Python packages required
 
 - os
-  Purpose: Provides functions for interacting with the operating system, such as file path manipulation and retrieving file names.
-  Documentation: os module
 
 - zlib
-  Purpose: Enables compression and decompression of binary data using the zlib format.
-  Documentation: zlib module
 
 - tkinter
-  Purpose: Creates a graphical user interface (GUI) and supports file and directory dialogs via filedialog.
-  Documentation: tkinter module
 
-- sys
-  Purpose: Provides access to system-specific parameters, such as command-line arguments.
-  Documentation: sys module
+- socket
 
 Additional Installation Requirements
 
