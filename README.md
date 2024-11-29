@@ -1,8 +1,8 @@
 # ADC Archiver Aurora
-
+--
 ## Latest news on Aurora
 Currently I'm doing some tests with a higher byte-key, the test file is called: ADC_Aur_byte-key test.py
-
+--
 ### What is Aurora?
 
 Aurora is the unstable/rolling release of ADC Archiver that features a newer version than stable and is only usable as a Python script.
