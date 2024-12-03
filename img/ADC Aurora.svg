@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="988.58582"
+   height="1500"
+   viewBox="0 0 261.56332 396.875"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   sodipodi:docname="ADC Aurora.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:lockguides="false"
+     inkscape:zoom="0.36257716"
+     inkscape:cx="71.708874"
+     inkscape:cy="630.21068"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="1591"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient5728">
+      <stop
+         style="stop-color:#521dff;stop-opacity:1;"
+         offset="0"
+         id="stop5732" />
+      <stop
+         style="stop-color:#00ffff;stop-opacity:1;"
+         offset="1"
+         id="stop5726" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="MLN1">
+      <stop
+         style="stop-color:#00ffff;stop-opacity:1;"
+         offset="0"
+         id="stop2933" />
+      <stop
+         style="stop-color:#5d00ff;stop-opacity:1;"
+         offset="1"
+         id="stop2935" />
+    </linearGradient>
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 198.4375 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="396.87498 : 198.4375 : 1"
+       inkscape:persp3d-origin="198.4375 : 132.29167 : 1"
+       id="perspective1007" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#MLN1"
+       id="linearGradient2939"
+       x1="273.12802"
+       y1="125.38718"
+       x2="167.34871"
+       y2="286.50549"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.5050753,0,0,1.5050753,-66.037733,-125.35699)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5728"
+       id="linearGradient5730"
+       x1="273.12802"
+       y1="167.18307"
+       x2="152.97827"
+       y2="142.45374"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.5050753,0,0,1.5050753,-66.037733,-125.35699)" />
+  </defs>
+  <g
+     inkscape:label="Laag 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-72.846637)">
+    <g
+       id="g2"
+       transform="translate(-39.456903,-63.360154)">
+      <path
+         id="path2867"
+         style="fill:url(#linearGradient5730);fill-opacity:1;fill-rule:nonzero;stroke-width:0.385722"
+         d="M 130.7483,114.73304 H 327.36403 V 63.360154 H 197.66384 Z"
+         sodipodi:nodetypes="ccccc" />
+      <path
+         id="rect2808"
+         style="fill:url(#linearGradient2939);fill-opacity:1;stroke-width:0.41384"
+         d="M 327.36403,63.360154 194.46995,248.19467 h 62.90519 L 345.0405,126.26611 Z"
+         sodipodi:nodetypes="ccccc" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-weight:bold;font-size:79.7427px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman,  Bold Italic';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#008000;stroke-width:0;stroke-linejoin:bevel;paint-order:stroke fill markers"
+       x="201.53297"
+       y="291.17578"
+       id="text1"><tspan
+         sodipodi:role="line"
+         id="tspan1"
+         style="font-style:oblique;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Helvetica;-inkscape-font-specification:'Helvetica Bold Oblique';fill:#8c00ff;fill-opacity:1;stroke-width:0"
+         x="201.53297"
+         y="291.17578">ADC</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:oblique;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Helvetica;-inkscape-font-specification:'Helvetica Bold Oblique';fill:#8c00ff;fill-opacity:1;stroke-width:0"
+         x="201.53297"
+         y="395.39539"
+         id="tspan2">Aurora</tspan></text>
+  </g>
+</svg>
