@@ -127,7 +127,7 @@ while True:
      ####       ###   %%%%%%%%%%%%%     ************   
     ####        ####  %%%%%%%%%%          *******      
         
-    | ADC Archiver | Version 1.2.0 (Aurora)| byte-key: 8 (EXPERIMENTAL) |
+    | ADC Archiver | Version 1.2.1.2 (Aurora)| byte-key: 8 |
 
     You are using ADC on:
     {dev}
@@ -141,7 +141,7 @@ while True:
         print(info)
     
     elif command == 'q':
-        print("Thank you for using ADC Archiver!")
+        print("Thank you for using ADC Archiver Aurora!")
         break
 
     else:
