@@ -63,7 +63,7 @@ def save_archive_file():
     root = tk.Tk()
     root.withdraw()
     root.attributes('-topmost', True)
-    file_path = filedialog.asksaveasfilename(defaultextension=".adc", title="Save archive as")
+    file_path = filedialog.asksaveasfilename(defaultextension=".adc", title="Save ADC archive as")
     return file_path
 
 def open_archive_file():
