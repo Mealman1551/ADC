@@ -127,6 +127,22 @@ while True:
      ####       ###   %%%%%%%%%%%%%     ************   
     ####        ####  %%%%%%%%%%          *******      
         
+
+        ....................    
+      ;dxxdddooolllccc::::;ox   
+   'okxxxxdddooolllccc::::dxxc  
+.ckkkkxxxdddooolllcccc::ldxxxx  
+                      'oddddxxo 
+                     'oodddddd, 
+                    :oooooodd   
+                  .lllooooo,    
+                 ;lllllllo      
+               .:cccclll,       
+              ,:ccccccc         
+            .;:::::cc,          
+           ';;::::::            
+          ,;;;;;;;'             
+
     | ADC Archiver | Version 1.2.1.2 (Aurora)| byte-key: 8 |
 
     You are using ADC on:
