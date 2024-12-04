@@ -159,7 +159,7 @@ ADC Script Hash 256 should be: `8F5D0B2DA09BCD057C84E5B087995A52D76E492CDBE341DC
 
 # Usage
 
-Download the setup for Windows or use Git clone in Linux and run the Python script.
+Download the setup for Windows or use Git clone in Linux and run the executable.
 
 # License
 
@@ -168,6 +168,10 @@ This project is licensed under the [GNU GPL-3.0 License](LICENSE).
 # Issues
 
 Create a issue really easy without the need of a GitHub account via [this from](https://docs.google.com/forms/d/e/1FAIpQLSckLmPxVy7rW30_va7YpE42GAY5UKZqD8tjQgrSGWdbfRJUvA/viewform)
+
+# Update schedule
+
+There will be 2 great stable updates a year, in the meanwhile the roling release Python source script [ADC Aurora](https://github.com/Mealman1551/ADC/tree/ADC-Unstable-(Aurora)) will be updated monthly if not weekly.
 
 # Contributing
 
