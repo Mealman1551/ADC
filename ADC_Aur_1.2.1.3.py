@@ -142,7 +142,9 @@ while True:
             .;:::::cc,          
            ';;::::::            
           ,;;;;;;;'             
-
+        
+        ADC Aurora
+        
     | ADC Archiver | Version 1.2.1.2 (Aurora)| byte-key: 8 |
 
     You are using ADC on:
