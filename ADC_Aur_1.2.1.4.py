@@ -70,7 +70,7 @@ def open_archive_file():
     root = tk.Tk()
     root.withdraw()
     root.attributes('-topmost', True)
-    file_path = filedialog.askopenfilename(filetypes=[("ADC files", "*.adc")], title="Select ADC archive to extract")
+    file_path = filedialog.askopenfilename(filetypes=[("ADC archives", "*.adc")], title="Select ADC archive to extract")
     return file_path
 
 def main():
@@ -145,7 +145,7 @@ while True:
         
         ADC Aurora
         
-    | ADC Archiver | Version 1.2.1.2 (Aurora)| byte-key: 8 |
+    | ADC Archiver | Version 1.2.1.4 (Aurora)| byte-key: 8 |
 
     You are using ADC on:
     {dev}
