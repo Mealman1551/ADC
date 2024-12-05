@@ -2,6 +2,8 @@
 
 [adc.org](https://mealman1551.github.io/adc.html)
 
+[ADC special e-mailadress](mailto:adc@linuxmail.org)
+
 # ADC (ArchivedDataCodec) 
 ![License: GPL-3.0](https://img.shields.io/badge/License-GNU%20GPL--3.0-orange.svg)
 ![Platform: Windows/Linux](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux-blue.svg)
@@ -179,7 +181,7 @@ Contributions are welcome! Open an issue or submit a pull request if you'd like 
 
 # Contact
 
-Have questions or want to learn more? Feel free to reach out via [This mail address](mailto:nathandubuy4@gmail.com).
+Have questions or want to learn more? Feel free to reach out via [This mail address](mailto:adc@linuxmail.org).
 
 ---
 
