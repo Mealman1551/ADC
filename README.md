@@ -4,7 +4,7 @@
 
 Latest news can be found [here.](https://github.com/Mealman1551/ADC/discussions/categories/adc-unstable-aurora)
 
-[ADC special e-mailadress](mailto:adc@linuxmail.org)
+[ADC contact e-mailadress](mailto:adc@linuxmail.org)
 
 ### What is Aurora?
 
