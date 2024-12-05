@@ -2,7 +2,7 @@
 
 [adc.org](https://mealman1551.github.io/adc.html)
 
-[ADC special e-mailadress](mailto:adc@linuxmail.org)
+[ADC contact e-mailadress](mailto:adc@linuxmail.org)
 
 # ADC (ArchivedDataCodec) 
 ![License: GPL-3.0](https://img.shields.io/badge/License-GNU%20GPL--3.0-orange.svg)
