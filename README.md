@@ -1,7 +1,5 @@
 ![banner](img/banner/Bannerfull.jpg)
 
-[adc.org](https://mealman1551.github.io/adc.html)
-
 [ADC contact e-mailadress](mailto:adc@linuxmail.org)
 
 # ADC (ArchivedDataCodec) 
@@ -10,6 +8,7 @@
 ![Python Version](https://img.shields.io/badge/Python-3.x-yellow.svg)
 ![Development](https://img.shields.io/badge/Development-Active-brightgreen)
 ![Latest version](https://img.shields.io/badge/Latest%20version-1.2.0-brightgreen)
+[![Status](https://img.shields.io/badge/Status-Stable-brightgreen)]()
 
 Compatible with: <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Windows_logo_-_2021.svg" alt="Windows 11" width="15"/> **&** <img src="https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg" alt="Linux" width="15"/>
 
