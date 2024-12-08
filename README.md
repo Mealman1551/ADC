@@ -185,7 +185,7 @@ Have questions or want to learn more? Feel free to reach out via [This mail addr
 # Notes
 
 For testing see: [ADC Testing on GitLab](https://gitlab.com/Mealman1551/adc-archiver)
-***DO NOT USE THIS AS MAIN SOURCE, THIS IS TESTING ONLY***
+***DO NOT USE THIS AS MAIN SOURCE, THIS IS TESTING ONLY!***
 
 ---
 
