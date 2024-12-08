@@ -184,8 +184,9 @@ Contributions are welcome! Open an issue or submit a pull request if you'd like 
 
 Have questions or want to learn more? Feel free to reach out via [This mail address](mailto:adc@linuxmail.org).
 
+# Notes
+
+For testing see: [ADC Testing on GitLab](https://gitlab.com/Mealman1551/adc-archiver)
+***DO NOT USE THIS AS MAIN SOURCE, THIS IS TESTING ONLY***
+
 ---
-
-![Made with ❤️ by Mealman](https://img.shields.io/badge/Made%20with%20%E2%9D%A4%EF%B8%8F%20by%20Mealman1551-blue?style=for-the-badge)
-
-###### © 2024 Mealman1551
