@@ -2,6 +2,8 @@
 
 [ADC contact e-mailadress](mailto:adc@linuxmail.org)
 
+test test
+
 # ADC (ArchivedDataCodec) 
 ![License: GPL-3.0](https://img.shields.io/badge/License-GNU%20GPL--3.0-orange.svg)
 ![Platform: Windows/Linux](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux-blue.svg)
