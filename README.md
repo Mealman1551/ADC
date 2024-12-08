@@ -1,5 +1,7 @@
 # ADC Archiver Aurora
 
+[![Status](https://img.shields.io/badge/Status-Unstable-red)]()
+
 <img src="https://raw.githubusercontent.com/Mealman1551/ADC/a43c05d4f236ce44ed9a6e02b3f3c2e65f495538/img/ADC%20Aurora.svg" alt="Aurora" width="100"/>
 
 Latest news can be found [here.](https://github.com/Mealman1551/ADC/discussions/categories/adc-unstable-aurora)
