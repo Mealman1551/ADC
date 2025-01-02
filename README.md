@@ -18,16 +18,16 @@ ADC Archiver uses a byte-key of 4, meaning that it can create archives up to 4GB
 
 For the unstable/rolling release see: [ADC Aurora](https://github.com/Mealman1551/ADC/tree/ADC-Unstable-(Aurora))
 
-# Features
+## Features
 
 - **Great Compression Algorithm**: Utilizes zlib for efficient compression.
 - **Cross-Platform**: Compatible with both Windows and Linux.
 - **Command-Line Interface**: Simple and intuitive interface.
 - **Support**: Supports a wide range of file types.
 
-# Getting Started
+## Getting Started
 
-## Prerequisites
+### Prerequisites
 ***Developers:***
 - Python 3.x
 - Zlib library (typically included with Python)
@@ -41,13 +41,13 @@ For the unstable/rolling release see: [ADC Aurora](https://github.com/Mealman155
 - Python3
 - Tkinter
 
-# Installation
+## Installation
 
-## Windows
+### Windows
 1. Download the official installer here: [![Windows](https://custom-icon-badges.demolab.com/badge/ADC%20Setup-0078D6?logo=windows11&logoColor=white)](https://github.com/Mealman1551/ADC/releases/tag/ADC_Archiver_v1.2.0)
 
 Hash 256 should be: `04B705C23304055888151BA9A48E2A3FEBA7FA31422A9629AF72F979567C1266`
-## Linux
+### Linux
 
 ##### This is the "Terminal way", for more installation options visit the [Wiki!](https://github.com/Mealman1551/ADC/wiki/Linux-installation)
 
@@ -158,31 +158,31 @@ Hash 256 should be: `04B705C23304055888151BA9A48E2A3FEBA7FA31422A9629AF72F979567
     ```
 ADC Script Hash 256 should be: `8F5D0B2DA09BCD057C84E5B087995A52D76E492CDBE341DC2268613E611A1A8D`
 
-# Usage
+## Usage
 
 Download the setup for Windows or use Git clone in Linux and run the executable.
 
-# License
+## License
 
 This project is licensed under the [GNU GPL-3.0 License](LICENSE).
 
-# Issues
+## Issues
 
 Create a issue really easy without the need of a GitHub account via [this from](https://docs.google.com/forms/d/e/1FAIpQLSckLmPxVy7rW30_va7YpE42GAY5UKZqD8tjQgrSGWdbfRJUvA/viewform)
 
-# Update schedule
+## Update schedule
 
 There will be 2 great stable updates a year, in the meanwhile the roling release Python source script [ADC Aurora](https://github.com/Mealman1551/ADC/tree/ADC-Unstable-(Aurora)) will be updated monthly if not weekly.
 
-# Contributing
+## Contributing
 
 Contributions are welcome! Open an issue or submit a pull request if you'd like to contribute.
 
-# Contact
+## Contact
 
 Have questions or want to learn more? Feel free to reach out via [This mail address](mailto:adc@linuxmail.org).
 
-# Notes
+## Notes
 
 For testing see: [ADC Testing on GitLab](https://gitlab.com/Mealman1551/adc-archiver)
 ***DO NOT USE THIS AS MAIN SOURCE, THIS IS TESTING ONLY!***
