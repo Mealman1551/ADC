@@ -14,7 +14,7 @@ Aurora is the unstable/rolling release of ADC Archiver that features a newer ver
 
 ### When to use Aurora?
 
-Aurora is a perfect release is you prefer cutting-edge over stability
+Aurora is a perfect release if you prefer cutting-edge over stability
 
 ### Where can I request features or get support?
 
