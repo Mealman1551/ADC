@@ -84,7 +84,7 @@ def main():
             else:
                 print("No output directory specified. Aborting.")
         else:
-            print("Invalid file type. Please provide a valid ADC archive.")
+            print("Invalid file type. Please provide a valid archive.")
         input("Press any key to close...")
         return
     s_msg ="""
@@ -146,7 +146,7 @@ while True:
         
         ADC Aurora
         
-    | ADC Archiver | Version 1.2.1.5 (Aurora)| byte-key: 8 |
+    | ADC Archiver | Version 1.2.2.0 (Aurora)| byte-key: 8 |
 
     You are using ADC on:
     {dev}
@@ -162,11 +162,11 @@ while True:
         print(info)
     
     elif command == 'q':
-        print("Thank you for using ADC Archiver Aurora! Have a great day :-)")
+        print("Thank you for using ADC Archiver Aurora! Have a great day :)")
         break
 
     else:
-        print("Invalid command. Please type 'c' to create an archive, 'e' to extract one, 'i' for info or 'q' to quit.")
+        print("Invalid command. Please type 'c' to create, 'e' to extract, 'i' for info or 'q' to quit.")
 
 
 if __name__ == "__main__":
