@@ -2,7 +2,7 @@
 
 [![Status](https://img.shields.io/badge/Status-Unstable-red)]()
 
-<img src="https://raw.githubusercontent.com/Mealman1551/ADC/a43c05d4f236ce44ed9a6e02b3f3c2e65f495538/img/ADC%20Aurora.svg" alt="Aurora" width="100"/>
+<img src="https://raw.githubusercontent.com/Mealman1551/ADC/cb41406a7d58017fc92ddb800519fc54563acc1a/img/ADC%20Aurora%20concept%20logo.svg" alt="Aurora" width="100"/>
 
 Latest news can be found [here.](https://github.com/Mealman1551/ADC/discussions/categories/adc-unstable-aurora)
 
@@ -38,5 +38,7 @@ Aurora works with a rolling release model by updating the source code to a highe
 Additional Installation Requirements
 
 Most of these libraries are included in the default Python installation. However, on some systems, tkinter may need to be installed separately.
+
+Socket needs to be installed separately.
 
 ###### © 2024 Mealman1551
