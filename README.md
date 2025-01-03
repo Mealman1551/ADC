@@ -1,6 +1,6 @@
 # ADC Archiver Aurora
 
-[![Status](https://img.shields.io/badge/Status-Unstable-red)]()
+![Status](https://img.shields.io/badge/Status-Unstable-red)
 
 <img src="https://raw.githubusercontent.com/Mealman1551/ADC/cb41406a7d58017fc92ddb800519fc54563acc1a/img/ADC%20Aurora%20concept%20logo.svg" alt="Aurora" width="100"/>
 
