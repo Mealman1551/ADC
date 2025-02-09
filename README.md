@@ -1,10 +1,10 @@
 ![banner](img/banner/Bannerfull.jpg)
 
-[ADC contact e-mailadress](mailto:adc@linuxmail.org)
+[ADC contact e-mail address](mailto:adc@linuxmail.org)
 
 IRC channel: #adcarchiver on OFTC
 
-# ADC (ArchivedDataCodec) 
+# ADC (ArchivedDataCodec)
 ![License: GPL-3.0](https://img.shields.io/badge/License-GNU%20GPL--3.0-orange.svg)
 ![Platform: Windows/Linux](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux-blue.svg)
 ![Python Version](https://img.shields.io/badge/Python-3.x-yellow.svg)
@@ -12,7 +12,7 @@ IRC channel: #adcarchiver on OFTC
 ![Latest version](https://img.shields.io/badge/Latest%20version-1.2.0-brightgreen)
 [![Status](https://img.shields.io/badge/Status-Stable-brightgreen)]()
 
-Compatible with: <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Windows_logo_-_2021.svg" alt="Windows 11" width="15"/> **&** <img src="https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg" alt="Linux" width="15"/>
+Compatible with: <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Windows_logo_-_2021.svg" alt="Windows 11" width="20"/> **&** <img src="https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg" alt="Linux" width="20"/>
 
 **ADC (ArchivedDataCodec)** is an open-source <img src="https://raw.githubusercontent.com/Mealman1551/ADC/362a969f45ab6f17883ec68cb6172dc4ad3ce58b/img/svg/open-source-icn.svg" alt="Open-Source" width="30"/> file extension and archiving/compression tool that uses zlib for efficient compression and decompression of various file types. With a simple command-line interface, ADC supports both Windows and Linux, making it easy for users to archive and extract files.
 
@@ -48,10 +48,11 @@ For the unstable/rolling release see: [ADC Aurora](https://github.com/Mealman155
 ### Windows
 1. Download the official installer here: [![Windows](https://custom-icon-badges.demolab.com/badge/ADC%20Setup-0078D6?logo=windows11&logoColor=white)](https://github.com/Mealman1551/ADC/releases/tag/ADC_Archiver_v1.2.0)
 
-Hash 256 should be: `04B705C23304055888151BA9A48E2A3FEBA7FA31422A9629AF72F979567C1266`
+SHA-256 checksum: `04B705C23304055888151BA9A48E2A3FEBA7FA31422A9629AF72F979567C1266`
+
 ### Linux
 
-##### This is the "Terminal way", for more installation options visit the [Wiki!](https://github.com/Mealman1551/ADC/wiki/Linux-installation)
+##### Installation via Terminal (for more options, visit the [Wiki!](https://github.com/Mealman1551/ADC/wiki/Linux-installation))
 
 1. Install Git:
 <details>
@@ -78,7 +79,7 @@ Hash 256 should be: `04B705C23304055888151BA9A48E2A3FEBA7FA31422A9629AF72F979567
   sudo yum install git
   ```
 
-  **for CentOS 8+ en RHEL 8+ (with dnf):**
+  **For CentOS 8+ and RHEL 8+ (with dnf):**
   ```bash
   sudo dnf install git
   ```
@@ -122,25 +123,23 @@ Hash 256 should be: `04B705C23304055888151BA9A48E2A3FEBA7FA31422A9629AF72F979567
   ```bash
   sudo xbps-install -S git
   ```
-  </details>
+</details>
 
-  <details>
+<details>
   <summary>Snap</summary>
 
   ```bash
   sudo snap install git --classic
   ```
-  </details>
+</details>
 
- <details>
+<details>
   <summary>Flatpak</summary>
 
   ```bash
   sudo flatpak install flathub com.git.Git
   ```
-  </details>
- 
- 
+</details>
 
 2. Clone the repository:
     ```bash
@@ -150,7 +149,7 @@ Hash 256 should be: `04B705C23304055888151BA9A48E2A3FEBA7FA31422A9629AF72F979567
     ```bash
     cd ~/adc/Linux-release
     ```
-4. Admin rights:
+4. Grant execution permissions:
     ```bash
     chmod +x adc1.2
     ```
@@ -158,7 +157,8 @@ Hash 256 should be: `04B705C23304055888151BA9A48E2A3FEBA7FA31422A9629AF72F979567
     ```bash
     ./adc1.2
     ```
-ADC Script Hash 256 should be: `8F5D0B2DA09BCD057C84E5B087995A52D76E492CDBE341DC2268613E611A1A8D`
+
+SHA-256 checksum: `8F5D0B2DA09BCD057C84E5B087995A52D76E492CDBE341DC2268613E611A1A8D`
 
 ## Usage
 
@@ -166,15 +166,15 @@ Download the setup for Windows or use Git clone in Linux and run the executable.
 
 ## License
 
-This project is licensed under the [GNU GPL-3.0 License](LICENSE).
+This project is licensed under the [GNU GPL-3.0 License](LICENSE). You are free to use, modify, and distribute it under the terms of the license.
 
 ## Issues
 
-Create a issue really easy without the need of a GitHub account via [this from](https://docs.google.com/forms/d/e/1FAIpQLSckLmPxVy7rW30_va7YpE42GAY5UKZqD8tjQgrSGWdbfRJUvA/viewform)
+Create an issue easily without the need for a GitHub account via [this form](https://docs.google.com/forms/d/e/1FAIpQLSckLmPxVy7rW30_va7YpE42GAY5UKZqD8tjQgrSGWdbfRJUvA/viewform).
 
-## Update schedule
+## Update Schedule
 
-There will be 2 great stable updates a year, in the meanwhile the roling release Python source script [ADC Aurora](https://github.com/Mealman1551/ADC/tree/ADC-Unstable-(Aurora)) will be updated monthly if not weekly.
+There will be two major stable updates per year. Meanwhile, the rolling release Python source script [ADC Aurora](https://github.com/Mealman1551/ADC/tree/ADC-Unstable-(Aurora)) will be updated monthly, if not weekly.
 
 ## Contributing
 
@@ -182,7 +182,7 @@ Contributions are welcome! Open an issue or submit a pull request if you'd like 
 
 ## Contact
 
-Have questions or want to learn more? Feel free to reach out via [This mail address](mailto:adc@linuxmail.org).
+Have questions or want to learn more? Feel free to reach out via [this mail address](mailto:adc@linuxmail.org).
 
 ## Notes
 
@@ -194,3 +194,4 @@ For testing see: [ADC Testing on GitLab](https://gitlab.com/Mealman1551/adc-arch
 ![Made with ❤️](https://img.shields.io/badge/Made%20with%20%E2%9D%A4%EF%B8%8F%20by%20Mealman1551-blue?style=for-the-badge)
 
 ###### © 2025 Mealman1551
+
