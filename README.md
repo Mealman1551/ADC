@@ -126,6 +126,14 @@ SHA-256 checksum: `04B705C23304055888151BA9A48E2A3FEBA7FA31422A9629AF72F979567C1
 </details>
 
 <details>
+  <summary>Flatpak</summary>
+
+  ```bash
+  sudo flatpak install flathub com.git.Git
+  ```
+</details>
+
+<details>
   <summary>Snap</summary>
 
   ```bash
@@ -133,13 +141,7 @@ SHA-256 checksum: `04B705C23304055888151BA9A48E2A3FEBA7FA31422A9629AF72F979567C1
   ```
 </details>
 
-<details>
-  <summary>Flatpak</summary>
 
-  ```bash
-  sudo flatpak install flathub com.git.Git
-  ```
-</details>
 
 2. Clone the repository:
     ```bash
