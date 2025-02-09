@@ -6,7 +6,7 @@
 
 Latest news can be found [here.](https://github.com/Mealman1551/ADC/discussions/categories/adc-unstable-aurora)
 
-[ADC contact e-mailadress](mailto:adc@linuxmail.org)
+[ADC contact e-mailadres](mailto:adc@linuxmail.org)
 
 IRC channel: #adcarchiver on OFTC
 
@@ -16,31 +16,29 @@ Aurora is the unstable/rolling release of ADC Archiver that features a newer ver
 
 ### When to use Aurora?
 
-Aurora is a perfect release if you prefer cutting-edge over stability
+Aurora is perfect for users who prefer cutting-edge updates over stability.
 
 ### Where can I request features or get support?
 
 To request features and get support go [here.](https://github.com/Mealman1551/ADC/discussions/categories/adc-unstable-aurora)
-Github issues will not be handled if topic is set on Aurora!
+GitHub issues related to Aurora will not be handled!
 
 ### How to use Aurora?
 
-Aurora works with a rolling release model by updating the source code to a higher version, with every great version like e.g. 1.3.0 it will be ported to stable release, I will plan this to 2 great stable updates per year as in the meanwhile Aurora is the roling release.
+Aurora follows a rolling release model by updating the source code to a higher version. With every major version (e.g., 1.3.0), it will be ported to the stable release. I plan to release two major stable updates per year, while Aurora continues as a rolling release.
 
 ### Python packages required
 
 - os
-
 - zlib
-
 - tkinter
-
 - socket
 
-Additional Installation Requirements
+### Additional Installation Requirements
 
-Most of these libraries are included in the default Python installation. However, on some systems, tkinter may need to be installed separately.
+Most of these libraries are included in the default Python installation. However, on some systems, `tkinter` may need to be installed separately.
 
-Socket needs to be installed separately.
+The `socket` module needs to be installed separately on some systems.
 
-###### © 2024 Mealman1551
+###### © 2025 Mealman1551
+
