@@ -50,9 +50,9 @@ For the unstable/rolling release see: [ADC Aurora](https://github.com/Mealman155
 
 SHA-256 checksum: `04B705C23304055888151BA9A48E2A3FEBA7FA31422A9629AF72F979567C1266`
 
-or download the Nullsoft alpha installer here: [ADC.Archiver.1.2.0.NSIS.alpha.setup.exe](https://github.com/Mealman1551/ADC/releases/download/ADC_Archiver_v1.2.0/ADC.Archiver.1.2.0.NSIS.alpha.setup.exe)
+or download the Nullsoft alpha installer here: [ADC.Archiver.1.2.0.NSIS.alpha2.setup.exe](https://github.com/Mealman1551/ADC/releases/download/ADC_Archiver_v1.2.0/ADC.Archiver.1.2.0.NSIS.alpha2.setup.exe)
 
-SHA-256 checksum: `1b2815700d43abffeaddf004a9dac31243eb4a868cf8a88904d17e6df11311e3`
+SHA-256 checksum: `57228FA09AB4A2E9D83A4B7D5E006BA3D0CCCE57F0652A3DA2EB35F9A1D6EB0B`
 
 
 ### Linux
