@@ -46,11 +46,11 @@ For the unstable/rolling release see: [ADC Aurora](https://github.com/Mealman155
 ## Installation
 
 ### Windows
-1. Download the official installer here: [![Windows](https://github.com/Mealman1551/ADC/releases/download/ADC_Archiver_v1.2.0/ADC_Archiver_1.2.0_setup.exe)
+1. Download the official installer here: [![Windows](https://custom-icon-badges.demolab.com/badge/Windows-0078D6?logo=windows11&logoColor=white)](https://github.com/Mealman1551/ADC/releases/download/ADC_Archiver_v1.2.0/ADC_Archiver_1.2.0_setup.exe)
 
 SHA-256 checksum: `04B705C23304055888151BA9A48E2A3FEBA7FA31422A9629AF72F979567C1266`
 
-or download the Nullsoft alpha3 installer here: [ADC.Archiver.1.2.0.NSIS.alpha2.setup.exe](https://github.com/Mealman1551/ADC/releases/download/ADC_Archiver_v1.2.0/ADC.Archiver.1.2.0.NSIS.alpha3.setup.exe)
+or download the Nullsoft alpha3 installer here: [ADC.Archiver.1.2.0.NSIS.alpha3.setup.exe](https://github.com/Mealman1551/ADC/releases/download/ADC_Archiver_v1.2.0/ADC.Archiver.1.2.0.NSIS.alpha3.setup.exe)
 
 SHA-256 checksum: `BCE81F7166F0245FF4AACEB470A2A43E5ED5F5B9AA0415FF3E948A4A5C411202`
 
