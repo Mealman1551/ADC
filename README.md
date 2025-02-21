@@ -33,12 +33,14 @@ Aurora follows a rolling release model by updating the source code to a higher v
 - zlib
 - tkinter
 - socket
+- time
+- progress
+- progress.bar
 
 ### Additional Installation Requirements
 
-Most of these libraries are included in the default Python installation. However, on some systems, `tkinter` may need to be installed separately.
+Some of these libraries are included in the default Python installation.
 
-The `socket` module needs to be installed separately on some systems.
+The `socket`, `tkinter`, `progress`, and `progress.bar` modules need to be installed separately on some systems.
 
 ###### © 2025 Mealman1551
-
