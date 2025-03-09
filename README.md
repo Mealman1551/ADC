@@ -10,6 +10,8 @@ Latest news can be found [here.](https://github.com/Mealman1551/ADC/discussions/
 
 IRC channel: #adcarchiver on OFTC
 
+Forum: [https://groups.google.com/g/adc-archiver](https://groups.google.com/g/adc-archiver)
+
 ### What is Aurora?
 
 Aurora is the unstable/rolling release of ADC Archiver that features a newer version than stable and is only usable as a Python script.
