@@ -56,6 +56,10 @@ or download the Nullsoft alpha3 installer here: [ADC.Archiver.1.2.0.NSIS.alpha3.
 
 SHA-256 checksum: `BCE81F7166F0245FF4AACEB470A2A43E5ED5F5B9AA0415FF3E948A4A5C411202`
 
+For Windows 7/Vista etc. you can try to compile from source but it isn't guarateed to work because I haven't tried it!
+
+[Compile ADC from scratch](https://github.com/Mealman1551/ADC-compile-from-scratch)
+
 
 ### Linux
 
