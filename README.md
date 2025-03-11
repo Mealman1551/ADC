@@ -39,7 +39,7 @@ For the unstable/rolling release see: [ADC Aurora](https://github.com/Mealman155
 
 ***Users***
 #### Windows
-- Windows 10 or higher
+- Windows 8 or higher
 #### Linux
 - A Linux distro
 - Python3
