@@ -21,7 +21,6 @@ def parma_decompress(compressed_data):
 
 def create_adc_archive(file_paths, output_path):
     with open(output_path, 'wb') as archive_file:
-        # Progressbar voor het archiveren
         with Bar('Compressing files...', max=len(file_paths)) as bar:
             for file_path in file_paths:
                 filename = os.path.basename(file_path).encode('utf-8')
@@ -31,12 +30,12 @@ def create_adc_archive(file_paths, output_path):
                 archive_file.write(filename)
                 archive_file.write(len(compressed_data).to_bytes(8, 'big'))
                 archive_file.write(compressed_data)
-                bar.next()  # Update de progressbar
+                bar.next()
     print(f"Archive created: {output_path}")
 
 def extract_adc_archive(archive_path, output_dir):
     with open(archive_path, 'rb') as archive_file:
-        # Lees bestand en bepaal hoeveel items er in zitten
+        
         file_count = 0
         while True:
             filename_len_bytes = archive_file.read(2)
@@ -50,9 +49,9 @@ def extract_adc_archive(archive_path, output_dir):
             decompressed_data = parma_decompress(compressed_data)
             file_count += 1
 
-        # Progressbar voor het uitpakken
+        
         with Bar('Extracting files...', max=file_count) as bar:
-            archive_file.seek(0)  # Reset de file pointer naar het begin van het bestand
+            archive_file.seek(0)
             while True:
                 filename_len_bytes = archive_file.read(2)
                 if not filename_len_bytes:
@@ -66,7 +65,7 @@ def extract_adc_archive(archive_path, output_dir):
                 output_path = os.path.join(output_dir, filename)
                 with open(output_path, 'wb') as output_file:
                     output_file.write(decompressed_data)
-                bar.next()  # Update de progressbar
+                bar.next()
             print(f"Extraction complete to {output_dir}")
 
 def select_files_for_archiving():
