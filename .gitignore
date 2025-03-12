@@ -160,3 +160,11 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+.vs/ADC/CopilotIndices/17.13.439.2385/CodeChunks.db
+.vs/ADC/CopilotIndices/17.13.439.2385/CodeChunks.db-shm
+.vs/ADC/CopilotIndices/17.13.439.2385/CodeChunks.db-wal
+.vs/ADC/CopilotIndices/17.13.439.2385/SemanticSymbols.db
+.vs/ADC/CopilotIndices/17.13.439.2385/SemanticSymbols.db-shm
+.vs/ADC/CopilotIndices/17.13.439.2385/SemanticSymbols.db-wal
+.vs/ADC/FileContentIndex/535195b4-eb02-4bc2-a34d-1bc31059fd80.vsidx
+.vs/slnx.sqlite
