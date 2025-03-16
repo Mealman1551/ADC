@@ -35,7 +35,7 @@ For the unstable/rolling release see: [ADC Aurora](https://github.com/Mealman155
 ***Developers:***
 - Python 3.12.x
 - Zlib library (typically included with Python)
-- Tkinter
+- TKinter
 
 ***Users***
 #### Windows
@@ -56,7 +56,7 @@ or download the Nullsoft alpha3 installer here: [ADC.Archiver.1.2.0.NSIS.alpha3.
 
 SHA-256 checksum: `BCE81F7166F0245FF4AACEB470A2A43E5ED5F5B9AA0415FF3E948A4A5C411202`
 
-Don't like the setup, won't the setup run or use on Windows 7/Vista etc. you can to compile from source, for older Windows versions under Windows 8 it isn't guarateed to work because I haven't tried it!
+Don't like the setup, won't the setup run or want a portable version. you can compile from source.
 
 [Compile ADC from scratch](https://github.com/Mealman1551/ADC-compile-from-scratch)
 
