@@ -16,6 +16,10 @@ Forum: [https://groups.google.com/g/adc-archiver](https://groups.google.com/g/ad
 
 Aurora is the unstable/rolling release of ADC Archiver that features a newer version than stable and is only usable as a Python script.
 
+### Which Python version is needed?
+
+Aurora and the main branch use Python 3.12.x
+
 ### When to use Aurora?
 
 Aurora is perfect for users who prefer cutting-edge updates over stability.
