@@ -16,7 +16,7 @@ Forum: [https://groups.google.com/g/adc-archiver](https://groups.google.com/g/ad
 
 Compatible with: <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Windows_logo_-_2021.svg" alt="Windows 11" width="20"/> **&** <img src="https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg" alt="Linux" width="20"/>
 
-**ADC (ArchivedDataCodec)** is an open-source <img src="https://raw.githubusercontent.com/Mealman1551/ADC/362a969f45ab6f17883ec68cb6172dc4ad3ce58b/img/svg/open-source-icn.svg" alt="Open-Source" width="30"/> file extension and archiving/compression tool that uses zlib for efficient compression and decompression of various file types. With a simple command-line interface, ADC supports both Windows and Linux, making it easy for users to archive and extract files.
+**ADC (ArchivedDataCodec)** is an open-source <img src="https://raw.githubusercontent.com/Mealman1551/ADC/362a969f45ab6f17883ec68cb6172dc4ad3ce58b/img/svg/open-source-icn.svg" alt="Open-Source" width="30"/> file extension and archiving/compression tool that uses Zlib for efficient compression and decompression of various file types. With a simple command-line interface, ADC supports both Windows and Linux, making it easy for users to archive and extract files.
 
 ADC Archiver uses a byte-key of 4, meaning that it can create archives up to 4GB. This limit is ideal for standard file archiving but may not be suitable for very large files or datasets. Future stable updates may include support for larger archives. [ADC Aurora](https://github.com/Mealman1551/ADC/tree/ADC-Unstable-(Aurora)) is currently experimenting with a higher byte-key.
 
@@ -56,7 +56,7 @@ or download the Nullsoft alpha3 installer here: [ADC.Archiver.1.2.0.NSIS.alpha3.
 
 SHA-256 checksum: `BCE81F7166F0245FF4AACEB470A2A43E5ED5F5B9AA0415FF3E948A4A5C411202`
 
-Don't like the setup, won't the setup run or use on Windows 7/Vista etc. you can to compile from source, for older Windows versions it isn't guarateed to work because I haven't tried it!
+Don't like the setup, won't the setup run or use on Windows 7/Vista etc. you can to compile from source, for older Windows versions under Windows 8 it isn't guarateed to work because I haven't tried it!
 
 [Compile ADC from scratch](https://github.com/Mealman1551/ADC-compile-from-scratch)
 
