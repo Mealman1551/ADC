@@ -9,7 +9,7 @@ Forum: [https://groups.google.com/g/adc-archiver](https://groups.google.com/g/ad
 # ADC (ArchivedDataCodec)
 ![License: GPL-3.0](https://img.shields.io/badge/License-GNU%20GPL--3.0-orange.svg)
 ![Platform: Windows/Linux](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux-blue.svg)
-![Python Version](https://img.shields.io/badge/Python-3.x-yellow.svg)
+![Python Version](https://img.shields.io/badge/Python-3.12.x-yellow.svg)
 ![Development](https://img.shields.io/badge/Development-Active-brightgreen)
 ![Latest version](https://img.shields.io/badge/Latest%20version-1.2.0-brightgreen)
 [![Status](https://img.shields.io/badge/Status-Stable-brightgreen)]()
@@ -33,7 +33,7 @@ For the unstable/rolling release see: [ADC Aurora](https://github.com/Mealman155
 
 ### Prerequisites
 ***Developers:***
-- Python 3.x
+- Python 3.12.x
 - Zlib library (typically included with Python)
 - Tkinter
 
@@ -56,7 +56,7 @@ or download the Nullsoft alpha3 installer here: [ADC.Archiver.1.2.0.NSIS.alpha3.
 
 SHA-256 checksum: `BCE81F7166F0245FF4AACEB470A2A43E5ED5F5B9AA0415FF3E948A4A5C411202`
 
-For Windows 7/Vista etc. you can try to compile from source but it isn't guarateed to work because I haven't tried it!
+Don't like the setup, won't the setup run or use on Windows 7/Vista etc. you can to compile from source, for older Windows versions it isn't guarateed to work because I haven't tried it!
 
 [Compile ADC from scratch](https://github.com/Mealman1551/ADC-compile-from-scratch)
 
