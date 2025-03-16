@@ -171,3 +171,7 @@ cython_debug/
 .vs/ADC/FileContentIndex/cb8fa316-b2da-42f5-8c6f-ebacdc153d58.vsidx
 .vs/ADC/FileContentIndex/75a84528-363c-4de5-beb7-3fd6dfb9decc.vsidx
 *.vsidx
+.vs/ADC/v17/.wsuo
+.vs/ADC/v17/DocumentLayout.backup.json
+.vs/ADC/v17/DocumentLayout.json
+.vs/VSWorkspaceState.json
