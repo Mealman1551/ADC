@@ -49,7 +49,7 @@ Some of these libraries are included in the default Python installation.
 
 The `socket`, `tkinter`, `progress`, and `progress.bar` modules need to be installed separately on some systems.
 
-### Checksums
+### Checksums for ``ADC_Aur_1.2.3.0.py``
 ---
 CRC32: ``28556A69``
 
