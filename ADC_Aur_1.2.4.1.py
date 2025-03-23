@@ -31,10 +31,9 @@ def create_adc_archive(file_paths, output_path):
                 original_data = read_binary_file(file_path)
                 compressed_data = parma_compress(original_data)
 
-                # Write the length of the filename, filename, length of compressed data (8 bytes), and compressed data
-                archive_file.write(len(filename).to_bytes(2, 'big'))  # 2 bytes for filename length
+                archive_file.write(len(filename).to_bytes(2, 'big'))
                 archive_file.write(filename)
-                archive_file.write(len(compressed_data).to_bytes(8, 'big'))  # 8 bytes for compressed data length
+                archive_file.write(len(compressed_data).to_bytes(8, 'big'))
                 archive_file.write(compressed_data)
                 bar.next()
     print(f"Archive created: {output_path}")
@@ -45,7 +44,7 @@ def extract_adc_archive(archive_path, output_dir):
         files_to_extract = []
         
         while True:
-            filename_len_bytes = archive_file.read(2)  # 2 bytes for filename length
+            filename_len_bytes = archive_file.read(2)
             if not filename_len_bytes:
                 break
             filename_len = int.from_bytes(filename_len_bytes, 'big')
@@ -55,7 +54,7 @@ def extract_adc_archive(archive_path, output_dir):
             except UnicodeDecodeError:
                 filename = filename.decode('windows-1252', errors='ignore')
 
-            compressed_data_len_bytes = archive_file.read(8)  # 8 bytes for compressed data length
+            compressed_data_len_bytes = archive_file.read(8)
             compressed_data_len = int.from_bytes(compressed_data_len_bytes, 'big')
             compressed_data = archive_file.read(compressed_data_len)
             files_to_extract.append((filename, compressed_data))
