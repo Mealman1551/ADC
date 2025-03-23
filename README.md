@@ -1,6 +1,12 @@
 # ADC Archiver Aurora
 
 ![Status](https://img.shields.io/badge/Status-Unstable-red)
+![License: GPL-3.0](https://img.shields.io/badge/License-GNU%20GPL--3.0-orange.svg)
+![Platform: Windows/Linux](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux-blue.svg)
+![Python Version](https://img.shields.io/badge/Python-3.12.x-yellow.svg)
+![Development](https://img.shields.io/badge/Development-Active-brightgreen)
+![Latest version](https://img.shields.io/badge/Latest%20version-1.2.5.0-purple)
+
 
 <img src="https://raw.githubusercontent.com/Mealman1551/ADC/cb41406a7d58017fc92ddb800519fc54563acc1a/img/ADC%20Aurora%20concept%20logo.svg" alt="Aurora" width="100"/>
 
