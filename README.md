@@ -50,6 +50,7 @@ Aurora follows a rolling release model by updating the source code to a higher v
 - time
 - progress
 - progress.bar
+- colorama
 
 ### Additional Installation Requirements
 
