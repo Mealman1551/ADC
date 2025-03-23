@@ -56,16 +56,16 @@ Aurora follows a rolling release model by updating the source code to a higher v
 
 Some of these libraries are included in the default Python installation.
 
-The `socket`, `tkinter`, `progress`, `progress.bar` and `colorama` modules need to be installed separately on some systems.
+The `socket`, `tkinter`, `progress`, `progress.bar` and `colorama` modules need to be installed separately.
 
-### Checksums for ``ADC_Aur_1.2.5.0.py``
+### Checksums for ``ADC_Aur_1.2.5.3.py``
 
-SHA256: ``33fcb6920169e1a9fd2b81b3da91100826f8c3f74f1d7d443f2b5b7b93f6b939``
+SHA256: `70ea4111230423d02bd5bbcfaf201d169fd89f2039d5d749fc6fb17fcd48d7fb`
 
 #### Other comments
 
 ADC Aurora can from now of on only open and create archives with a byte-key of 8.
 
-Read more about this [here](https://github.com/Mealman1551/ADC/discussions/21)
+Read more about this [here.](https://github.com/Mealman1551/ADC/discussions/21)
 
 ###### © 2025 Mealman1551
