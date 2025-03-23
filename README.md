@@ -10,6 +10,8 @@
 
 <img src="https://raw.githubusercontent.com/Mealman1551/ADC/cb41406a7d58017fc92ddb800519fc54563acc1a/img/ADC%20Aurora%20concept%20logo.svg" alt="Aurora" width="100"/>
 
+Compatible with: <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Windows_logo_-_2021.svg" alt="Windows 11" width="20"/> **&** <img src="https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg" alt="Linux" width="20"/>
+
 Latest news can be found [here.](https://github.com/Mealman1551/ADC/discussions/categories/adc-unstable-aurora)
 
 [ADC contact e-mailadres](mailto:adc@linuxmail.org)
