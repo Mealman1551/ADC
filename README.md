@@ -49,8 +49,12 @@ Some of these libraries are included in the default Python installation.
 
 The `socket`, `tkinter`, `progress`, and `progress.bar` modules need to be installed separately on some systems.
 
-### Checksums for ``ADC_Aur_1.2.4.0.py``
+### Checksums for ``ADC_Aur_1.2.4.1.py``
 
-SHA256: ``6E428D54D955220EC2BB01BC91A95C431BBC29EBA1D259F8110251C37547D736``
+SHA256: ``175d20b2757dc55a9525428526a224d6a9ce8d38b86242890cdafa6b028e34ec``
+
+#### Other comments
+
+ADC Aurora can from now of on only open and create archives with a byte-key of 8
 
 ###### © 2025 Mealman1551
