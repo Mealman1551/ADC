@@ -6,10 +6,10 @@ import socket
 from time import sleep
 from progress.bar import Bar
 
-RED = "\033[38;5;131m"  # # voor A
-PURPLE = "\033[38;5;129m"  # % voor D
-GREEN = "\033[38;5;106m"  # * voor C
-reset = "\033[0m"  # Reset de kleur
+RED = "\033[38;5;131m"
+PURPLE = "\033[38;5;129m"
+GREEN = "\033[38;5;106m"
+reset = "\033[0m"
 
 dev = socket.gethostname()
 name = os.getlogin()
