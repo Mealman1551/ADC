@@ -20,7 +20,7 @@ def parma_decompress(compressed_data):
     try:
         return zlib.decompress(compressed_data)
     except zlib.error as e:
-        print(f"Decompressiefout: {e}")
+        print(f"Decomprewsion error: {e}")
         return None
 
 def create_adc_archive(file_paths, output_path):
@@ -158,7 +158,7 @@ while True:
                   
                       ADC Aurora
         
-    | ADC Archiver | Version 1.2.4.0 (Aurora)| byte-key: 8 |
+    | ADC Archiver | Version 1.2.4.1 (Aurora)| byte-key: 8 |
 
     You are using ADC on:
     {dev}
