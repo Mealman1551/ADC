@@ -55,6 +55,8 @@ SHA256: ``175d20b2757dc55a9525428526a224d6a9ce8d38b86242890cdafa6b028e34ec``
 
 #### Other comments
 
-ADC Aurora can from now of on only open and create archives with a byte-key of 8
+ADC Aurora can from now of on only open and create archives with a byte-key of 8.
+
+Read more about this [here](https://github.com/Mealman1551/ADC/discussions/21)
 
 ###### © 2025 Mealman1551
