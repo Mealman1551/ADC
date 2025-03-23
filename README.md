@@ -49,27 +49,8 @@ Some of these libraries are included in the default Python installation.
 
 The `socket`, `tkinter`, `progress`, and `progress.bar` modules need to be installed separately on some systems.
 
-### Checksums for ``ADC_Aur_1.2.3.0.py``
----
-CRC32: ``28556A69``
+### Checksums for ``ADC_Aur_1.2.4.0.py``
 
-CRC64: ``CCB2C43C18EC87A8``
-
-SHA256: ``307d862bde5ed144c292b230e1d6fd67c8bda9096f6fd82abec175f0e6287cf9``
-
-SHA1: ``028eb271f70e8d478564933a779d316864d93b38``
-
-BLAKE2sp: ``c149146393b32fef85bd91ff45363ecadc98582e0704e4de11508640fd186790``
-
-MD5: ``3bd41a8a12284802ff6fb47fbfb6026d``
-
-XXH64: ``D72361926A8F6894``
-
-SHA384: ``daf9b6e570bddb910d432da6e233afda9cab91d468582bd8d2e215994dd406885aad2454b95b34a4c0d24cb1dd3403ef``
-
-SHA512: ``b403062922f15d762eefc2e791b26d156de1997831dc2a8af5273b178035b93166d5732367a31af30bf362250f61ac84e7c4333d9c737d65826bb50e5c9bae60``
-
-SHA3-256: ``50b273050dddd4b1a43c6c75948d7e089e1a0deb4407bd28dd38f88f5aa8ee53``
-
+SHA256: ``6E428D54D955220EC2BB01BC91A95C431BBC29EBA1D259F8110251C37547D736``
 
 ###### © 2025 Mealman1551
