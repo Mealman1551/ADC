@@ -49,9 +49,9 @@ Some of these libraries are included in the default Python installation.
 
 The `socket`, `tkinter`, `progress`, and `progress.bar` modules need to be installed separately on some systems.
 
-### Checksums for ``ADC_Aur_1.2.4.1.py``
+### Checksums for ``ADC_Aur_1.2.5.0.py``
 
-SHA256: ``175d20b2757dc55a9525428526a224d6a9ce8d38b86242890cdafa6b028e34ec``
+SHA256: ``33fcb6920169e1a9fd2b81b3da91100826f8c3f74f1d7d443f2b5b7b93f6b939``
 
 #### Other comments
 
