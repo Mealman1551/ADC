@@ -5,7 +5,7 @@
 ![Platform: Windows/Linux](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux-blue.svg)
 ![Python Version](https://img.shields.io/badge/Python-3.12.x-yellow.svg)
 ![Development](https://img.shields.io/badge/Development-Active-brightgreen)
-![Latest version](https://img.shields.io/badge/Latest%20version-1.2.5.0-purple)
+![Latest version](https://img.shields.io/badge/Latest%20version-1.2.5.5-purple)
 
 
 <img src="https://raw.githubusercontent.com/Mealman1551/ADC/cb41406a7d58017fc92ddb800519fc54563acc1a/img/ADC%20Aurora%20concept%20logo.svg" alt="Aurora" width="100"/>
@@ -58,9 +58,9 @@ Some of these libraries are included in the default Python installation.
 
 The `socket`, `tkinter`, `progress`, `progress.bar` and `colorama` modules need to be installed separately.
 
-### SHA256 checksum for ``ADC_Aur_1.2.5.4.py``
+### SHA256 checksum for ``ADC_Aur_1.2.5.5.py``
 
-SHA256: `8dd26729a7a464908f9d545ab733aeaa25cef5105d7ecea5ae23158af842359e`
+SHA256: `f3621b5d39310be7e02a7b28ddabf2d13f67f3f802d25b1545db2fcea14da579`
 
 #### Other comments
 
