@@ -170,7 +170,7 @@ while True:
      {0}####       ###{1}   {2}%%%%%%%%%%%%{1}     {3} ************   {1}   
     {0}####        ####{1}  {2}%%%%%%%%%{1}          {3}*******      {1}  
 
-    | ADC Archiver {4}Aurora{1} | Version 1.2.5.4 | byte-key: 8 |
+    | ADC Archiver {4}Aurora{1} | Version 1.2.5.5 | byte-key: 8 |
     
     GitHub page: https://github.com/Mealman1551/ADC
     Webpage: https://mealman1551.github.io/adc.html
