@@ -39,7 +39,7 @@ GitHub issues related to Aurora will not be handled!
 
 ### How to use Aurora?
 
-Aurora follows a rolling release model by updating the source code to a higher version. With every major version (e.g., 1.3.0), it will be ported to the stable release. I plan to release two major stable updates per year, while Aurora continues as a rolling release.
+Aurora follows a rolling release model by updating the source code to a higher version. Every half a year a new major stable version will be released. Aurora continues as a rolling release.
 
 ### Python packages required
 
