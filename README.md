@@ -60,7 +60,7 @@ The `socket`, `tkinter`, `progress`, `progress.bar` and `colorama` modules need 
 
 ### SHA256 checksum for ``ADC_Aur_1.2.5.5.py``
 
-SHA256: `204178adba87fee07e537f852b05d48714bd917f60e18bb48f1107bbadd54546`
+SHA256: `e78a46772eb3496b3c81b2703e3f935d98f9de5542d6baeebbc06430902f4bea`
 
 #### Other comments
 
