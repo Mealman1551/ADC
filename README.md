@@ -58,9 +58,9 @@ Some of these libraries are included in the default Python installation.
 
 The `socket`, `tkinter`, `progress`, `progress.bar` and `colorama` modules need to be installed separately.
 
-### SHA256 checksum for ``ADC_Aur_1.2.5.5.py``
+### SHA256 checksum for ``ADC_Aur_2025.3.1.py``
 
-SHA256: `e78a46772eb3496b3c81b2703e3f935d98f9de5542d6baeebbc06430902f4bea`
+SHA256: `591cca111e66feb693bda2504166fa7bfbea67d9e4c45cb700cbba64b7e6a7fb`
 
 #### Other comments
 
