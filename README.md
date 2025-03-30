@@ -202,6 +202,10 @@ Have questions or want to learn more? Feel free to reach out via [this mail addr
 For testing see: [ADC Testing on GitLab](https://gitlab.com/Mealman1551/adc-archiver)
 ***DO NOT USE THIS AS MAIN SOURCE, THIS IS TESTING ONLY!***
 
+If you want to support the project please consider a small donation: <a href="https://www.paypal.com/donate/?hosted_button_id=LEE83CJJ2BEJC">
+	<img src="https://centerproject.org/wp-content/uploads/2021/11/paypal-donate-button-high-quality-png-1_orig.png" alt="Donate button" width="100"/>
+</a>
+
 ---
 
 ![Made with ❤️](https://img.shields.io/badge/Made%20with%20%E2%9D%A4%EF%B8%8F%20by%20Mealman1551-blue?style=for-the-badge)
