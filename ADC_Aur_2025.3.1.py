@@ -81,11 +81,11 @@ def extract_adc_archive(archive_path, output_dir):
                     print(f"Skipping extraction for {filename} due to decompression error.")
             print(f"Extraction complete to {output_dir}")
 
-
 def select_files_for_archiving():
     root = tk.Tk()
     root.withdraw()
-    root.iconbitmap(r"D:\Github Git Repo clones\ADC\img\ico\ADCIcon.ico")
+    if os.name == "nt":
+        root.iconbitmap(r"D:\\Github Git Repo clones\\ADC\\img\\ico\\ADCIcon.ico")
     root.attributes('-topmost', True)
     files = filedialog.askopenfilenames(title="Select files to archive")
     root.destroy()
@@ -94,7 +94,8 @@ def select_files_for_archiving():
 def select_directory_for_extraction():
     root = tk.Tk()
     root.withdraw()
-    root.iconbitmap(r"D:\Github Git Repo clones\ADC\img\ico\ADCIcon.ico")
+    if os.name == "nt":
+        root.iconbitmap(r"D:\\Github Git Repo clones\\ADC\\img\\ico\\ADCIcon.ico")
     root.attributes('-topmost', True)
     folder = filedialog.askdirectory(title="Select directory to extract files to")
     root.destroy()
@@ -103,7 +104,8 @@ def select_directory_for_extraction():
 def save_archive_file():
     root = tk.Tk()
     root.withdraw()
-    root.iconbitmap(r"D:\Github Git Repo clones\ADC\img\ico\ADCIcon.ico")
+    if os.name == "nt":
+        root.iconbitmap(r"D:\\Github Git Repo clones\\ADC\\img\\ico\\ADCIcon.ico")
     root.attributes('-topmost', True)
     file_path = filedialog.asksaveasfilename(defaultextension=".adc", title="Save ADC archive as")
     root.destroy()
@@ -112,7 +114,8 @@ def save_archive_file():
 def open_archive_file():
     root = tk.Tk()
     root.withdraw()
-    root.iconbitmap(r"D:\Github Git Repo clones\ADC\img\ico\ADCIcon.ico")
+    if os.name == "nt":
+        root.iconbitmap(r"D:\\Github Git Repo clones\\ADC\\img\\ico\\ADCIcon.ico")
     root.attributes('-topmost', True)
     file_path = filedialog.askopenfilename(filetypes=[("ADC archives", "*.adc")], title="Select ADC archive to extract")
     root.destroy()
@@ -162,7 +165,7 @@ while True:
 
              {0}####{1}        {2}%%%%%%%%%%%{1}         {3}********{1}  
             {0}######{1}       {2}%%%%%%%%%%%{1}     {3} *************{1}
-           {0}### ###{1}     {2} %%%%      %%%%{1}   {3}****      ****{1}
+           {0}### ###{1}      {2}%%%%      %%%%{1}   {3}****      ****{1}
           {0}###  ###{1}      {2}%%%       %%%%{1}  {3}****           {1}
          {0}###   ####{1}     {2}%%%       %%%%{1}  {3}***            {1}
         {0}###    ####{1}    {2}%%%%      %%%%{1}  {3}****            {1}
@@ -170,7 +173,7 @@ while True:
      {0}####       ###{1}   {2}%%%%%%%%%%%%{1}     {3} ************   {1}   
     {0}####        ####{1}  {2}%%%%%%%%%{1}          {3}*******      {1}  
 
-    | ADC Archiver {4}Aurora{1} | Version 1.2.5.5 | byte-key: 8 |
+    | ADC Archiver {4}Aurora{1} | Version 2025.3.1 | byte-key: 8 |
     
     GitHub page: https://github.com/Mealman1551/ADC
     Webpage: https://mealman1551.github.io/adc.html
