@@ -7,12 +7,17 @@ IRC channel: #adcarchiver on OFTC
 Forum: [https://groups.google.com/g/adc-archiver](https://groups.google.com/g/adc-archiver)
 
 # ADC (ArchivedDataCodec)
-![License: GPL-3.0](https://img.shields.io/badge/License-GNU%20GPL--3.0-orange.svg)
+![GitHub license](https://img.shields.io/github/license/Mealman1551/ADC)
 ![Platform: Windows/Linux](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux-blue.svg)
 ![Python Version](https://img.shields.io/badge/Python-3.12.x-yellow.svg)
 ![Development](https://img.shields.io/badge/Development-Active-brightgreen)
 ![Latest version](https://img.shields.io/badge/Latest%20version-1.2.0-brightgreen)
-[![Status](https://img.shields.io/badge/Status-Stable-brightgreen)]()
+![Status](https://img.shields.io/badge/Status-Stable-brightgreen)
+![GitHub repo size](https://img.shields.io/github/repo-size/Mealman1551/ADC)
+![GitHub issues](https://img.shields.io/github/issues/Mealman1551/ADC)
+![GitHub stars](https://img.shields.io/github/stars/Mealman1551/ADC)
+
+
 
 Compatible with: <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Windows_logo_-_2021.svg" alt="Windows 11" width="20"/> **&** <img src="https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg" alt="Linux" width="20"/>
 
