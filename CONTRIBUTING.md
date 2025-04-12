@@ -41,7 +41,7 @@ git push origin feature/your-feature-name
 Go to the original repository on GitHub and open a pull request. Provide a detailed description of your changes and link any relevant issues.
 
 ### 9. What then?
-I will review the Pull Request and check if it can be merged into the Main branch or the Aurora branch.
+I will review the Pull Request and check if it can be merged into the Main branch.
 
 ## Code of Conduct
 Please adhere to our [Code of Conduct](CODE_OF_CONDUCT.md) to ensure a welcoming and inclusive environment for everyone.
