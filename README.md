@@ -5,7 +5,7 @@
 ![Platform: Windows/Linux](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux-blue.svg)
 ![Python Version](https://img.shields.io/badge/Python-3.12.x-yellow.svg)
 ![Development](https://img.shields.io/badge/Development-Active-brightgreen)
-![Latest version](https://img.shields.io/badge/Latest%20version-1.2.5.5-purple)
+![Latest version](https://img.shields.io/badge/Latest%20version-2025.04.1-purple)
 
 
 
