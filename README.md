@@ -216,6 +216,8 @@ ADC Archiver does **not** support macOS, and it never will.
 This is a deliberate decision to take a stand against the growing dominance of proprietary ecosystems and Apple’s developer restrictions.
 This project supports **open platforms only**: Windows and Linux.
 
+You can ofc run the source code but official binary and/or setups are not compiled for macOS!
+
 ---
 
 ![Made with ❤️](https://img.shields.io/badge/Made%20with%20%E2%9D%A4%EF%B8%8F%20by%20Mealman1551-blue?style=for-the-badge)
