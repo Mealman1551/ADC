@@ -11,7 +11,7 @@ Forum: [https://groups.google.com/g/adc-archiver](https://groups.google.com/g/ad
 ![Platform: Windows/Linux](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux-blue.svg)
 ![Python Version](https://img.shields.io/badge/Python-3.12.x-yellow.svg)
 ![Development](https://img.shields.io/badge/Development-Active-brightgreen)
-![Latest version](https://img.shields.io/badge/Latest%20version-1.2.0-brightgreen)
+![Latest version](https://img.shields.io/github/v/release/Mealman1551/ADC?label=Latest%20version&color=brightgreen)
 ![Status](https://img.shields.io/badge/Status-Stable-brightgreen)
 ![GitHub repo size](https://img.shields.io/github/repo-size/Mealman1551/ADC)
 ![GitHub issues](https://img.shields.io/github/issues/Mealman1551/ADC)
