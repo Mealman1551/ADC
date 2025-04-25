@@ -16,7 +16,7 @@ Forum: [https://groups.google.com/g/adc-archiver](https://groups.google.com/g/ad
 ![GitHub repo size](https://img.shields.io/github/repo-size/Mealman1551/ADC)
 ![GitHub issues](https://img.shields.io/github/issues/Mealman1551/ADC)
 ![GitHub stars](https://img.shields.io/github/stars/Mealman1551/ADC)
-![GitLab Sync](https://github.com/Mealman1551/ADC/actions/workflows/gitlab-sync.yml/badge.svg)
+![Sync to GitLab](https://github.com/Mealman1551/ADC/actions/workflows/gitlab-sync.yml/badge.svg?branch=main)
 
 
 
