@@ -1,0 +1,8 @@
+os
+zlib
+tkinter
+socket
+time
+progress
+progress.bar
+colorama
