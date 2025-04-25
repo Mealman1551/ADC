@@ -205,18 +205,23 @@ Contributions are welcome! Open an issue or submit a pull request if you'd like 
 
 Have questions or want to learn more? Feel free to reach out via [this mail address](mailto:adc@linuxmail.org).
 
+## GitLab
+
+I have 2 ADC Repos on Gitlab, one is a continously updated mirror, and the other is a testing repo
+
+Mirror/Main GitLab repo of ADC: [ADC on GitLab](https://gitlab.com/Mealman1551/ADC)
+
+---
+For testing see: [ADC Testing on GitLab](https://gitlab.com/Mealman1551/adc-testing)
+#### ***DO NOT USE TESTING REPO AS MAIN SOURCE, THIS IS TESTING ONLY!***
+---
 ## Notes
-
-For testing see: [ADC Testing on GitLab](https://gitlab.com/Mealman1551/adc-archiver)
-***DO NOT USE THIS AS MAIN SOURCE, THIS IS TESTING ONLY!***
-
---
 
 If you want to support the project please consider a small donation: <a href="https://www.paypal.com/donate/?hosted_button_id=LEE83CJJ2BEJC">
 	<img src="https://centerproject.org/wp-content/uploads/2021/11/paypal-donate-button-high-quality-png-1_orig.png" alt="Donate button" width="100"/>
 </a>
 
---
+---
 
 ### No macOS support
 ADC Archiver does **not** support macOS, and it never will.
