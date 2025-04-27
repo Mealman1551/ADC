@@ -4,24 +4,29 @@ on:
   push:
     branches:
       - '**'
+  workflow_dispatch:
 
 jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v3
+      - name: Checkout repo volledig
+        uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+          fetch-depth: 0  # nodig om ALLE branches en tags te krijgen
 
-      - name: Configure git
+      - name: Configure Git
         run: |
           git config --global user.email "nathandubuy4@gmail.com"
           git config --global user.name "Mealman1551"
 
-      - name: Push to GitLab
+      - name: Force Push alles naar GitLab
+        env:
+          GITLAB_TOKEN: ${{ secrets.GITLAB_TOKEN }}
         run: |
-          git remote add gitlab https://oauth2:${{ secrets.GITLAB_TOKEN }}@gitlab.com/Mealman1551/ADC.git
-          git remote set-head gitlab -d
-          git push gitlab refs/heads/*:refs/heads/*
-          git push gitlab --tags
+          git remote add gitlab https://oauth2:${GITLAB_TOKEN}@gitlab.com/Mealman1551/ADC.git
+          git remote set-head gitlab -d  # voorkom HEAD problemen
+
+          git push gitlab --force --prune refs/heads/*:refs/heads/*
+
+          git push gitlab --force --tags
