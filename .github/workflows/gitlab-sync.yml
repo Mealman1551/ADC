@@ -1,32 +1,27 @@
-name: Sync to GitLab
+name: Sync main branch to GitLab
 
 on:
   push:
     branches:
-      - '**'
-  workflow_dispatch:
+      - main
 
 jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repo volledig
-        uses: actions/checkout@v4
+      - name: Checkout repo
+        uses: actions/checkout@v3
         with:
-          fetch-depth: 0  # nodig om ALLE branches en tags te krijgen
+          fetch-depth: 0
+          ref: main
 
-      - name: Configure Git
+      - name: Configure git
         run: |
           git config --global user.email "nathandubuy4@gmail.com"
           git config --global user.name "Mealman1551"
 
-      - name: Force Push alles naar GitLab
-        env:
-          GITLAB_TOKEN: ${{ secrets.GITLAB_TOKEN }}
+      - name: Add GitLab remote and push main branch
         run: |
-          git remote add gitlab https://oauth2:${GITLAB_TOKEN}@gitlab.com/Mealman1551/ADC.git
-          git remote set-head gitlab -d  # voorkom HEAD problemen
-
-          git push gitlab --force --prune refs/heads/*:refs/heads/*
-
-          git push gitlab --force --tags
+          git remote add gitlab https://oauth2:${{ secrets.GITLAB_TOKEN }}@gitlab.com/Mealman1551/ADC.git
+          git push gitlab main --force
+          git push gitlab --tags --force
