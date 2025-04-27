@@ -222,7 +222,15 @@ Unstable (Aurora only on GitHub!)
 ---
 For testing see: [ADC Testing on GitLab](https://gitlab.com/Mealman1551/adc-testing)
 #### ***DO NOT USE TESTING REPO AS MAIN SOURCE, THIS IS TESTING ONLY!***
+
 ---
+
+### Syncing to GitLab
+
+Syncing to GitLab is done via the [`gitlab-sync.yml`](https://github.com/Mealman1551/ADC/blob/main/.github/workflows/gitlab-sync.yml) file in `/main/.github/workflows/gitlab-sync.yml`
+
+The script uses Ubuntu-Latest and in the future i'll use Debian 11 for this workflow.
+
 ## Notes
 
 If you want to support the project please consider a small donation: <a href="https://www.paypal.com/donate/?hosted_button_id=LEE83CJJ2BEJC">
