@@ -213,9 +213,9 @@ Have questions or want to learn more? Feel free to reach out via [this mail addr
 
 ## GitLab
 
-I have 2 ADC Repos on Gitlab, one is a continously updated mirror, and the other is a testing repo
+I have 2 ADC Repos on Gitlab, one is a continously updated mirror of the Main branch (Stable only), and the other is a testing repo
 
-Mirror/Main GitLab repo of ADC: [ADC on GitLab](https://gitlab.com/Mealman1551/ADC)
+Mirror/Main(Stable) GitLab repo of ADC: [ADC on GitLab](https://gitlab.com/Mealman1551/ADC)
 
 ---
 For testing see: [ADC Testing on GitLab](https://gitlab.com/Mealman1551/adc-testing)
