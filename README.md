@@ -181,6 +181,12 @@ Don't like the setup, won't the setup run or want a portable version. you can co
 
 SHA-256 checksum: `8F5D0B2DA09BCD057C84E5B087995A52D76E492CDBE341DC2268613E611A1A8D`
 
+### Unix
+
+1. Install Python3
+
+2. Run the source code
+
 ## Usage
 
 Download the setup for Windows or use Git clone in Linux and run the executable.
@@ -224,9 +230,9 @@ If you want to support the project please consider a small donation: <a href="ht
 ---
 
 ### No macOS support
-ADC Archiver does **not** support macOS, and it never will.
+ADC Archiver does **NOT** support macOS, and it never will.
 This is a deliberate decision to take a stand against the growing dominance of proprietary ecosystems and Apple’s developer restrictions.
-This project supports **open platforms only**: Windows and Linux.
+This project supports **open platforms only**: Windows and Linux/Unix.
 
 You can ofc run the source code but official binary and/or setups are not compiled for macOS!
 
