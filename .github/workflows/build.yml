@@ -26,7 +26,8 @@ jobs:
 
       - name: Compile with Nuitka
         run: |
-          nuitka src/ADC_Archiver_1.2.0.py --standalone --onefile --output-dir=build
+            nuitka src/ADC\ Archiver\ 1.2.0.py --standalone --onefile --output-dir=build
+
 
       - name: Run tests
         run: |
