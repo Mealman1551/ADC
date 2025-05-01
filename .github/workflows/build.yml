@@ -1,37 +1,38 @@
-name: Build and Test ADC
+name: Build and Test ADC Archiver
 
 on:
   push:
     branches:
       - main
   pull_request:
+    branches:
+      - main
 
 jobs:
-  build-and-test:
+  build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
+    - name: Checkout code
+      uses: actions/checkout@v2
 
-      - name: Set up Python 3.12
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.12'
+    - name: Set up Python 3.12
+      uses: actions/setup-python@v4
+      with:
+        python-version: 3.12
 
-      - name: Install Nuitka, Pytest
-        run: |
-          python -m pip install --upgrade pip
-          pip install nuitka pytest
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        # pip install -r requirements.txt
+        pip install nuitka
 
-      - name: Compile with Nuitka
-        run: |
-            nuitka src/ADC_Archiver_1.2.0.py --standalone --onefile --output-dir=build --enable-plugin=tk-inter
+    - name: Compile with Nuitka
+      run: |
+        nuitka --standalone --onefile --output-dir=./dist src/ADC_Archiver_1_2_0.py --plugin-enable=tk-inter
+
+    - name: Test compiled binary
+      run: |
+        ./dist/ADC_Archiver_1_2_0
 
 
-      - name: Run tests
-        run: |
-          pytest tests/
-# (c) 2025 Mealman1551
-# This file is part of ADC Archiver 1.2.0 in Main branch.
-# ADC Archiver 1.2.0 is free software: you can redistribute it and/or modify
