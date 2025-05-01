@@ -33,6 +33,6 @@ jobs:
 
     - name: Test compiled binary
       run: |
-        ./dist/ADC_Archiver_1_2_0
+        ./dist/ADC_Archiver_1.2.0.bin
 
 
