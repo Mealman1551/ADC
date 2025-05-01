@@ -25,3 +25,6 @@ jobs:
           git remote add gitlab https://oauth2:${{ secrets.GITLAB_TOKEN }}@gitlab.com/Mealman1551/ADC.git
           git push gitlab main --force
           git push gitlab --tags --force
+# (c) 2025 Mealman1551
+# This file is part of ADC Archiver 1.2.0 in Main branch.
+# ADC Archiver 1.2.0 is free software: you can redistribute it and/or modify
