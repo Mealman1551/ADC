@@ -31,3 +31,6 @@ jobs:
       - name: Run tests
         run: |
           pytest tests/
+# (c) 2025 Mealman1551
+# This file is part of ADC Archiver 1.2.0 in Main branch.
+# ADC Archiver 1.2.0 is free software: you can redistribute it and/or modify
