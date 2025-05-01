@@ -26,7 +26,7 @@ jobs:
 
       - name: Compile with Nuitka
         run: |
-            nuitka src/ADC_Archiver_1.2.0.py --standalone --onefile --output-dir=build
+            nuitka src/ADC_Archiver_1.2.0.py --standalone --onefile --output-dir=build --enable-plugin=tk-inter
 
 
       - name: Run tests
