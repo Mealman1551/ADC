@@ -18,8 +18,14 @@ IRC channel: #adcarchiver on OFTC
 ![GitHub repo size](https://img.shields.io/github/repo-size/Mealman1551/ADC)
 ![GitHub issues](https://img.shields.io/github/issues/Mealman1551/ADC)
 ![GitHub stars](https://img.shields.io/github/stars/Mealman1551/ADC)
-![Sync to GitLab](https://github.com/Mealman1551/ADC/actions/workflows/gitlab-sync.yml/badge.svg?branch=main)
 
+## Build & Sync Status
+
+| Workflow      | Status        |
+|---------------|---------------|
+| **Build Status** | ![Build Status](https://github.com/Mealman1551/ADC/actions/workflows/build.yml/badge.svg) |
+| **GitLab Sync**  | ![GitLab Sync Status](https://github.com/Mealman1551/ADC/actions/workflows/gitlab-sync.yml/badge.svg?branch=main) |
+|                               |
 
 
 Compatible with: <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Windows_logo_-_2021.svg" alt="Windows 11" width="20"/> **&** <img src="https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg" alt="Linux" width="20"/>
