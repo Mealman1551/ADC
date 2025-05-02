@@ -57,7 +57,7 @@ Aurora follows a rolling release model by updating the source code to a higher v
 
 Some of these libraries are included in the default Python installation.
 
-The `socket`, `tkinter`, `progress`, `progress.bar` and `colorama` modules need to be installed separately.
+The `socket`, `tkinter`, `progress`, `progress.bar` and `colorama` modules need to be installed separately, TKinter only on Linux.
 
 ---
 
