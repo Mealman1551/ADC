@@ -1,4 +1,4 @@
-name: Sync main branch to GitLab
+name: Sync to GitLab
 
 on:
   push:
