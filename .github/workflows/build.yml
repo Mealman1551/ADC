@@ -1,4 +1,4 @@
-name: Build and Test ADC Archiver
+name: Build
 
 on:
   push:
