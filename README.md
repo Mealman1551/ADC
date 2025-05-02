@@ -19,14 +19,7 @@ IRC channel: #adcarchiver on OFTC
 ![GitHub issues](https://img.shields.io/github/issues/Mealman1551/ADC)
 ![GitHub stars](https://img.shields.io/github/stars/Mealman1551/ADC)
 
-## Build & Sync Status
-
-| Workflow      | Status        |
-|---------------|---------------|
-| **Build Status** | ![Build Status](https://github.com/Mealman1551/ADC/actions/workflows/build.yml/badge.svg) |
-| **GitLab Sync**  | ![GitLab Sync Status](https://github.com/Mealman1551/ADC/actions/workflows/gitlab-sync.yml/badge.svg?branch=main) |
-|                               |
-
+For Build Stutus and GitLab Sync status go down
 
 Compatible with: <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Windows_logo_-_2021.svg" alt="Windows 11" width="20"/> **&** <img src="https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg" alt="Linux" width="20"/>
 
@@ -253,6 +246,21 @@ This project supports **open platforms only**: Windows and Linux/Unix.
 You can ofc run the source code but official binary and/or setups are not compiled for macOS!
 
 ---
+
+## Build & Sync Status
+
+| Workflow      | Status        |
+|---------------|---------------|
+| **Build Status** | ![Build Status](https://github.com/Mealman1551/ADC/actions/workflows/build.yml/badge.svg) |
+| **GitLab Sync**  | ![GitLab Sync Status](https://github.com/Mealman1551/ADC/actions/workflows/gitlab-sync.yml/badge.svg?branch=main) |
+|               |               |
+
+**Build Status**: Builds and compiles ADC's source code with Nuitka and testing binary after it for errors.
+
+**GitLab Sync**: Syncing Main branch to GitLab.
+
+---
+
 
 ![Made with ❤️](https://img.shields.io/badge/Made%20with%20%E2%9D%A4%EF%B8%8F%20by%20Mealman1551-blue?style=for-the-badge)
 
