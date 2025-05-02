@@ -34,6 +34,6 @@ jobs:
     - name: Test compiled binary
       run: |
         chmod +x ./dist/ADC_Archiver_1.2.0.bin
-        echo -e "c\ne\nq" | ./dist/ADC_Archiver_1.2.0.bin
+        echo -e "q" | ./dist/ADC_Archiver_1.2.0.bin
 
 
