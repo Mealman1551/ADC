@@ -216,7 +216,7 @@ I have 2 ADC Repos on Gitlab, one is a continously updated mirror of the Main br
 
 Mirror/Main(Stable) GitLab repo of ADC: [ADC on GitLab](https://gitlab.com/Mealman1551/ADC)
 
-Unstable (Aurora is only on GitHub!)
+Unstable (Aurora) is only on GitHub!
 
 ---
 For testing see: [ADC Testing on GitLab](https://gitlab.com/Mealman1551/adc-testing)
