@@ -14,26 +14,34 @@ jobs:
 
     steps:
     - name: Checkout code
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
 
     - name: Set up Python 3.12
       uses: actions/setup-python@v4
       with:
         python-version: 3.12
 
+    - name: Cache pip dependencies
+      uses: actions/cache@v3
+      with:
+        path: ~/.cache/pip
+        key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+        restore-keys: |
+          ${{ runner.os }}-pip-
+
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        # pip install -r requirements.txt
+        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
         pip install nuitka
 
     - name: Compile with Nuitka
       run: |
-        nuitka --standalone --onefile --output-dir=./dist src/ADC_Archiver_1.2.0.py # --plugin-enable=tk-inter
+        nuitka --standalone --onefile --output-dir=./dist --plugin-enable=tk-inter src/ADC_Archiver_1.2.0.py
 
     - name: Test compiled binary
       run: |
-        chmod +x ./dist/ADC_Archiver_1.2.0.bin
-        echo -e "q" | ./dist/ADC_Archiver_1.2.0.bin
+        chmod +x ./dist/ADC_Archiver_1.2.0
+        echo -e "q" | ./dist/ADC_Archiver_1.2.0
 
 
