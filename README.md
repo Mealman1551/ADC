@@ -167,7 +167,7 @@ Don't like the setup, won't the setup run or want a portable version. you can co
     ```
 3. Navigate to the project directory:
     ```bash
-    cd ~/adc/Linux-release
+    cd ~/adc/linux-release
     ```
 4. Grant execution permissions:
     ```bash
