@@ -13,4 +13,4 @@
 
 Go to the form below that will instantly notify me when there is a submission, i will fix the vulnerability asap.
 
-[Report Vulnerability in ADC form](https://tally.so/r/wgppeN)
+[Report Vulnerability in ADC here](https://tally.so/r/wgppeN)
