@@ -4,7 +4,7 @@
 
 | Version | Supported          | EOL (End Of Life) |
 | ------- | ------------------ | ----------------- |
-| 1.3.0(Alpha) | :white_check_mark: | 15-05-2027   |
+| 1.3.0   | :white_check_mark: | 15-05-2027        |
 | 1.2.0   | :white_check_mark: | 15-10-2026        |
 | 1.1.0   | :white_check_mark: | 15-05-2026        |
 | 1.0.0   | :white_check_mark: | 15-10-2025        |
