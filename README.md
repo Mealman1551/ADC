@@ -19,7 +19,7 @@ IRC channel: #adcarchiver on OFTC
 ![GitHub issues](https://img.shields.io/github/issues/Mealman1551/ADC)
 ![GitHub stars](https://img.shields.io/github/stars/Mealman1551/ADC)
 
-For Build Stutus and GitLab Sync status go [here](https://github.com/Mealman1551/ADC?tab=readme-ov-file#build--sync-status)
+For Build Status and GitLab Sync status go [here](https://github.com/Mealman1551/ADC?tab=readme-ov-file#build--sync-status)
 
 Compatible with: <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Windows_logo_-_2021.svg" alt="Windows 11" width="20"/> **&** <img src="https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg" alt="Linux" width="20"/>
 
@@ -41,31 +41,27 @@ For the unstable/rolling release see: [ADC Aurora](https://github.com/Mealman155
 ### Prerequisites
 ***Developers:***
 - Python 3.12.x
-- Zlib library (typically included with Python)
-- TKinter
+- zlib library (typically included with Python)
+- tkinter
+- progress
+- progress.bar
+- colorama
 
 ***Users***
 #### Windows
 - Windows 8 or higher
 #### Linux
-- A Linux distro
-- Python3
-- Tkinter
+- A Modern Linux distro that has at least glibc 2.34
 
 ## Installation
 
 ### Windows
-1. Download the official installer here: [![Windows](https://custom-icon-badges.demolab.com/badge/Windows-0078D6?logo=windows11&logoColor=white)](https://github.com/Mealman1551/ADC/releases/download/ADC_Archiver_v1.2.0/ADC_Archiver_1.2.0_setup.exe)
+1. Download the official installer here: [![Windows](https://custom-icon-badges.demolab.com/badge/Windows-0078D6?logo=windows11&logoColor=white)](https://github.com/Mealman1551/ADC/releases/latest)
 
-SHA-256 checksum: `04B705C23304055888151BA9A48E2A3FEBA7FA31422A9629AF72F979567C1266`
-
-or download the Nullsoft alpha3 installer here: [ADC.Archiver.1.2.0.NSIS.alpha3.setup.exe](https://github.com/Mealman1551/ADC/releases/download/ADC_Archiver_v1.2.0/ADC.Archiver.1.2.0.NSIS.alpha3.setup.exe)
-
-SHA-256 checksum: `BCE81F7166F0245FF4AACEB470A2A43E5ED5F5B9AA0415FF3E948A4A5C411202`
 
 Don't like the setup, won't the setup run or want a portable version. you can compile from source.
 
-[Compile ADC from scratch](https://github.com/Mealman1551/ADC-compile-from-scratch)
+[Compile ADC](https://github.com/Mealman1551/ADC-compile-from-scratch)
 
 
 ### Linux
@@ -91,7 +87,7 @@ Don't like the setup, won't the setup run or want a portable version. you can co
 </details>
 
 <details>
-  <summary>CentOS (RHEL)</summary>
+  <summary>RHEL and RHEL-like OS'es</summary>
 
   ```bash
   sudo yum install git
@@ -104,7 +100,7 @@ Don't like the setup, won't the setup run or want a portable version. you can co
 </details>
 
 <details>
-  <summary>openSUSE</summary>
+  <summary>SLE & openSUSE</summary>
 
   ```bash
   sudo zypper install git
@@ -112,7 +108,7 @@ Don't like the setup, won't the setup run or want a portable version. you can co
 </details>
 
 <details>
-  <summary>Arch Linux</summary>
+  <summary>Arch Linux and Arch based distributions</summary>
 
   ```bash
   sudo pacman -S git
@@ -169,26 +165,33 @@ Don't like the setup, won't the setup run or want a portable version. you can co
     ```bash
     cd ~/adc/linux-release
     ```
-4. Grant execution permissions:
+4. Extract the binary and dependecies:
     ```bash
-    chmod +x adc1.2
+    tar xf bin.tar.xz
     ```
-5. Run the script:
+5. Make it executable:
+    ```
+    chmod +x adc.bin
+    ```
+
+6. Run the script:
     ```bash
-    ./adc1.2
+    ./adc.bin
     ```
 
 SHA-256 checksum: `8F5D0B2DA09BCD057C84E5B087995A52D76E492CDBE341DC2268613E611A1A8D`
 
-### Unix
+### Unix (BSD, Solaris)
 
 1. Install Python3
 
-2. Run the source code
+2. Donwload the source code from /src
+
+3. Run the source code in python3
 
 ## Usage
 
-Download the setup for Windows or use Git clone in Linux and run the executable.
+Download the setup or clone the repo on Linux and install or follow above instructions for using the program
 
 ## License
 
@@ -196,15 +199,17 @@ This project is licensed under the [GNU GPL-3.0 License](LICENSE). You are free 
 
 ## Issues
 
-Create an issue easily without the need for a GitHub account via [this form](https://docs.google.com/forms/d/e/1FAIpQLSckLmPxVy7rW30_va7YpE42GAY5UKZqD8tjQgrSGWdbfRJUvA/viewform).
+Create an issue easily without the need for a GitHub account via [this form](https://tally.so/r/3EAlrr).
 
 ## Update Schedule
 
-There will be two major stable updates per year. Meanwhile, the rolling release Python source script [ADC Aurora](https://github.com/Mealman1551/ADC/tree/ADC-Unstable-(Aurora)) will be updated monthly, if not weekly.
+There will be two major stable updates per year, 15 may and 15 november. Meanwhile, the rolling release Python source script [ADC Aurora](https://github.com/Mealman1551/ADC/tree/ADC-Unstable-(Aurora)) will be updated monthly, if not weekly.
 
 ## Contributing
 
 Contributions are welcome! Open an issue or submit a pull request if you'd like to contribute.
+
+Also see the CONTRIBUTING.md file
 
 ## Contact
 
@@ -219,6 +224,7 @@ Mirror/Main(Stable) GitLab repo of ADC: [ADC on GitLab](https://gitlab.com/Mealm
 Unstable (Aurora) is only on GitHub!
 
 ---
+
 For testing see: [ADC Testing on GitLab](https://gitlab.com/Mealman1551/adc-testing)
 #### ***DO NOT USE TESTING REPO AS MAIN SOURCE, THIS IS TESTING ONLY!***
 
@@ -227,8 +233,6 @@ For testing see: [ADC Testing on GitLab](https://gitlab.com/Mealman1551/adc-test
 ### Syncing to GitLab
 
 Syncing to GitLab is done via the [`gitlab-sync.yml`](https://github.com/Mealman1551/ADC/blob/main/.github/workflows/gitlab-sync.yml) file in `/main/.github/workflows/gitlab-sync.yml`
-
-The script uses Ubuntu-Latest and in the future i'll use Debian 11 for this workflow.
 
 ## Notes
 
@@ -251,8 +255,8 @@ You can ofc run the source code but official binaries and/or setups are not comp
 
 | Workflow      | Status        |
 |---------------|---------------|
-| **Build Status** | ![Build Status](https://github.com/Mealman1551/ADC/actions/workflows/build.yml/badge.svg) |
-| **GitLab Sync**  | ![GitLab Sync Status](https://github.com/Mealman1551/ADC/actions/workflows/gitlab-sync.yml/badge.svg?branch=main) |
+| **Build Status** | [![Build Status](https://github.com/Mealman1551/ADC/actions/workflows/build.yml/badge.svg)](https://github.com/Mealman1551/ADC/actions/workflows/build.yml) |
+| **GitLab Sync**  | [![GitLab Sync Status](https://github.com/Mealman1551/ADC/actions/workflows/gitlab-sync.yml/badge.svg?branch=main)](https://github.com/Mealman1551/ADC/actions/workflows/gitlab-sync.yml) |
 |               |               |
 
 **Build Status**: Builds and compiles ADC's source code with Nuitka and testing binary after it for errors.
