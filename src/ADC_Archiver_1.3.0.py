@@ -14,6 +14,9 @@ import socket
 from time import sleep
 from progress.bar import Bar
 from colorama import init
+import getpass
+
+
 
 init(autoreset=True)
 
@@ -26,7 +29,7 @@ YELLOW = "\033[33m"
 reset = "\033[0m"
 
 dev = socket.gethostname()
-name = os.getlogin()
+name = getpass.getuser()
 #opr = os.name
 
 
