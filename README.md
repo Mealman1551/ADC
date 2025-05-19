@@ -179,8 +179,6 @@ Don't like the setup, won't the setup run or want a portable version. you can co
     ./adc.bin
     ```
 
-SHA-256 checksum: `8F5D0B2DA09BCD057C84E5B087995A52D76E492CDBE341DC2268613E611A1A8D`
-
 ### Unix (BSD, Solaris)
 
 1. Install Python3
