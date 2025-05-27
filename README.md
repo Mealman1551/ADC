@@ -9,15 +9,17 @@ IRC channel: #adcarchiver on OFTC
 [Gitter](https://matrix.to/#/#adc:gitter.im)
 
 # ADC (ArchivedDataCodec)
-![GitHub license](https://img.shields.io/github/license/Mealman1551/ADC)
-![Platform: Windows/Linux](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux-blue.svg)
-![Python Version](https://img.shields.io/badge/Python-3.12.x-yellow.svg)
-![Development](https://img.shields.io/badge/Development-Active-brightgreen)
-![Latest version](https://img.shields.io/github/v/release/Mealman1551/ADC?label=Latest%20version&color=brightgreen)
-![Status](https://img.shields.io/badge/Status-Stable-brightgreen)
-![GitHub repo size](https://img.shields.io/github/repo-size/Mealman1551/ADC)
-![GitHub issues](https://img.shields.io/github/issues/Mealman1551/ADC)
-![GitHub stars](https://img.shields.io/github/stars/Mealman1551/ADC)
+[![GitHub license](https://img.shields.io/github/license/Mealman1551/ADC)](#)
+[![Platform: Windows/Linux](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux-blue.svg)](#)
+[![Python Version](https://img.shields.io/badge/Python-3.12.x-yellow.svg)](#)
+[![Development](https://img.shields.io/badge/Development-Active-brightgreen)](#)
+[![Latest version](https://img.shields.io/github/v/release/Mealman1551/ADC?label=Latest%20version&color=brightgreen)](https://github.com/mealman1551/adc/releases/latest)
+[![Status](https://img.shields.io/badge/Status-Stable-brightgreen)](#)
+[![GitHub repo size](https://img.shields.io/github/repo-size/Mealman1551/ADC)](#)
+[![GitHub issues](https://img.shields.io/github/issues/Mealman1551/ADC)](https://github.com/Mealman1551/ADC/issues)
+[![GitHub stars](https://img.shields.io/github/stars/Mealman1551/ADC)](#)
+[![CodeQL](https://github.com/mealman1551/ADC/actions/workflows/codeql.yml/badge.svg)](https://github.com/mealman1551/ADC/actions/workflows/codeql.yml)
+
 
 For Build Status and GitLab Sync status go [here](https://github.com/Mealman1551/ADC?tab=readme-ov-file#build--sync-status)
 
