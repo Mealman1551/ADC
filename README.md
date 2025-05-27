@@ -18,7 +18,7 @@ IRC channel: #adcarchiver on OFTC
 [![GitHub repo size](https://img.shields.io/github/repo-size/Mealman1551/ADC)](#)
 [![GitHub issues](https://img.shields.io/github/issues/Mealman1551/ADC)](https://github.com/Mealman1551/ADC/issues)
 [![GitHub stars](https://img.shields.io/github/stars/Mealman1551/ADC)](#)
-[![CodeQL](https://github.com/mealman1551/ADC/actions/workflows/codeql.yml/badge.svg)](https://github.com/mealman1551/ADC/actions/workflows/codeql.yml)
+
 
 
 For Build Status and GitLab Sync status go [here](https://github.com/Mealman1551/ADC?tab=readme-ov-file#build--sync-status)
