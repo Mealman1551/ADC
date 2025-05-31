@@ -1,2 +1,3 @@
+progress.bar
 progress
 colorama
