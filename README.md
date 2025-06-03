@@ -5,7 +5,7 @@
 ![Platform: Windows/Linux](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux-blue.svg)
 ![Python Version](https://img.shields.io/badge/Python-3.12.x-yellow.svg)
 ![Development](https://img.shields.io/badge/Development-Active-brightgreen)
-![Latest version](https://img.shields.io/badge/Latest%20version-2025.05.2-purple)
+![Latest version](https://img.shields.io/badge/Latest%20version-2025.06.1-purple)
 
 
 
@@ -68,9 +68,9 @@ pip install -r requirements.txt
 
 ---
 
-### SHA256 checksum for ``ADC_Aur_2025.05.2.py``
+### SHA256 checksum for ``ADC_Aur_2025.06.1.py``
 
-SHA256: `722122febb46006ffe788f9baaf77456c9a69e764f57ebd8b44d9e1533b3ba9f`
+SHA256: `27f4bd4600f654ba4add5ed796e439c6a2cfa39c08616325e25d88fa000fdb1b`
 
 #### Other comments
 
