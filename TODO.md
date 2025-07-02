@@ -1,5 +1,5 @@
 - [ ] Add support for Python 3.13
-- [x] Add password support (Added in the next Aurora release)
+- [x] Add password support (Added to the testing repo on GitLab)
 - [ ] Add GUI (With Gtk4 support)
 - [ ] Add command args
 - [ ] Add ADC to command table and invokable direct from terminal
