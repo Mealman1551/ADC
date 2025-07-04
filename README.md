@@ -172,7 +172,7 @@ Don't like the setup, won't the setup run or want a portable version. you can co
     tar xf bin.tar.xz
     ```
 5. Make it executable:
-    ```
+    ```bash
     chmod +x adc.bin
     ```
 
@@ -185,7 +185,7 @@ Don't like the setup, won't the setup run or want a portable version. you can co
 
 1. Install Python3
 
-2. Donwload the source code from /src
+2. Download the source code from /src
 
 3. Run the source code in python3
 
@@ -217,7 +217,7 @@ Have questions or want to learn more? Feel free to reach out via [this mail addr
 
 ## GitLab
 
-I have 2 ADC Repos on Gitlab, one is a continously updated mirror of the Main branch (Stable only), and the other is a testing repo
+I have 2 ADC Repos on Gitlab, one is a continuously updated mirror of the Main branch (Stable only), and the other is the Canary repo, meant to be before Aurora
 
 Mirror/Main(Stable) GitLab repo of ADC: [ADC on GitLab](https://gitlab.com/Mealman1551/ADC)
 
@@ -225,8 +225,8 @@ Unstable (Aurora) is only on GitHub!
 
 ---
 
-For testing see: [ADC Testing on GitLab](https://gitlab.com/Mealman1551/adc-testing)
-#### ***DO NOT USE TESTING REPO AS MAIN SOURCE, THIS IS TESTING ONLY!***
+For Canary/continuous live development see: [ADC Canary on GitLab](https://gitlab.com/Mealman1551/adc-canary)
+#### ***DO NOT USE THE CANARY REPO AS MAIN SOURCE, THIS IS LIVE DEVELOPMENT ONLY!***
 
 ---
 
@@ -264,7 +264,6 @@ You can ofc run the source code but official binaries and/or setups are not comp
 **GitLab Sync**: Syncing Main branch to GitLab.
 
 ---
-
 
 ![Made with ❤️](https://img.shields.io/badge/Made%20with%20%E2%9D%A4%EF%B8%8F%20by%20Mealman1551-blue?style=for-the-badge)
 
