@@ -19,6 +19,7 @@ Examples of behavior that contributes to a positive environment for our communit
 Examples of unacceptable behavior include:
 
 - The use of sexualized language or imagery, and sexual attention or advances of any kind
+- Deploy malicious code
 - Trolling, insulting or derogatory comments, and personal or political attacks
 - Public or private harassment
 - Publishing others’ private information, such as a physical or email address, without their explicit permission
@@ -34,8 +35,18 @@ This Code of Conduct applies within all community spaces, and also applies when 
 
 ## Enforcement
 
-Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the community leaders responsible for enforcement at [INSERT CONTACT METHOD]. All complaints will be reviewed and investigated promptly and fairly.
+Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the community leaders responsible for enforcement at nathandubuy4@gmail.com. All complaints will be reviewed and investigated promptly and fairly.
+
+## Who can't collaborate?
+
+Individuals with a history of theft, burglary, manslaughter, murder, sexual offenses, racism, or pedophilia are strictly prohibited from contributing to any ADC project by Mealman1551, whether hosted on GitHub, GitLab, or any other platform.
 
 ## Attribution
 
 This Code of Conduct is adapted from the [Contributor Covenant](https://www.contributor-covenant.org), version 2.1.
+
+---
+
+###### &copy; 2025 contributor-covenant.org
+
+###### &copy; 2025 Mealman1551
