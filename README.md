@@ -238,7 +238,7 @@ For Canary/continuous live development see: [ADC Canary on GitLab](https://gitla
 
 ### Syncing to GitLab
 
-Syncing to GitLab is done via the [`gitlab-sync.yml`](https://github.com/Mealman1551/ADC/blob/main/.github/workflows/gitlab-sync.yml) file in `/main/.github/workflows/gitlab-sync.yml`
+Syncing to GitLab is done via the [`gitlab-sync.yml`](https://github.com/Mealman1551/ADC/blob/main/.github/workflows/gitlab-sync.yml) file in `/.github/workflows/gitlab-sync.yml`
 
 ## Notes
 
