@@ -207,7 +207,7 @@ There will be two major stable updates per year, 15 may and 15 november. Meanwhi
 
 #### Release flow
 
-1. ADC Canary, live updated repo, not meant to use.
+1. [ADC Canary](https://gitlab.com/Mealman1551/adc-canary), live updated repo, not meant to use.
 2. after ADC Canary the working code will be ported to ADC Aurora asap.
 3. Stable version will be based on Aurora's source code after testing the code, if there are bugs i will use a stable Aurora script.
 
