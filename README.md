@@ -25,6 +25,8 @@ Forum: [https://groups.google.com/g/adc-archiver](https://groups.google.com/g/ad
 
 Aurora is the unstable/rolling release of ADC Archiver that features a newer version than stable and is only usable as a Python script.
 
+Aurora is the release after [ADC Canary](https://gitlab.com/Mealman1551/adc-canary), ADC Canary is only for live development and **NOT** for using!
+
 ### Which Python version is needed?
 
 Aurora and the main branch use Python 3.12.x
