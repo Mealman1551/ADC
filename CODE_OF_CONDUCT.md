@@ -39,7 +39,7 @@ Instances of abusive, harassing, or otherwise unacceptable behavior may be repor
 
 ## Who can't collaborate?
 
-Individuals with a known history of exploiting malware, hacking (black hat), theft, burglary, manslaughter, murder, sexual offenses, racism, or pedophilia are strictly prohibited from contributing to any ADC project by Mealman1551, whether hosted on GitHub, GitLab, or any other platform.
+Individuals with a known history of exploiting malware, hacking (black hat), theft, burglary, manslaughter, murder, sexual offenses, racism, doxing, Ddos attacking, fraud in any way, may it be scamming or irl tax fraud, dealing drugs, or pedophilia are strictly prohibited from contributing to any ADC project by Mealman1551, whether hosted on GitHub, GitLab, or any other platform.
 
 ## Attribution
 
