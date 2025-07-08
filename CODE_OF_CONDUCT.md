@@ -37,9 +37,6 @@ This Code of Conduct applies within all community spaces, and also applies when 
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the community leaders responsible for enforcement at nathandubuy4@gmail.com. All complaints will be reviewed and investigated promptly and fairly.
 
-## Who can't collaborate?
-
-Individuals with a known history of exploiting malware, hacking (black hat), theft, burglary, manslaughter, murder, sexual offenses, racism, doxing, Ddos attacking, fraud in any way, may it be scamming or irl tax fraud, dealing drugs, or pedophilia are strictly prohibited from contributing to any ADC project by Mealman1551, whether hosted on GitHub, GitLab, or any other platform.
 
 ## Attribution
 
