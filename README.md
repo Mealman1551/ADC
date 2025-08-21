@@ -49,11 +49,12 @@ For the unstable/rolling release see: [ADC Aurora](https://github.com/Mealman155
 - progress.bar
 - colorama
 
+
 ***Users***
 #### Windows
 - Windows 8 or higher
 #### Linux
-- A Modern Linux distro that has at least glibc 2.34
+- A Modern Linux distro that has at least glibc 2.31 (2.31 was introduced on 21-08-2025)
 
 ## Installation
 
