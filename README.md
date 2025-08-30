@@ -21,6 +21,15 @@ IRC channel: #adcarchiver on OFTC
 
 Forum: [https://groups.google.com/g/adc-archiver](https://groups.google.com/g/adc-archiver)
 
+## New features in the August update (ADC_Aur_2025.08.1.py)
+
+Added arguments from the commandline:
+
+For creating archives use: ``adc.exe or adc.bin c <files...> <output.adc``
+
+For extracting archives use: ``adc.exe or adc.bin e <archive.adc> [output_folder]``
+
+
 ### What is Aurora?
 
 Aurora is the unstable/rolling release of ADC Archiver that features a newer version than stable and is only usable as a Python script.
@@ -38,6 +47,7 @@ Aurora is perfect for users who prefer cutting-edge updates over stability.
 ### Where can I request features or get support?
 
 To request features and get support go [here.](https://github.com/Mealman1551/ADC/discussions/categories/adc-unstable-aurora)
+
 GitHub issues related to Aurora will not be handled!
 
 ### How to use Aurora?
@@ -73,9 +83,9 @@ pip install -r requirements.txt
 
 ---
 
-### SHA256 checksum for ``ADC_Aur_2025.07.1.py``
+### SHA256 checksum for ``ADC_Aur_2025.08.1.py``
 
-SHA256: `52df14078fc364014541212c32146b9fa4f2fbfcc7ea156299b372dc703ccddc`
+SHA256: `1e8dafdf361eda3824ee632d0c1f62e97aed8408afed82030927260b8d7d3306`
 
 #### Other comments
 
