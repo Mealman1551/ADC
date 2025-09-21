@@ -5,7 +5,7 @@
 ![Platform: Windows/Linux](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux-blue.svg)
 ![Python Version](https://img.shields.io/badge/Python-3.12.x-yellow.svg)
 ![Development](https://img.shields.io/badge/Development-Active-brightgreen)
-![Latest version](https://img.shields.io/badge/Latest%20version-2025.07.1-purple)
+![Latest version](https://img.shields.io/badge/Latest%20version-2025.09.1-purple)
 
 
 
@@ -21,13 +21,9 @@ IRC channel: #adcarchiver on OFTC
 
 Forum: [https://groups.google.com/g/adc-archiver](https://groups.google.com/g/adc-archiver)
 
-## New features in the August update (ADC_Aur_2025.08.1.py)
+## New features in the September update (ADC_Aur_2025.09.1.py)
 
-Added arguments from the commandline:
-
-For creating archives use: ``adc.exe or adc.bin c <files...> <output.adc``
-
-For extracting archives use: ``adc.exe or adc.bin e <archive.adc> [output_folder]``
+Added zipfile support, create and extract zip files.
 
 
 ### What is Aurora?
@@ -83,9 +79,9 @@ pip install -r requirements.txt
 
 ---
 
-### SHA256 checksum for ``ADC_Aur_2025.08.1.py``
+### SHA256 checksum for ``ADC_Aur_2025.09.1.py``
 
-SHA256: `1e8dafdf361eda3824ee632d0c1f62e97aed8408afed82030927260b8d7d3306`
+SHA256: `9473c9b1d698995704afc33255ebb796efe55ce15f24c162d8b232f1bf8e034d`
 
 #### Other comments
 
