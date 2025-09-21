@@ -21,8 +21,8 @@ IRC channel: #adcarchiver on OFTC
 
 Forum: [https://groups.google.com/g/adc-archiver](https://groups.google.com/g/adc-archiver)
 
->[!note]
-> new features in the September update (ADC_Aur_2025.09.1.py):
+>[ !note]
+> ### New features in the September update (ADC_Aur_2025.09.1.py):
 >
 > Added zipfile support, create and extract zip files.
 
