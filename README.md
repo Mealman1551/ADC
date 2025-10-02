@@ -177,7 +177,7 @@ Don't like the setup, won't the setup run or want a portable version. you can co
     ```bash
     chmod +x adc.bin
     ```-->
-6. Run the script:
+5. Run the script:
     ```bash
     ./adc.bin
     ```
