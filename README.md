@@ -158,25 +158,25 @@ Don't like the setup, won't the setup run or want a portable version. you can co
   ```
 </details>
 
-
+> [!Note]
+> Added smaller repo for the tarball, this means you dont need to download this whole 300+ MB repo anymore
 
 2. Clone the repository:
     ```bash
-    git clone https://github.com/Mealman1551/adc.git
+    git clone https://gitlab.com/adc-project/adclinux.git
     ```
 3. Navigate to the project directory:
     ```bash
-    cd ~/adc/linux-release
+    cd ~/adclinux
     ```
 4. Extract the binary and dependecies:
     ```bash
     tar xf bin.tar.xz
     ```
-5. Make it executable:
+<!-- 5. Make it executable:
     ```bash
     chmod +x adc.bin
-    ```
-
+    ```-->
 6. Run the script:
     ```bash
     ./adc.bin
