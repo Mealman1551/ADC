@@ -159,7 +159,7 @@ Don't like the setup, won't the setup run or want a portable version. you can co
 </details>
 
 > [!Note]
-> Added smaller repo for the tarball, this means you dont need to download this whole 300+ MB repo anymore
+> Added smaller repo for the tarball, this means you dont need to download this whole 300+ MB repo anymore!
 
 2. Clone the repository:
     ```bash
