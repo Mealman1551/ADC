@@ -212,6 +212,8 @@ Create an issue easily without the need for a GitHub account via [this form](htt
 2. after ADC Canary the working code will be ported to ADC Aurora asap.
 3. Stable version will be based on Aurora's source code after testing the code, if there are bugs i will use a stable Aurora script.
 
+<img src=https://raw.githubusercontent.com/Mealman1551/ADC/refs/heads/main/img/flowchart/ADC%20Release%20flow.svg width=500>
+
 ## Contributing
 
 Contributions are welcome! Open an issue or submit a pull request if you'd like to contribute.
