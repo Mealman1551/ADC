@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Gegenereerd door Microsoft Visio, SVG Export ADC Release flow.svg Page-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="11.6929in" height="8.26772in"
+		viewBox="0 0 841.89 595.276" xml:space="preserve" color-interpolation-filters="sRGB" class="st11">
+	<v:documentProperties v:langID="1043" v:metric="true" v:viewMarkup="false">
+		<v:userDefs>
+			<v:ud v:nameU="msvSubprocessMaster" v:prompt="" v:val="VT4(Rectangle)"/>
+			<v:ud v:nameU="msvNoAutoConnect" v:val="VT0(1):26"/>
+		</v:userDefs>
+	</v:documentProperties>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:#ffd965;stroke:#c7c8c8;stroke-width:0.25}
+		.st2 {fill:#000000;font-family:Calibri;font-size:1.33333em}
+		.st3 {font-size:1em}
+		.st4 {fill:#90aadb;stroke:#c7c8c8;stroke-width:0.25}
+		.st5 {fill:#feffff;font-family:Calibri;font-size:0.833336em}
+		.st6 {fill:#70ad47;stroke:#c7c8c8;stroke-width:0.25}
+		.st7 {fill:#feffff;font-family:Calibri;font-size:1.33333em}
+		.st8 {fill:#7030a0;stroke:#c7c8c8;stroke-width:0.25}
+		.st9 {marker-end:url(#mrkr4-32);stroke:#4672c4;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st10 {fill:#4672c4;fill-opacity:1;stroke:#4672c4;stroke-opacity:1;stroke-width:0.28409090909091}
+		.st11 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<defs id="Markers">
+		<g id="lend4">
+			<path d="M 2 1 L 0 0 L 2 -1 L 2 1 " style="stroke:none"/>
+		</g>
+		<marker id="mrkr4-32" class="st10" v:arrowType="4" v:arrowSize="2" v:setback="7.04" refX="-7.04" orient="auto"
+				markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend4" transform="scale(-3.52,-3.52) "/>
+		</marker>
+	</defs>
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<v:userDefs>
+			<v:ud v:nameU="msvThemeOrder" v:val="VT0(0):26"/>
+		</v:userDefs>
+		<title>Pagina-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="8.50394"
+				v:shadowOffsetY="-8.50394"/>
+		<v:layer v:name="Verbindingslijn" v:index="0"/>
+		<g id="group29-1" transform="translate(141.732,-76.5354)" v:mID="29" v:groupContext="group">
+			<title>Blad.29</title>
+			<g id="shape2-2" v:mID="2" v:groupContext="shape" transform="translate(161.575,-348.661)">
+				<title>Afgeronde rechthoek</title>
+				<desc>ADC Canary Starting point</desc>
+				<v:userDefs>
+					<v:ud v:nameU="CTypeTopLeftSnip" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="CTypeTopRightSnip" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="CTypeBotLeftSnip" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="CTypeBotRightSnip" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="CornerLockHoriz" v:prompt="" v:val="VT0(1):5"/>
+					<v:ud v:nameU="CornerLockVert" v:prompt="" v:val="VT0(1):5"/>
+					<v:ud v:nameU="CornerLockDiag" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="TopLeftOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+					<v:ud v:nameU="TopRightOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+					<v:ud v:nameU="BotLeftOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+					<v:ud v:nameU="BotRightOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+					<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="56.6929" cy="552.756" width="113.39" height="85.0394"/>
+				<path d="M11.34 595.28 L102.05 595.28 A11.3384 11.3384 -180 0 0 113.39 583.94 L113.39 521.57 A11.3384 11.3384 -180
+							 0 0 102.05 510.24 L11.34 510.24 A11.3384 11.3384 -180 0 0 0 521.57 L0 583.94 A11.3384 11.3384 -180 0
+							 0 11.34 595.28 Z" class="st1"/>
+				<text x="18.53" y="538.36" class="st2" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>ADC Canary<v:newlineChar/><v:newlineChar/><tspan
+							x="12.28" dy="2.4em" class="st3">Starting point</tspan></text>			</g>
+			<g id="shape3-6" v:mID="3" v:groupContext="shape" transform="translate(323.15,-348.661)">
+				<title>Afgeronde rechthoek.3</title>
+				<desc>Check if feature is working</desc>
+				<v:userDefs>
+					<v:ud v:nameU="CTypeTopLeftSnip" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="CTypeTopRightSnip" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="CTypeBotLeftSnip" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="CTypeBotRightSnip" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="CornerLockHoriz" v:prompt="" v:val="VT0(1):5"/>
+					<v:ud v:nameU="CornerLockVert" v:prompt="" v:val="VT0(1):5"/>
+					<v:ud v:nameU="CornerLockDiag" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="TopLeftOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+					<v:ud v:nameU="TopRightOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+					<v:ud v:nameU="BotLeftOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+					<v:ud v:nameU="BotRightOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+					<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="56.6929" cy="552.756" width="113.39" height="85.0394"/>
+				<path d="M11.34 595.28 L102.05 595.28 A11.3384 11.3384 -180 0 0 113.39 583.94 L113.39 521.57 A11.3384 11.3384 -180
+							 0 0 102.05 510.24 L11.34 510.24 A11.3384 11.3384 -180 0 0 0 521.57 L0 583.94 A11.3384 11.3384 -180 0
+							 0 11.34 595.28 Z" class="st4"/>
+				<text x="20.42" y="549.76" class="st5" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>Check if feature is <tspan
+							x="40.34" dy="1.2em" class="st3">working</tspan></text>			</g>
+			<g id="shape4-10" v:mID="4" v:groupContext="shape" transform="translate(161.575,0)">
+				<title>Afgeronde rechthoek.4</title>
+				<desc>ADC Stable Finished result.</desc>
+				<v:userDefs>
+					<v:ud v:nameU="CTypeTopLeftSnip" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="CTypeTopRightSnip" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="CTypeBotLeftSnip" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="CTypeBotRightSnip" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="CornerLockHoriz" v:prompt="" v:val="VT0(1):5"/>
+					<v:ud v:nameU="CornerLockVert" v:prompt="" v:val="VT0(1):5"/>
+					<v:ud v:nameU="CornerLockDiag" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="TopLeftOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+					<v:ud v:nameU="TopRightOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+					<v:ud v:nameU="BotLeftOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+					<v:ud v:nameU="BotRightOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+					<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="56.6929" cy="552.756" width="113.39" height="85.0394"/>
+				<path d="M11.34 595.28 L102.05 595.28 A11.3384 11.3384 -180 0 0 113.39 583.94 L113.39 521.57 A11.3384 11.3384 -180
+							 0 0 102.05 510.24 L11.34 510.24 A11.3384 11.3384 -180 0 0 0 521.57 L0 583.94 A11.3384 11.3384 -180 0
+							 0 11.34 595.28 Z" class="st6"/>
+				<text x="20.86" y="538.36" class="st7" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>ADC Stable<v:newlineChar/><v:newlineChar/><tspan
+							x="7.18" dy="2.4em" class="st3">Finished result.</tspan></text>			</g>
+			<g id="shape8-14" v:mID="8" v:groupContext="shape" transform="translate(323.15,-219.685)">
+				<title>Afgeronde rechthoek.8</title>
+				<desc>If working</desc>
+				<v:userDefs>
+					<v:ud v:nameU="CTypeTopLeftSnip" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="CTypeTopRightSnip" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="CTypeBotLeftSnip" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="CTypeBotRightSnip" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="CornerLockHoriz" v:prompt="" v:val="VT0(1):5"/>
+					<v:ud v:nameU="CornerLockVert" v:prompt="" v:val="VT0(1):5"/>
+					<v:ud v:nameU="CornerLockDiag" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="TopLeftOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+					<v:ud v:nameU="TopRightOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+					<v:ud v:nameU="BotLeftOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+					<v:ud v:nameU="BotRightOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+					<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="56.6929" cy="552.756" width="113.39" height="85.0394"/>
+				<path d="M11.34 595.28 L102.05 595.28 A11.3384 11.3384 -180 0 0 113.39 583.94 L113.39 521.57 A11.3384 11.3384 -180
+							 0 0 102.05 510.24 L11.34 510.24 A11.3384 11.3384 -180 0 0 0 521.57 L0 583.94 A11.3384 11.3384 -180 0
+							 0 11.34 595.28 Z" class="st4"/>
+				<text x="36.42" y="555.76" class="st5" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>If working</text>			</g>
+			<g id="shape9-17" v:mID="9" v:groupContext="shape" transform="translate(161.575,-219.685)">
+				<title>Afgeronde rechthoek.9</title>
+				<desc>ADC Aurora</desc>
+				<v:userDefs>
+					<v:ud v:nameU="CTypeTopLeftSnip" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="CTypeTopRightSnip" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="CTypeBotLeftSnip" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="CTypeBotRightSnip" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="CornerLockHoriz" v:prompt="" v:val="VT0(1):5"/>
+					<v:ud v:nameU="CornerLockVert" v:prompt="" v:val="VT0(1):5"/>
+					<v:ud v:nameU="CornerLockDiag" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="TopLeftOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+					<v:ud v:nameU="TopRightOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+					<v:ud v:nameU="BotLeftOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+					<v:ud v:nameU="BotRightOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+					<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="56.6929" cy="552.756" width="113.39" height="85.0394"/>
+				<path d="M11.34 595.28 L102.05 595.28 A11.3384 11.3384 -180 0 0 113.39 583.94 L113.39 521.57 A11.3384 11.3384 -180
+							 0 0 102.05 510.24 L11.34 510.24 A11.3384 11.3384 -180 0 0 0 521.57 L0 583.94 A11.3384 11.3384 -180 0
+							 0 11.34 595.28 Z" class="st8"/>
+				<text x="18.61" y="557.56" class="st7" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>ADC Aurora</text>			</g>
+			<g id="shape10-20" v:mID="10" v:groupContext="shape" transform="translate(464.882,-219.685)">
+				<title>Afgeronde rechthoek.10</title>
+				<desc>If broken</desc>
+				<v:userDefs>
+					<v:ud v:nameU="CTypeTopLeftSnip" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="CTypeTopRightSnip" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="CTypeBotLeftSnip" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="CTypeBotRightSnip" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="CornerLockHoriz" v:prompt="" v:val="VT0(1):5"/>
+					<v:ud v:nameU="CornerLockVert" v:prompt="" v:val="VT0(1):5"/>
+					<v:ud v:nameU="CornerLockDiag" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="TopLeftOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+					<v:ud v:nameU="TopRightOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+					<v:ud v:nameU="BotLeftOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+					<v:ud v:nameU="BotRightOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+					<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="56.6929" cy="552.756" width="113.39" height="85.0394"/>
+				<path d="M11.34 595.28 L102.05 595.28 A11.3384 11.3384 -180 0 0 113.39 583.94 L113.39 521.57 A11.3384 11.3384 -180
+							 0 0 102.05 510.24 L11.34 510.24 A11.3384 11.3384 -180 0 0 0 521.57 L0 583.94 A11.3384 11.3384 -180 0
+							 0 11.34 595.28 Z" class="st4"/>
+				<text x="38.38" y="555.76" class="st5" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>If broken</text>			</g>
+			<g id="shape12-23" v:mID="12" v:groupContext="shape" transform="translate(0,-219.685)">
+				<title>Afgeronde rechthoek.12</title>
+				<desc>If Aurora doesn’t contain bugs</desc>
+				<v:userDefs>
+					<v:ud v:nameU="CTypeTopLeftSnip" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="CTypeTopRightSnip" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="CTypeBotLeftSnip" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="CTypeBotRightSnip" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="CornerLockHoriz" v:prompt="" v:val="VT0(1):5"/>
+					<v:ud v:nameU="CornerLockVert" v:prompt="" v:val="VT0(1):5"/>
+					<v:ud v:nameU="CornerLockDiag" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="TopLeftOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+					<v:ud v:nameU="TopRightOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+					<v:ud v:nameU="BotLeftOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+					<v:ud v:nameU="BotRightOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+					<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="56.6929" cy="552.756" width="113.39" height="85.0394"/>
+				<path d="M11.34 595.28 L102.05 595.28 A11.3384 11.3384 -180 0 0 113.39 583.94 L113.39 521.57 A11.3384 11.3384 -180
+							 0 0 102.05 510.24 L11.34 510.24 A11.3384 11.3384 -180 0 0 0 521.57 L0 583.94 A11.3384 11.3384 -180 0
+							 0 11.34 595.28 Z" class="st4"/>
+				<text x="6" y="549.76" class="st5" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>If Aurora doesn’t contain <tspan
+							x="47.13" dy="1.2em" class="st3">bugs</tspan></text>			</g>
+			<g id="shape13-27" v:mID="13" v:groupContext="shape" v:layerMember="0" transform="translate(274.961,-384.094)">
+				<title>Dynamische verbindingslijn</title>
+				<path d="M0 588.19 L41.15 588.19" class="st9"/>
+			</g>
+			<g id="shape14-33" v:mID="14" v:groupContext="shape" v:layerMember="0" transform="translate(372.756,-348.661)">
+				<title>Dynamische verbindingslijn.14</title>
+				<path d="M7.09 595.28 L7.09 632.17" class="st9"/>
+			</g>
+			<g id="shape15-38" v:mID="15" v:groupContext="shape" v:layerMember="0" transform="translate(323.15,-255.118)">
+				<title>Dynamische verbindingslijn.15</title>
+				<path d="M0 588.19 L-41.15 588.19" class="st9"/>
+			</g>
+			<g id="shape16-43" v:mID="16" v:groupContext="shape" v:layerMember="0" transform="translate(161.575,-255.118)">
+				<title>Dynamische verbindingslijn.16</title>
+				<path d="M0 588.19 L-41.15 588.19" class="st9"/>
+			</g>
+			<g id="shape17-48" v:mID="17" v:groupContext="shape" v:layerMember="0" transform="translate(56.6929,-219.685)">
+				<title>Dynamische verbindingslijn.17</title>
+				<path d="M0 595.28 L0 607.95 L161.57 607.95 L161.57 722.88" class="st9"/>
+			</g>
+			<g id="shape19-53" v:mID="19" v:groupContext="shape" v:layerMember="0" transform="translate(521.575,-304.724)">
+				<title>Dynamische verbindingslijn.19</title>
+				<path d="M0 595.28 L0 453.63 L-303.31 453.63 L-303.31 459.26" class="st9"/>
+			</g>
+			<g id="shape20-58" v:mID="20" v:groupContext="shape" transform="translate(6.39488E-14,-348.661)">
+				<title>Afgeronde rechthoek.20</title>
+				<desc>If Aurora contain bugs</desc>
+				<v:userDefs>
+					<v:ud v:nameU="CTypeTopLeftSnip" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="CTypeTopRightSnip" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="CTypeBotLeftSnip" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="CTypeBotRightSnip" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="CornerLockHoriz" v:prompt="" v:val="VT0(1):5"/>
+					<v:ud v:nameU="CornerLockVert" v:prompt="" v:val="VT0(1):5"/>
+					<v:ud v:nameU="CornerLockDiag" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="TopLeftOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+					<v:ud v:nameU="TopRightOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+					<v:ud v:nameU="BotLeftOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+					<v:ud v:nameU="BotRightOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+					<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="56.6929" cy="552.756" width="113.39" height="85.0394"/>
+				<path d="M11.34 595.28 L102.05 595.28 A11.3384 11.3384 -180 0 0 113.39 583.94 L113.39 521.57 A11.3384 11.3384 -180
+							 0 0 102.05 510.24 L11.34 510.24 A11.3384 11.3384 -180 0 0 0 521.57 L0 583.94 A11.3384 11.3384 -180 0
+							 0 11.34 595.28 Z" class="st4"/>
+				<text x="11.69" y="555.76" class="st5" v:langID="1043"><v:paragraph v:horizAlign="1"/><v:tabList/>If Aurora contain bugs</text>			</g>
+			<g id="shape21-61" v:mID="21" v:groupContext="shape" v:layerMember="0" transform="translate(218.268,-304.724)">
+				<title>Dynamische verbindingslijn.21</title>
+				<path d="M0 595.28 L0 582.6 L-161.57 582.6 L-161.57 558.38" class="st9"/>
+			</g>
+			<g id="shape26-66" v:mID="26" v:groupContext="shape" v:layerMember="0" transform="translate(113.386,-384.094)">
+				<title>Dynamische verbindingslijn.26</title>
+				<path d="M0 588.19 L41.15 588.19" class="st9"/>
+			</g>
+			<g id="shape28-71" v:mID="28" v:groupContext="shape" v:layerMember="0" transform="translate(436.535,-391.181)">
+				<title>Dynamische verbindingslijn.28</title>
+				<path d="M0 595.28 L12.67 595.28 L12.67 724.25 L21.31 724.25" class="st9"/>
+			</g>
+		</g>
+	</g>
+</svg>
