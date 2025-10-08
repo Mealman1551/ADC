@@ -69,9 +69,15 @@ Don't like the setup, won't the setup run or want a portable version. you can bu
 
 ### Linux
 
-##### Installation via Terminal (for more options, visit the [Wiki!](https://github.com/Mealman1551/ADC/wiki/Linux-installation))
+Download the tarball and run `install.sh`, this will copy the files to `/opt` and make a symlink to `/usr/local/bin`.
 
-1. Install Git:
+To remove run `remove.sh`.
+
+[Download tarball](https://gitlab.com/adc-project/adclinux/-/raw/main/adc.tar.xz?inline=false)
+
+<!--##### Installation via Terminal (for more options, visit the [Wiki!](https://github.com/Mealman1551/ADC/wiki/Linux-installation))
+
+-1. Install Git:
 <details>
   <summary>Debian (Ubuntu, Mint etc.)</summary>
 
@@ -173,14 +179,14 @@ Don't like the setup, won't the setup run or want a portable version. you can bu
     ```bash
     tar xf bin.tar.xz
     ```
-<!-- 5. Make it executable:
+ 5. Make it executable:
     ```bash
     chmod +x adc.bin
-    ```-->
+    ```
 5. Run the script:
     ```bash
     ./adc.bin
-    ```
+    ```-->
 
 ### Unix (BSD, Solaris)
 
@@ -216,9 +222,7 @@ Create an issue easily without the need for a GitHub account via [this form](htt
 
 ## Contributing
 
-Contributions are welcome! Open an issue or submit a pull request if you'd like to contribute.
-
-Also see the CONTRIBUTING.md file
+Contributions are welcome! See the CONTRIBUTING.md file.
 
 ## Contact
 
