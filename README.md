@@ -62,9 +62,9 @@ For the unstable/rolling release see: [ADC Aurora](https://github.com/Mealman155
 1. Download the official installer here: [![Windows](https://custom-icon-badges.demolab.com/badge/Windows-0078D6?logo=windows11&logoColor=white)](https://github.com/Mealman1551/ADC/releases/latest)
 
 
-Don't like the setup, won't the setup run or want a portable version. you can compile from source.
+Don't like the setup, won't the setup run or want a portable version. you can build ADC from source.
 
-[Compile ADC](https://github.com/Mealman1551/ADC-compile-from-scratch)
+[Build ADC](https://github.com/Mealman1551/ADC-compile-from-scratch)
 
 
 ### Linux
