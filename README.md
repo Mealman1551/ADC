@@ -73,7 +73,7 @@ Download the tarball and run `install.sh`, this will copy the files to `/opt` an
 
 To remove run `remove.sh`.
 
-[Download tarball](https://gitlab.com/adc-project/adclinux/-/raw/main/adc.tar.xz?inline=false)
+[Download tarball](https://gitlab.com/adc-project/tars/-/raw/main/adc.tar.xz?inline=false)
 
 <!--##### Installation via Terminal (for more options, visit the [Wiki!](https://github.com/Mealman1551/ADC/wiki/Linux-installation))
 
