@@ -204,7 +204,7 @@ Create an issue easily without the need for a GitHub account via [this form](htt
 
 ## Update Schedule
 
-There will be two major stable updates per year, 15 may and 15 november. Meanwhile, the rolling release Python source script [ADC Aurora](https://github.com/Mealman1551/ADC/tree/ADC-Unstable-(Aurora)) will be updated monthly, if not weekly.
+~~There will be two major stable updates per year, 15 may and 15 november.~~ I select a date myself what is the best time, cuz i have work. Meanwhile, the rolling release Python source script [ADC Aurora](https://github.com/Mealman1551/ADC/tree/ADC-Unstable-(Aurora)) will be updated monthly, if not weekly.
 
 #### Release flow
 
