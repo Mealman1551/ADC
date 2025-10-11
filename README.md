@@ -87,7 +87,7 @@ to install ADC without leaving any garbage
 
 To remove ADC you can run:
 ```bash
-wget -qO- "https://gitlab.com/adc-project/bash/-/raw/main/remove.sh" | bash
+wget -O- "https://gitlab.com/adc-project/bash/-/raw/main/remove.sh" | bash
 ```
 
 #### You can also build ADC yourself
