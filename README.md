@@ -81,14 +81,7 @@ Dependencies:
 
 Run:
 ```bash
-mkdir -p ~/adc-temp \
-  && cd ~/adc-temp \
-  && wget -O adc.tar.xz "https://gitlab.com/adc-project/tars/-/raw/main/adc.tar.xz?inline=false" \
-  && tar -xJf adc.tar.xz \
-  && sudo ./install.sh \
-  && cd ~ \
-  && rm -rf ~/adc-temp
-
+mkdir -p ~/adc-temp && cd ~/adc-temp && wget -qO adc.tar.xz "https://gitlab.com/adc-project/tars/-/raw/main/adc.tar.xz?inline=false" && tar -xJf adc.tar.xz && sudo ./install.sh && cd ~ && rm -rf ~/adc-temp
 ```
 to install ADC without leaving any garbage
 
