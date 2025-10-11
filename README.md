@@ -63,11 +63,35 @@ For the unstable/rolling release see: [ADC Aurora](https://github.com/Mealman155
 
 ### Linux
 
+#### Tarball
+
 Download the tarball and run `install.sh`, this will copy the files to `/opt` and make a symlink to `/usr/local/bin`.
 
 To remove run `remove.sh`.
 
 [Download tarball](https://gitlab.com/adc-project/tars/-/raw/main/adc.tar.xz?inline=false)
+
+[Download portable tarball](https://gitlab.com/adc-project/adclinux/-/raw/main/bin.tar.xz?ref_type=heads&inline=false)
+
+#### Command
+
+Run:
+```bash
+mkdir -p ~/adc-temp \
+  && cd ~/adc-temp \
+  && wget -O adc.tar.xz "https://gitlab.com/adc-project/tars/-/raw/main/adc.tar.xz?inline=false" \
+  && tar -xJf adc.tar.xz \
+  && sudo ./install.sh \
+  && cd ~ \
+  && rm -rf ~/adc-temp
+
+```
+to install ADC without leaving any garbage
+
+To remove ADC you can run:
+```bash
+wget -qO- "https://gitlab.com/adc-project/bash/-/raw/main/remove.sh" | bash
+```
 
 #### You can also build ADC yourself
 
