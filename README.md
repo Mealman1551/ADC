@@ -75,6 +75,10 @@ To remove run `remove.sh`.
 
 #### Command
 
+Dependencies:
+1. Wget
+2. xz-utils
+
 Run:
 ```bash
 mkdir -p ~/adc-temp \
