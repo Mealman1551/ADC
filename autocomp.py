@@ -2,56 +2,56 @@ import os
 import glob
 import subprocess
 import shutil
+import sys
 
-# Repo and binaries directories
-repo_dir = r"D:\Github Git Repo clones\ADC"
+# ---------- CONFIG ----------
+# Repo directory: automatically detect cross-platform
+repo_dir = os.path.abspath(os.path.expanduser("~/ADC"))  # Change if repo is elsewhere
 binary_dir = os.path.join(repo_dir, "binaries")
 os.makedirs(binary_dir, exist_ok=True)
 
-# Find all Aurora scripts in the root of the repo
+# ---------- FIND LATEST SCRIPT ----------
 py_files = glob.glob(os.path.join(repo_dir, "ADC_Aur_*.py"))
 
+if not py_files:
+    print("No Aurora scripts found in the repo root!")
+    sys.exit(1)
 
-# Function to sort versions correctly
 def version_key(filepath):
     filename = os.path.basename(filepath)
     parts = filename.replace("ADC_Aur_", "").replace(".py", "").split(".")
     return [int(p) for p in parts]
 
-
-# Select the latest script
 latest_script = max(py_files, key=version_key)
 filename = os.path.basename(latest_script)
 version = filename.replace("ADC_Aur_", "").replace(".py", "")
 
-# Determine the binary path
-binary_path = os.path.join(
-    binary_dir, f"ADC_Aur_{version}" + (".exe" if os.name == "nt" else "")
-)
+binary_path = os.path.join(binary_dir, f"ADC_Aur_{version}" + (".exe" if os.name == "nt" else ""))
 
+# ---------- COMPILE WITH NUITKA ----------
 if not os.path.exists(binary_path):
     print(f"Compiling {filename} -> {binary_path}")
 
     cmd = [
-        "python",
-        "-m",
-        "nuitka",
+        sys.executable,          # Use the current Python interpreter
+        "-m", "nuitka",
+        "--enable-plugin=tk-inter",
         "--onefile",
         "--follow-imports",
         "--output-dir=" + binary_dir,
-        latest_script,
+        latest_script
     ]
 
+    # Windows-specific options
     if os.name == "nt":
+        icon_path = os.path.join(repo_dir, "img", "ico", "ADCIcon.ico")
+        if os.path.exists(icon_path):
+            cmd.append(f"--windows-icon-from-ico={icon_path}")
         cmd.append("--plugin-enable=tk-inter")
-        cmd.append(
-            "--windows-icon-from-ico="
-            + os.path.join(repo_dir, "img", "ico", "ADCIcon.ico")
-        )
 
     subprocess.run(cmd, check=True)
 
-    # Cleanup temporary Nuitka folders
+    # ---------- CLEANUP TEMPORARY FOLDERS ----------
     for temp_suffix in [".dist", ".build", ".onefile-build"]:
         temp_dir = os.path.join(binary_dir, f"ADC_Aur_{version}{temp_suffix}")
         if os.path.exists(temp_dir):
@@ -63,4 +63,3 @@ else:
 
 print("Done.")
 
-input("Press Enter to exit...")
