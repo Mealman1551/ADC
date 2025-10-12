@@ -4,11 +4,17 @@ import subprocess
 import shutil
 import sys
 
-repo_dir = os.path.abspath(os.path.expanduser("~/ADC"))
+# ---------- CONFIG ----------
+# Automatically detect repo directory (where this script resides)
+repo_dir = os.path.dirname(os.path.abspath(__file__))
+
+# Binaries folder
 binary_dir = os.path.join(repo_dir, "binaries")
 os.makedirs(binary_dir, exist_ok=True)
 
+# ---------- FIND LATEST AURORA SCRIPT ----------
 py_files = glob.glob(os.path.join(repo_dir, "ADC_Aur_*.py"))
+
 if not py_files:
     print("No Aurora scripts found in the repo root!")
     sys.exit(1)
@@ -28,11 +34,12 @@ binary_path = os.path.join(
     binary_dir, f"ADC_Aur_{version}" + (".exe" if os.name == "nt" else "")
 )
 
+# ---------- COMPILE WITH NUITKA ----------
 if not os.path.exists(binary_path):
     print(f"Compiling {filename} -> {binary_path}")
 
     cmd = [
-        sys.executable,
+        sys.executable,  # use the current Python interpreter
         "-m",
         "nuitka",
         "--plugin-enable=tk-inter",
@@ -42,13 +49,19 @@ if not os.path.exists(binary_path):
         latest_script,
     ]
 
+    # Windows-specific options
     if os.name == "nt":
         icon_path = os.path.join(repo_dir, "img", "ico", "ADCIcon.ico")
         if os.path.exists(icon_path):
             cmd.append(f"--windows-icon-from-ico={icon_path}")
 
+    # Debug print of the command
+    print("Running command:")
+    print(" ".join(cmd))
+
     subprocess.run(cmd, check=True)
 
+    # ---------- CLEANUP TEMPORARY FOLDERS ----------
     for temp_suffix in [".dist", ".build", ".onefile-build"]:
         temp_dir = os.path.join(binary_dir, f"ADC_Aur_{version}{temp_suffix}")
         if os.path.exists(temp_dir):
@@ -59,5 +72,4 @@ else:
     print(f"Binary for version {version} already exists. Nothing to do.")
 
 print("Done.")
-
 input("Press Enter to exit...")
