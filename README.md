@@ -22,6 +22,8 @@ IRC channel: #adcarchiver on OFTC
 Forum: [https://groups.google.com/g/adc-archiver](https://groups.google.com/g/adc-archiver)
 
 
+## Aurora now got binaries, check the `binaries` folder for Windows and Linux binaries. Please note that the binaries aren't signed. 
+
 > ### New features in the September update (ADC_Aur_2025.09.1.py):
 >
 > Added zipfile support, create and extract zip files.
