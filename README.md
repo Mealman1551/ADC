@@ -31,6 +31,8 @@ ADC Archiver uses a byte-key of 8, meaning that it can create archives without l
 
 For the unstable/rolling release see: [ADC Aurora](https://github.com/Mealman1551/ADC/tree/ADC-Unstable-(Aurora))
 
+Please note: ADC can currently only pack files, folders aren't supported yet.
+
 ## Features
 
 - **Great Compression Algorithm**: Utilizes zlib for efficient compression.
