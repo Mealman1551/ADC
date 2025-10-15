@@ -10,6 +10,7 @@
 | 1.1.0   | Regular      | :white_check_mark: | 15-05-2026        |
 | 1.0.0   | Regular      | :white_check_mark: | 15-11-2025        |
 
+
 ## Reporting a Vulnerability
 
 Go to the form below that will instantly notify me when there is a submission, i will fix the vulnerability asap.
