@@ -1,6 +1,5 @@
 progress
 progress.bar
 colorama
-fernet
 cryptography
 
