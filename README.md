@@ -232,7 +232,7 @@ This project is licensed under the [GNU GPL-3.0 License](LICENSE). You are free 
 
 ## Issues
 
-Create an issue easily without the need for a GitHub account via [this form](https://tally.so/r/3EAlrr).
+Create an issue easily without the need for a GitHub account via [this form](https://docs.google.com/forms/d/e/1FAIpQLSckLmPxVy7rW30_va7YpE42GAY5UKZqD8tjQgrSGWdbfRJUvA/viewform).
 
 ## Update Schedule
 
