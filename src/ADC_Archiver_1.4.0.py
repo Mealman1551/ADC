@@ -339,5 +339,4 @@ def main():
 
         else:
             print("Invalid command. Please type 'c' to create, 'e' to extract, 'i' for info or 'q' to quit.")
-
 run()
