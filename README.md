@@ -43,6 +43,13 @@ Please note: ~~ADC can currently only pack files, folders aren't supported yet.~
 ## Getting Started
 
 ### Prerequisites
+
+***Users***
+#### Windows
+- Windows 8 or higher
+#### Linux
+- A Modern Linux distro that has at least glibc 2.31 (glibc 2.31 support was introduced on 26-08-2025)
+
 ***Developers:***
 - Python 3.12.x
 - zlib library (typically included with Python)
@@ -50,13 +57,8 @@ Please note: ~~ADC can currently only pack files, folders aren't supported yet.~
 - progress
 - progress.bar
 - colorama
-
-
-***Users***
-#### Windows
-- Windows 8 or higher
-#### Linux
-- A Modern Linux distro that has at least glibc 2.31 (glibc 2.31 support was introduced on 26-08-2025)
+- cryptography
+- zipfile
 
 ## Installation
 
@@ -214,13 +216,15 @@ wget -O- "https://gitlab.com/adc-project/bash/-/raw/main/remove.sh" | bash
 
 1. Install Python3
 
-2. Download the source code from /src
+2. Install `requirements.txt`
 
-3. Run the source code in python3
+3. Download the source code from /src
+
+4. Run the source code in python3
 
 ## Usage
 
-Download the setup or clone the repo on Linux and install or follow above instructions for using the program
+Download the program for Windows or Linux. Tarballs and setups available in the Releases tab.
 
 ## License
 
@@ -232,7 +236,7 @@ Create an issue easily without the need for a GitHub account via [this form](htt
 
 ## Update Schedule
 
-~~There will be two major stable updates per year, 15 may and 15 november.~~ I select a date myself what is the best time, cuz i have work. Meanwhile, the rolling release Python source script [ADC Aurora](https://github.com/Mealman1551/ADC/tree/ADC-Unstable-(Aurora)) will be updated monthly, if not weekly.
+I select a date myself what is the best time, cuz i have work. Meanwhile, the rolling release Python source script [ADC Aurora](https://github.com/Mealman1551/ADC/tree/ADC-Unstable-(Aurora)) will be updated monthly, if not weekly.
 
 #### Release flow
 
@@ -298,7 +302,16 @@ You can ofc run the source code but official binaries and/or setups are not comp
 
 **GitLab Sync**: Syncing Main branch to GitLab.
 
----
+## Supported Versions
+
+| Version | Release Type | Supported          | EOL (End Of Life) |
+| ------- | ------------ | ------------------ | ----------------- |
+| 1.4.0   | LTS          | :white_check_mark: | 18-10-2029        |
+| 1.3.0   | Regular      | :white_check_mark: | 15-05-2027        |
+| 1.2.0   | Regular      | :white_check_mark: | 15-11-2026        |
+| 1.1.0   | Regular      | :white_check_mark: | 15-05-2026        |
+| 1.0.0   | Regular      | :white_check_mark: | 15-11-2025        |
+
 
 ![Made with ❤️](https://img.shields.io/badge/Made%20with%20%E2%9D%A4%EF%B8%8F%20by%20Mealman1551-blue?style=for-the-badge)
 
