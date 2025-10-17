@@ -63,7 +63,7 @@ Please note: ~~ADC can currently only pack files, folders aren't supported yet.~
 ## Installation
 
 ### Windows
-1. Download the official installer here: [![Windows](https://custom-icon-badges.demolab.com/badge/Windows-0078D6?logo=windows11&logoColor=white)](https://github.com/Mealman1551/ADC/releases/latest)
+1. Download the official installer here: [![Windows](https://custom-icon-badges.demolab.com/badge/Windows-0078D6?logo=windows11&logoColor=white)](https://github.com/Mealman1551/ADC/releases/download/v1.4.0/adc1.4.0setup.exe)
 
 ### Linux
 
