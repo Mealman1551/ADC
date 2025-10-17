@@ -1,3 +1,3 @@
-nuitka --onefile --enable-plugin=tk-inter --follow-imports "ADC_Archiver_1.3.0.py" #Linux
+nuitka --standalone --enable-plugin=tk-inter --follow-imports "ADC_Archiver_1.4.0.py" #Linux
 
-nuitka --onefile --enable-plugin=tk-inter --follow-imports --windows-icon-from-ico="E:\ADC\img\ico\ADCIcon.ico" "ADC_Archiver_1.3.0.py" #Windows
+nuitka --standalone --enable-plugin=tk-inter --follow-imports --windows-icon-from-ico="D:\Github Git Repo clones\ADC\img\ico\ADCIcon.ico" "ADC_Archiver_1.4.0.py" #Windows
