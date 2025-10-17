@@ -10,6 +10,7 @@
 | 1.1.0   | Regular      | :white_check_mark: | 15-05-2026        |
 | 1.0.0   | Regular      | :white_check_mark: | 15-11-2025        |
 
+current version: 1.4.0 LTS
 
 ## Reporting a Vulnerability
 
