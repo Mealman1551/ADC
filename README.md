@@ -61,11 +61,8 @@ Binaries are available in `binaries`
 - zlib
 - tkinter
 - socket
-- time
 - progress
-- progress.bar
 - colorama
-- fernet
 - cryptography
 - base64
 
