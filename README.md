@@ -55,7 +55,6 @@ Please note: ~~ADC can currently only pack files, folders aren't supported yet.~
 - zlib library (typically included with Python)
 - tkinter
 - progress
-- progress.bar
 - colorama
 - cryptography
 - zipfile
