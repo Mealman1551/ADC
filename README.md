@@ -18,6 +18,9 @@ IRC channel: #adcarchiver on OFTC
 [![GitHub repo size](https://img.shields.io/github/repo-size/Mealman1551/ADC)](#)
 [![GitHub issues](https://img.shields.io/github/issues/Mealman1551/ADC)](https://github.com/Mealman1551/ADC/issues)
 [![GitHub stars](https://img.shields.io/github/stars/Mealman1551/ADC)](#)
+[![StandWithUkraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/badges/StandWithUkraine.svg)](#)
+[![GitLab Sync Status](https://github.com/Mealman1551/ADC/actions/workflows/gitlab-sync.yml/badge.svg?branch=main)](https://github.com/Mealman1551/ADC/actions/workflows/gitlab-sync.yml)
+[![Build Status](https://github.com/Mealman1551/ADC/actions/workflows/build.yml/badge.svg)](https://github.com/Mealman1551/ADC/actions/workflows/build.yml)
 
 
 
