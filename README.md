@@ -81,9 +81,9 @@ pip install -r requirements.txt
 
 ---
 
-### SHA256 checksum for ``ADC_Aur_2025.09.1.py``
+### SHA256 checksum for ``ADC_Aur_2025.10.1.py``
 
-SHA256: `9473c9b1d698995704afc33255ebb796efe55ce15f24c162d8b232f1bf8e034d`
+SHA256: `24B1D46E37A2464D90F912ED6432169C815884E47406F956FD242BC90FE675B7`
 
 #### Other comments
 
