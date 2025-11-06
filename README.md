@@ -1,4 +1,4 @@
-![banner](img/banner/Bannerfull.jpg)
+<img src="https://raw.githubusercontent.com/Mealman1551/ADC/refs/heads/main/img/banner/ADC%20banner.jpg" alt="ADC Banner" width=200>
 
 [ADC contact e-mail address](mailto:adc@linuxmail.org)
 
