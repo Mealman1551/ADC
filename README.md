@@ -54,8 +54,8 @@ Please note: ~~ADC can currently only pack files, folders aren't supported yet.~
 - A Modern Linux distro that has at least glibc 2.31 (glibc 2.31 support was introduced on 26-08-2025)
 
 ***Developers:***
-- Python 3.12.x
-- zlib library (typically included with Python)
+- Python3
+- zlib
 - tkinter
 - progress
 - colorama
