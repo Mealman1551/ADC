@@ -36,13 +36,14 @@ from cryptography.fernet import Fernet
 import base64
 import zipfile
 
+###############################
 import urllib.request
 import json
 import tkinter.messagebox as messagebox
 import webbrowser
-import tkinter as tk
 
 
+# .#
 def show_update_banner(title, body, url, severity="info"):
     root = tk.Tk()
     root.withdraw()
@@ -139,6 +140,8 @@ def check_and_show_update(url, local_version="1.4.1"):
             except:
                 pass
 
+
+# .#
 
 init(autoreset=True)
 
@@ -384,8 +387,10 @@ def open_archive_file():
 
 def main():
 
+    # .#
     UPDATE_JSON_URL = "https://gitlab.com/adc-project/update-repository/-/raw/main/lts.json?ref_type=heads"
     check_and_show_update(UPDATE_JSON_URL, "1.4.1")
+    # .#
 
     if len(os.sys.argv) > 1:
         subcommand = os.sys.argv[1]
