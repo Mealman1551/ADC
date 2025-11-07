@@ -39,6 +39,36 @@ import zipfile
 import urllib.request
 import json
 import tkinter.messagebox as messagebox
+import webbrowser
+import tkinter as tk
+
+
+def show_update_banner(title, body, url, severity="info"):
+    root = tk.Tk()
+    root.withdraw()
+    root.attributes("-topmost", True)
+    root.title(title)
+    root.deiconify()
+    root.geometry("360x160")
+    root.resizable(False, False)
+
+    frame = tk.Frame(root, padx=15, pady=15)
+    frame.pack(expand=True, fill="both")
+
+    label_title = tk.Label(frame, text=title, font=("Segoe UI", 12, "bold"))
+    label_title.pack(anchor="w")
+
+    label_body = tk.Label(frame, text=body, wraplength=320, justify="left")
+    label_body.pack(anchor="w", pady=(8, 15))
+
+    def open_link():
+        webbrowser.open(url)
+        root.destroy()
+
+    tk.Button(frame, text="Download update", command=open_link).pack(side="left")
+    tk.Button(frame, text="Sluiten", command=root.destroy).pack(side="right")
+
+    root.mainloop()
 
 
 def _version_tuple(v):
@@ -91,16 +121,13 @@ def check_and_show_update(url, local_version="1.4.1"):
 
     root = None
     try:
-        root = tk.Tk()
-        root.withdraw()
-        root.attributes("-topmost", True)
 
-        if severity == "critical":
-            messagebox.showerror(title, body)
-        elif severity == "warning":
-            messagebox.showwarning(title, body)
-        else:
-            messagebox.showinfo(title, body)
+        show_update_banner(
+            title,
+            body,
+            banner.get("url", "https://mealman1551.github.io/adc.html#downloads"),
+            severity,
+        )
 
     except Exception as gui_error:
         print(f"Failed to show update popup: {gui_error}")
