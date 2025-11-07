@@ -274,7 +274,7 @@ Have questions or want to learn more? Feel free to reach out via [this mail addr
 
 I have 2 ADC Repos on Gitlab, one is a continuously updated mirror of the Main branch (Stable only), and the other is the Canary repo, meant to be before Aurora
 
-Mirror/Main(Stable) GitLab repo of ADC: [ADC on GitLab](https://gitlab.com/Mealman1551/ADC)
+Mirror/Main(Stable) GitLab repo of ADC: [ADC on GitLab](https://gitlab.com/Mealman1551/ADC\n)
 
 Unstable (Aurora) is only on GitHub!
 
