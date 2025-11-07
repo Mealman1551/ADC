@@ -66,7 +66,7 @@ def show_update_banner(title, body, url, severity="info"):
         root.destroy()
 
     tk.Button(frame, text="Download update", command=open_link).pack(side="left")
-    tk.Button(frame, text="Sluiten", command=root.destroy).pack(side="right")
+    tk.Button(frame, text="Close", command=root.destroy).pack(side="right")
 
     root.mainloop()
 
