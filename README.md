@@ -54,13 +54,18 @@ Please note: ~~ADC can currently only pack files, folders aren't supported yet.~
 - A Modern Linux distro that has at least glibc 2.31 (glibc 2.31 support was introduced on 26-08-2025)
 
 ***Developers:***
-- Python 3.12.x
-- zlib library (typically included with Python)
+- Python3
+- zlib
 - tkinter
 - progress
 - colorama
 - cryptography
+- bas64
 - zipfile
+- webbrowser
+- urlib
+- json
+
 
 ## Installation
 
@@ -227,9 +232,11 @@ ADC has multiple mirrors
 
 2. Install `requirements.txt`
 
-3. Download the source code from /src
+3. Install python3-tk
 
-4. Run the source code in python3
+4. Download the source code from /src
+
+5. Run the source code in python3
 
 ## Usage
 
@@ -315,7 +322,7 @@ You can ofc run the source code but official binaries and/or setups are not comp
 
 | Version | Release Type | Supported          | EOL (End Of Life) |
 | ------- | ------------ | ------------------ | ----------------- |
-| 1.4.0   | LTS          | :white_check_mark: | 18-10-2029        |
+| 1.4.x   | LTS          | :white_check_mark: | 18-10-2029        |
 | 1.3.0   | Regular      | :white_check_mark: | 15-05-2027        |
 | 1.2.0   | Regular      | :white_check_mark: | 15-11-2026        |
 | 1.1.0   | Regular      | :white_check_mark: | 15-05-2026        |
