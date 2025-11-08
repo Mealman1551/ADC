@@ -36,12 +36,13 @@ from cryptography.fernet import Fernet
 import base64
 import zipfile
 
-#.#
+# .#
 import urllib.request
 import json
 import tkinter.messagebox as messagebox
 import webbrowser
 import ssl
+
 ssl._create_default_https_context = ssl._create_unverified_context
 
 
@@ -100,7 +101,7 @@ def fetch_update_json(url, timeout=5):
     return json.loads(raw.decode("utf-8"))
 
 
-def check_and_show_update(url, local_version="1.4.1"):
+def check_and_show_update(url, local_version="1.4.2"):
     try:
         data = fetch_update_json(url)
     except Exception as e:
@@ -390,7 +391,7 @@ def main():
 
     # .#
     UPDATE_JSON_URL = "https://gitlab.com/adc-project/update-repository/-/raw/main/lts.json?ref_type=heads"
-    check_and_show_update(UPDATE_JSON_URL, "1.4.1")
+    check_and_show_update(UPDATE_JSON_URL, "1.4.2")
     # .#
 
     if len(os.sys.argv) > 1:
