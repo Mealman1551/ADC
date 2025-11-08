@@ -65,12 +65,13 @@ Please note: ~~ADC can currently only pack files, folders aren't supported yet.~
 - webbrowser
 - urlib
 - json
+- ssl
 
 
 ## Installation
 
 ### Windows
-1. Download the official installer here: [![Windows](https://custom-icon-badges.demolab.com/badge/Windows-0078D6?logo=windows11&logoColor=white)](https://github.com/Mealman1551/ADC/releases/download/v1.4.0/adc1.4.0setup.exe)
+1. Download the official installer here: [![Windows](https://custom-icon-badges.demolab.com/badge/Windows-0078D6?logo=windows11&logoColor=white)](https://github.com/Mealman1551/ADC/releases/download/v1.4.2/adc1.4.2_amd64setup.exe)
 
 ### Linux
 
@@ -81,8 +82,6 @@ Download the tarball and run `install.sh`, this will copy the files to `/opt` an
 To remove run `remove.sh`.
 
 [Download tarball](https://gitlab.com/adc-project/tars/-/raw/main/adc.tar.xz?inline=false)
-
-[Download portable tarball](https://gitlab.com/adc-project/adclinux/-/raw/main/bin.tar.xz?ref_type=heads&inline=false)
 
 #### Command
 
