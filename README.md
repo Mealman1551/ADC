@@ -101,8 +101,8 @@ wget -O- "https://gitlab.com/adc-project/bash/-/raw/main/remove.sh" | bash
 ```
 
 ADC has multiple mirrors
-- [GitHub (Recommended)](https://github.com/Mealman1551/ADC/releases/tag/v1.4.0#:~:text=Mealman1551-,Assets,-6)
-- [SourceForge](https://sourceforge.net/projects/adc-archiver/files/v1.4.0/)
+- [GitHub (Recommended)](https://github.com/Mealman1551/ADC/releases/tag/v1.4.2#:~:text=Mealman1551-,Assets,-6)
+- [SourceForge](https://sourceforge.net/projects/adc-archiver)
 
 
 
