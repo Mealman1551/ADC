@@ -24,9 +24,11 @@ Forum: [https://groups.google.com/g/adc-archiver](https://groups.google.com/g/ad
 
 ## Aurora now got binaries, check the `binaries` folder for Windows and Linux binaries. Please note that the binaries aren't signed. 
 
-> ### New features in the September update (ADC_Aur_2025.09.1.py):
+> ### New features in the November update (ADC_Aur_2025.11.1.py):
 >
-> Added zipfile support, create and extract zip files.
+> Added tar support; tar, tar.gz. tar.xz and tar.bz2
+>
+> Added folder selection, see: [this documentation](https://github.com/Mealman1551/ADC/tree/ADC-Unstable?tab=readme-ov-file#folder-selection-feature--new)
 
 
 ### What is Aurora?
@@ -100,7 +102,7 @@ The resulting archive will contain all selected files and folders with their com
 
 Some of these libraries are included in the default Python installation.
 
-The `socket`, `tkinter`, `progress`, `progress.bar`, `fernet`, `cryptography`, `base64` and `colorama` modules need to be installed separately, `TKinter` only on Linux.
+The `progress`, `cryptography` and `colorama` modules need to be installed separately, `TKinter` only on Linux with `sudo apt install python3-tk`.
 
 ---
 
@@ -113,10 +115,6 @@ pip install -r requirements.txt
 
 
 #### Other comments
-
-ADC Aurora can from now of on only open and create archives with a byte-key of 8.
-
-Read more about this [here.](https://github.com/Mealman1551/ADC/discussions/21)
 
 ---
 
