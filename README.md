@@ -93,6 +93,8 @@ The resulting archive will contain all selected files and folders with their com
 - colorama
 - cryptography
 - base64
+- tarfile
+- zipfile
 
 ### Additional Installation Requirements
 
