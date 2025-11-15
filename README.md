@@ -55,6 +55,34 @@ Aurora follows a rolling release model by updating the source code to a higher v
 
 Binaries are available in `binaries`
 
+### Folder Selection Feature | NEW!
+
+ADC Archiver Aurora now supports archiving entire folders while preserving the complete directory structure. Here's how it works:
+
+**When creating an archive:**
+
+1. **Select files first**: When you choose to create an archive, you'll first be prompted to select individual files using the file selection dialog.
+
+2. **Add folders**: After selecting files, you can add entire folders to your archive. A folder selection dialog will appear, allowing you to:
+   - Select a folder to include in the archive
+   - Click "Cancel" when you're done adding folders
+
+3. **Multiple folders**: You can add multiple folders by repeating step 2. Each time you select a folder, it will be added to your archive list. Click "Cancel" when you've finished adding all desired folders.
+
+4. **Preserved structure**: When folders are archived, the complete directory structure is preserved. This means:
+   - All subdirectories within selected folders are included
+   - The relative paths of files within folders are maintained
+   - Empty directories are also preserved in the archive
+
+**Example workflow:**
+
+- Select files: `document1.txt`, `image.png`
+- Add folder: `MyProject/` (contains `src/`, `docs/`, and `README.md`)
+- Add folder: `Config/` (contains `settings.json`)
+- Click "Cancel" to finish folder selection
+
+The resulting archive will contain all selected files and folders with their complete directory structure intact.
+
 ### Python packages required
 
 - os
@@ -81,9 +109,6 @@ pip install -r requirements.txt
 
 ---
 
-### SHA256 checksum for ``ADC_Aur_2025.10.1.py``
-
-SHA256: `24B1D46E37A2464D90F912ED6432169C815884E47406F956FD242BC90FE675B7`
 
 #### Other comments
 
