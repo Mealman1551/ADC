@@ -8,7 +8,7 @@
 | 1.3.0   | Regular      | :white_check_mark: | 15-05-2027        |
 | 1.2.0   | Regular      | :white_check_mark: | 15-11-2026        |
 | 1.1.0   | Regular      | :white_check_mark: | 15-05-2026        |
-| 1.0.0   | Regular      | :❌: | 15-11-2025        |
+| 1.0.0   | Regular      | ❌ | 15-11-2025        |
 
 current version is: 1.4.0 LTS
 
