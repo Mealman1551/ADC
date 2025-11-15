@@ -325,7 +325,7 @@ You can ofc run the source code but official binaries and/or setups are not comp
 | 1.3.0   | Regular      | :white_check_mark: | 15-05-2027        |
 | 1.2.0   | Regular      | :white_check_mark: | 15-11-2026        |
 | 1.1.0   | Regular      | :white_check_mark: | 15-05-2026        |
-| 1.0.0   | Regular      | :white_check_mark: | 15-11-2025        |
+| 1.0.0   | Regular      | :❌: | 15-11-2025        |
 
 
 ![Made with ❤️](https://img.shields.io/badge/Made%20with%20%E2%9D%A4%EF%B8%8F%20by%20Mealman1551-blue?style=for-the-badge)
