@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/Mealman1551/ADC/refs/heads/main/img/banner/ADC%20banner.jpg" alt="ADC Banner" width=200>
+<img src="https://github.com/Mealman1551-ADC-Project/Assets/blob/main/banner/ADC%20banner.jpg?raw=true" alt="ADC Banner" width=200>
 
 [ADC contact e-mail address](mailto:nathandubuy4+adc@gmail.com)
 
@@ -257,7 +257,7 @@ I select a date myself what is the best time, cuz i have work. Meanwhile, the ro
 2. after ADC Canary the working code will be ported to ADC Aurora asap.
 3. Stable version will be based on Aurora's source code after testing the code, if there are bugs i will use a stable Aurora script.
 
-<img src=https://raw.githubusercontent.com/Mealman1551/ADC/refs/heads/main/img/flowchart/ADC%20Release%20flow.svg width=500>
+<img src=https://raw.githubusercontent.com/Mealman1551-ADC-Project/Assets/d7a7c8b12a17b4c2ec9f6d6dbc5ce71ccda0c699/flowchart/ADC%20Release%20flow.svg width=500>
 
 ## Contributing
 
