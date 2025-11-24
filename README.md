@@ -9,7 +9,7 @@
 
 
 
-<img src="https://raw.githubusercontent.com/Mealman1551/ADC/cb41406a7d58017fc92ddb800519fc54563acc1a/img/ADC%20Aurora%20concept%20logo.svg" alt="Aurora" width="100"/>
+<img src="https://raw.githubusercontent.com/Mealman1551-ADC-Project/Assets/6c2f2d61b3096a8f49b6ce872d3f4cbe6630ceb3/svg/ADC%20Aurora%20current%20logo.svg" alt="Aurora" width="100"/>
 
 Compatible with: <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Windows_logo_-_2021.svg" alt="Windows 11" width="20"/> **&** <img src="https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg" alt="Linux" width="20"/>
 
