@@ -22,7 +22,9 @@ IRC channel: #adcarchiver on OFTC
 Forum: [https://groups.google.com/g/adc-archiver](https://groups.google.com/g/adc-archiver)
 
 
-## Aurora now got binaries, check the `binaries` folder for Windows and Linux binaries. Please note that the binaries aren't signed. 
+## Aurora has precompiled binaries. Please note that the binaries aren't signed. 
+
+[binaries on GitLab](gitlab.com/adc-project/aurora-binaries)
 
 > ### New features in the November update (ADC_Aur_2025.11.1.py):
 >
@@ -134,3 +136,4 @@ You can ofc run the source code but official binary and/or setups are not compil
 ---
 
 ###### © 2025 Mealman1551
+
