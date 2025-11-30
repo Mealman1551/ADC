@@ -62,7 +62,7 @@
   * [No macOS support](#no-macos-support)
 * [Build & Sync Status](#build--sync-status)
 * [Supported Versions](#supported-versions)
-* [Building ADC yourself with Makefile](#you-can-also-build-adc-yourself-with-makefile)
+* [Building ADC yourself with Makefile](#build-adc)
 
   * [Windows](#windows-2)
 
@@ -380,9 +380,7 @@ You can ofc run the source code but official binaries and/or setups are not comp
 
 
 
-## You can also build ADC yourself with Makefile
-
-
+## Build ADC
 
 ### Windows
 
