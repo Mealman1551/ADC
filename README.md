@@ -382,8 +382,8 @@ You can ofc run the source code but official binaries and/or setups are not comp
 
 ## Build ADC
 
-[!Note]
-> Please note that for compiling you need a C compiler, on Linux GCC is enough, on Windows its more complex, ADC will be compiled with CLang, you need Visual Studio latest Build Tools for this, if you are like me still on Python 3.12 you can compile ADC without a C compiler as Python 3.12 has MinGW
+>[!Note]
+>Please note that for compiling you need a C compiler, on Linux GCC is enough, on Windows its more complex, ADC will be compiled with CLang, you need Visual Studio latest Build Tools for this, if you are like me still on Python 3.12 you can compile ADC without a C compiler as Python 3.12 has MinGW
 
 ### Windows
 
