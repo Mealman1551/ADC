@@ -121,119 +121,6 @@ ADC has multiple mirrors
 - [SourceForge](https://sourceforge.net/projects/adc-archiver)
 
 
-<!--##### Installation via Terminal (for more options, visit the [Wiki!](https://github.com/Mealman1551/ADC/wiki/Linux-installation))
-
--1. Install Git:
-<details>
-  <summary>Debian (Ubuntu, Mint etc.)</summary>
-
-  ```bash
-  sudo apt update
-  sudo apt install git
-  ```
-</details>
-
-<details>
-  <summary>Fedora</summary>
-
-  ```bash
-  sudo dnf install git
-  ```
-</details>
-
-<details>
-  <summary>RHEL and RHEL-like OS'es</summary>
-
-  ```bash
-  sudo yum install git
-  ```
-
-  **For CentOS 8+ and RHEL 8+ (with dnf):**
-  ```bash
-  sudo dnf install git
-  ```
-</details>
-
-<details>
-  <summary>SLE & openSUSE</summary>
-
-  ```bash
-  sudo zypper install git
-  ```
-</details>
-
-<details>
-  <summary>Arch Linux and Arch based distributions</summary>
-
-  ```bash
-  sudo pacman -S git
-  ```
-</details>
-
-<details>
-  <summary>Alpine Linux</summary>
-
-  ```bash
-  sudo apk add git
-  ```
-</details>
-
-<details>
-  <summary>Gentoo</summary>
-
-  ```bash
-  sudo emerge --ask dev-vcs/git
-  ```
-</details>
-
-<details>
-  <summary>Void Linux</summary>
-
-  ```bash
-  sudo xbps-install -S git
-  ```
-</details>
-
-<details>
-  <summary>Flatpak</summary>
-
-  ```bash
-  sudo flatpak install flathub com.git.Git
-  ```
-</details>
-
-<details>
-  <summary>Snap</summary>
-
-  ```bash
-  sudo snap install git --classic
-  ```
-</details>
-
-> [!Note]
-> Added smaller repo for the tarball, this means you dont need to download this whole 300+ MB repo anymore!
-
-2. Clone the repository:
-    ```bash
-    git clone https://gitlab.com/adc-project/adclinux.git
-    ```
-3. Navigate to the project directory:
-    ```bash
-    cd ~/adclinux
-    ```
-4. Extract the binary and dependecies:
-    ```bash
-    tar xf bin.tar.xz
-    ```
- 5. Make it executable:
-    ```bash
-    chmod +x adc.bin
-    ```
-5. Run the script:
-    ```bash
-    ./adc.bin
-    ```-->
-
 ### Unix (BSD, Solaris)
 
 1. Install Python3
@@ -377,9 +264,9 @@ After installing `make`, you will need to restart.
 
 2. Add Python to PATH during installation.
 
-3. Download a C compiler, however not open source, i would recommend Visual Studio Build Tools
+3. Download a C compiler, however not open source, i would recommend Visual Studio Build Tools.
 
-4. Download and extract the source archive: [Windows Source Package](https://github.com/Mealman1551/ArchivedDataCodec/archive/refs/heads/main.zip)
+4. Download and extract the source code: [source_code.zip](https://github.com/Mealman1551/ArchivedDataCodec/archive/refs/heads/main.zip)
 
 5. Open a terminal in the source folder.
 
@@ -411,7 +298,7 @@ After compiling, open the `dist` folder to find `ADC_Archiver_1.4.0.exe` and run
 
 Python is preinstalled on most Linux distributions.
 
-1. Download the source archive: [Linux Source Package](https://github.com/Mealman1551/ArchivedDataCodec/archive/refs/heads/main.tar.gz)
+1. Download the source code: [source_code.tar.gz](https://github.com/Mealman1551/ArchivedDataCodec/archive/refs/heads/main.tar.gz)
 
 2. Open a terminal in the source folder.
 
