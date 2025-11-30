@@ -416,15 +416,15 @@ After installing `make`, you will need to restart.
 
 1. Install Python 3.12.x: [Download here](https://www.python.org/ftp/python/3.12.10/python-3.12.10-amd64.exe) (64-bit).
 
-   **Note:** Both 32-bit and 64-bit installers are included in the source package.
-
 2. Add Python to PATH during installation.
 
-3. Download and extract the source archive: [Windows Source Package](https://github.com/Mealman1551/ADC-build-repo/archive/refs/heads/main.zip)
+3. Download a C compiler, however not open source, i would recommend Visual Studio Build Tools
 
-4. Open a terminal in the source folder.
+4. Download and extract the source archive: [Windows Source Package](https://github.com/Mealman1551/ArchivedDataCodec/archive/refs/heads/main.zip)
 
-5. Install all dependencies via `make`:
+5. Open a terminal in the source folder.
+
+6. Install all dependencies via `make`:
 
 ```powershell
 make deps-windows
@@ -452,25 +452,28 @@ After compiling, open the `dist` folder to find `ADC_Archiver_1.4.0.exe` and run
 
 Python is preinstalled on most Linux distributions.
 
-1. Download the source archive: [Linux Source Package](https://github.com/Mealman1551/ADC-build-repo/archive/refs/heads/main.tar.gz)
+1. Download the source archive: [Linux Source Package](https://github.com/Mealman1551/ArchivedDataCodec/archive/refs/heads/main.tar.gz)
+
 2. Open a terminal in the source folder.
+
 3. Install pip:
 
 ```bash
 sudo apt install pip
 ```
 
-4. Install dependencies and build tools via `make`:
+4. Install additional system packages:
+
+```sh
+sudo apt install python3-tk patchelf ccache
+```
+
+5. Install dependencies and build tools via `make`:
 
 ```sh
 make deps-linux
 ```
 
-5. Optional: Install additional system packages:
-
-```sh
-sudo apt install python3-tk patchelf ccache
-```
 
 6. Restart or logoff to apply packages
 
