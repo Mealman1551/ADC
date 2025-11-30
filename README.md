@@ -22,6 +22,65 @@
 
 
 
+
+# Summary / Index
+
+* [ADC Banner](#)
+* [Contact](#adc-contact-e-mail-address)
+* [Forum](#forum)
+* [Gitter](#gitter)
+* [ADC Overview](#adc-archiveddatacodec)
+* [Features](#features)
+* [Getting Started](#getting-started)
+
+  * [Prerequisites](#prerequisites)
+
+    * [Windows](#windows)
+    * [Linux](#linux)
+    * [Developers](#developers)
+* [Installation](#installation)
+
+  * [Windows](#windows-1)
+  * [Linux](#linux-1)
+
+    * [Tarball](#tarball)
+    * [Command](#command)
+  * [Unix (BSD, Solaris)](#unix-bsd-solaris)
+* [Usage](#usage)
+* [License](#license)
+* [Issues](#issues)
+* [Update Schedule](#update-schedule)
+
+  * [Release Flow](#release-flow)
+* [Contributing](#contributing)
+* [Contact](#contact)
+* [GitLab](#gitlab)
+
+  * [Syncing to GitLab](#syncing-to-gitlab)
+* [Notes](#notes)
+
+  * [No macOS support](#no-macos-support)
+* [Build & Sync Status](#build--sync-status)
+* [Supported Versions](#supported-versions)
+* [Building ADC yourself with Makefile](#you-can-also-build-adc-yourself-with-makefile)
+
+  * [Windows](#windows-2)
+
+    * [Installing make on Windows](#installing-make-on-windows)
+
+      * [Option 1 — winget (Recommended)](#option-1--winget-recommended)
+      * [Option 2 — Chocolatey](#option-2--chocolatey)
+    * [Setting Up Environment for Windows](#setting-up-environment-for-windows)
+    * [Compile on Windows](#compile-on-windows)
+  * [Linux](#linux-2)
+
+    * [Compile on Linux](#compile-on-linux)
+
+
+
+
+
+
 For Build Status and GitLab Sync status go [here](https://github.com/Mealman1551/ADC?tab=readme-ov-file#build--sync-status)
 
 Compatible with: <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Windows_logo_-_2021.svg" alt="Windows 11" width="20"/> **&** <img src="https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg" alt="Linux" width="20"/>
@@ -77,7 +136,7 @@ Please note: ~~ADC can currently only pack files, folders aren't supported yet.~
 
 Download the tarball and run `install.sh`, this will copy the files to `/opt` and make a symlink to `/usr/local/bin`.
 
-To remove run `remove.sh`.
+To remove run `remove.sh` in the same tarball.
 
 [Download tarball](https://gitlab.com/adc-project/tars/-/raw/main/adc.tar.xz?inline=false)
 
@@ -101,13 +160,6 @@ wget -O- "https://gitlab.com/adc-project/bash/-/raw/main/remove.sh" | bash
 ADC has multiple mirrors
 - [GitHub (Recommended)](https://github.com/Mealman1551/ADC/releases/tag/v1.4.2#:~:text=Mealman1551-,Assets,-6)
 - [SourceForge](https://sourceforge.net/projects/adc-archiver)
-
-
-
-
-#### You can also build ADC yourself
-
-[Build ADC](https://github.com/Mealman1551/ADC-compile-from-scratch)
 
 
 <!--##### Installation via Terminal (for more options, visit the [Wiki!](https://github.com/Mealman1551/ADC/wiki/Linux-installation))
@@ -235,6 +287,7 @@ ADC has multiple mirrors
 
 5. Run the source code in python3
 
+
 ## Usage
 
 Download the program for Windows or Linux. Tarballs and setups available in the Releases tab.
@@ -326,7 +379,116 @@ You can ofc run the source code but official binaries and/or setups are not comp
 | 1.0.0   | Regular      | ❌ | 15-11-2025        |
 
 
+
+## You can also build ADC yourself with Makefile
+
+
+
+### Windows
+
+#### Installing make on Windows
+
+To use the `make` commands in this repository on Windows, you need GNU Make. Here are some options:
+
+
+##### Option 1 — winget (Recommended)
+
+If you have winget, run:
+
+```
+winget install GnuWin32.Make
+```
+
+
+##### Option 2 — Chocolatey
+
+If you have [Chocolatey](https://chocolatey.org/) installed, open an elevated PowerShell and run:
+
+```
+choco install make
+```
+
+After installing `make`, you will need to restart.
+
+
+### Setting Up Environment for Windows
+
+1. Install Python 3.12.x: [Download here](https://www.python.org/ftp/python/3.12.10/python-3.12.10-amd64.exe) (64-bit).
+
+   **Note:** Both 32-bit and 64-bit installers are included in the source package.
+
+2. Add Python to PATH during installation.
+
+3. Download and extract the source archive: [Windows Source Package](https://github.com/Mealman1551/ADC-build-repo/archive/refs/heads/main.zip)
+
+4. Open a terminal in the source folder.
+
+5. Install all dependencies via `make`:
+
+```powershell
+make deps-windows
+```
+
+This installs all required Python libraries, Nuitka, and SCons.
+
+### Compile on Windows
+
+Run the compilation command:
+
+```powershell
+make windows
+```
+
+After compiling, open the `dist` folder to find `ADC_Archiver_1.4.0.exe` and run it:
+
+```powershell
+./ADC_Archiver_1.4.0.exe
+```
+
+---
+
+### Linux
+
+Python is preinstalled on most Linux distributions.
+
+1. Download the source archive: [Linux Source Package](https://github.com/Mealman1551/ADC-build-repo/archive/refs/heads/main.tar.gz)
+2. Open a terminal in the source folder.
+3. Install pip:
+
+```bash
+sudo apt install pip
+```
+
+4. Install dependencies and build tools via `make`:
+
+```sh
+make deps-linux
+```
+
+5. Optional: Install additional system packages:
+
+```sh
+sudo apt install python3-tk patchelf ccache
+```
+
+6. Restart or logoff to apply packages
+
+### Compile on Linux
+
+Run:
+
+```sh
+make linux
+```
+
+After compiling, run the executable:
+
+```sh
+./ADC_Archiver_1.4.0.bin
+```
+
+---
+
 ![Made with 💚](https://img.shields.io/badge/Made%20with%20%E2%9D%A4%EF%B8%8F%20by%20Mealman1551-blue?style=for-the-badge)
 
-###### © 2025 Mealman1551
-
+###### © Mealman1551
