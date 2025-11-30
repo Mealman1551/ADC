@@ -20,65 +20,24 @@
 [![GitLab Sync Status](https://github.com/Mealman1551/ADC/actions/workflows/gitlab-sync.yml/badge.svg?branch=main)](https://github.com/Mealman1551/ADC/actions/workflows/gitlab-sync.yml)
 [![Build Status](https://github.com/Mealman1551/ADC/actions/workflows/build.yml/badge.svg)](https://github.com/Mealman1551/ADC/actions/workflows/build.yml)
 
+# Index / Quick Links
 
-
-
-# Summary / Index
-
-* [ADC Banner](#)
-* [Contact](#adc-contact-e-mail-address)
-* [Forum](#forum)
-* [Gitter](#gitter)
 * [ADC Overview](#adc-archiveddatacodec)
 * [Features](#features)
 * [Getting Started](#getting-started)
-
-  * [Prerequisites](#prerequisites)
-
-    * [Windows](#windows)
-    * [Linux](#linux)
-    * [Developers](#developers)
 * [Installation](#installation)
 
   * [Windows](#windows-1)
   * [Linux](#linux-1)
-
-    * [Tarball](#tarball)
-    * [Command](#command)
-  * [Unix (BSD, Solaris)](#unix-bsd-solaris)
 * [Usage](#usage)
 * [License](#license)
 * [Issues](#issues)
 * [Update Schedule](#update-schedule)
-
-  * [Release Flow](#release-flow)
 * [Contributing](#contributing)
 * [Contact](#contact)
-* [GitLab](#gitlab)
-
-  * [Syncing to GitLab](#syncing-to-gitlab)
-* [Notes](#notes)
-
-  * [No macOS support](#no-macos-support)
 * [Build & Sync Status](#build--sync-status)
 * [Supported Versions](#supported-versions)
-* [Building ADC yourself with Makefile](#build-adc)
-
-  * [Windows](#windows-2)
-
-    * [Installing make on Windows](#installing-make-on-windows)
-
-      * [Option 1 — winget (Recommended)](#option-1--winget-recommended)
-      * [Option 2 — Chocolatey](#option-2--chocolatey)
-    * [Setting Up Environment for Windows](#setting-up-environment-for-windows)
-    * [Compile on Windows](#compile-on-windows)
-  * [Linux](#linux-2)
-
-    * [Compile on Linux](#compile-on-linux)
-
-
-
-
+* [Build ADC Yourself](#you-can-also-build-adc-yourself-with-makefile)
 
 
 For Build Status and GitLab Sync status go [here](https://github.com/Mealman1551/ADC?tab=readme-ov-file#build--sync-status)
