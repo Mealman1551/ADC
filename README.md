@@ -37,7 +37,7 @@
 * [Contact](#contact)
 * [Build & Sync Status](#build--sync-status)
 * [Supported Versions](#supported-versions)
-* [Build ADC Yourself](#you-can-also-build-adc-yourself-with-makefile)
+* [Build ADC Yourself](#build-adc)
 
 
 For Build Status and GitLab Sync status go [here](https://github.com/Mealman1551/ADC?tab=readme-ov-file#build--sync-status)
