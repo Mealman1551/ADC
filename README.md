@@ -312,13 +312,13 @@ sudo apt install pip
 
 4. Install additional system packages:
 
-```sh
+```bash
 sudo apt install python3-tk patchelf ccache
 ```
 
 5. Install dependencies and build tools via `make`:
 
-```sh
+```bash
 make deps-linux
 ```
 
@@ -329,13 +329,13 @@ make deps-linux
 
 Run:
 
-```sh
+```bash
 make linux
 ```
 
 After compiling, run the executable:
 
-```sh
+```bash
 ./ADC_Archiver_1.4.2.bin
 ```
 
