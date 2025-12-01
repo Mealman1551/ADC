@@ -37,7 +37,7 @@
 * [Contact](#contact)
 * [Build & Sync Status](#build--sync-status)
 * [Supported Versions](#supported-versions)
-* [Build ADC Yourself](#build-adc)
+* [Prepare build environment](#build-adc)
   * [Build on windows](#compile-on-windows)
   * [Build on Linux](#compile-on-linux)
 
