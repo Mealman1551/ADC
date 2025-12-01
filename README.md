@@ -38,6 +38,8 @@
 * [Build & Sync Status](#build--sync-status)
 * [Supported Versions](#supported-versions)
 * [Build ADC Yourself](#build-adc)
+  * [Build on windows](#compile-on-windows)
+  * [Build on Linux](#compile-on-linux)
 
 
 For Build Status and GitLab Sync status go [here](https://github.com/Mealman1551/ADC?tab=readme-ov-file#build--sync-status)
