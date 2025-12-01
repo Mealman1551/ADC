@@ -291,7 +291,7 @@ make windows
 After compiling, open the `dist` folder to find `ADC_Archiver_1.4.0.exe` and run it:
 
 ```powershell
-./ADC_Archiver_1.4.0.exe
+./ADC_Archiver_1.4.2.exe
 ```
 
 ---
@@ -336,7 +336,7 @@ make linux
 After compiling, run the executable:
 
 ```sh
-./ADC_Archiver_1.4.0.bin
+./ADC_Archiver_1.4.2.bin
 ```
 
 ---
