@@ -37,9 +37,9 @@
 * [Contact](#contact)
 * [Build & Sync Status](#build--sync-status)
 * [Supported Versions](#supported-versions)
-* [Prepare build environment](#build-adc)
-  * [Build on windows](#compile-on-windows)
-  * [Build on Linux](#compile-on-linux)
+* [Prepare build environment .1](#build-adc)
+  * [Build on windows .2](#compile-on-windows)
+  * [Build on Linux .2](#compile-on-linux)
 
 
 For Build Status and GitLab Sync status go [here](https://github.com/Mealman1551/ADC?tab=readme-ov-file#build--sync-status)
