@@ -291,6 +291,9 @@ make deps-windows
 
 #### Start building on Windows
 
+> [!Waring]
+> Do ***NOT*** run the binary while compiling!
+
 Run the compilation command:
 
 ```powershell
