@@ -27,8 +27,8 @@
 * [Getting Started](#getting-started)
 * [Installation](#installation)
 
-  * [Windows](#windows-1)
-  * [Linux](#linux-1)
+  * [Windows](#windows)
+  * [Linux](#linux)
 * [Usage](#usage)
 * [License](#license)
 * [Issues](#issues)
@@ -37,9 +37,13 @@
 * [Contact](#contact)
 * [Build & Sync Status](#build--sync-status)
 * [Supported Versions](#supported-versions)
-* [Prepare build environment .1](#build-adc)
-  * [Build on windows .2](#compile-on-windows)
-  * [Build on Linux .2](#compile-on-linux)
+
+
+* [Prepare Build environment on Windows](#preparing-build-environment-on-windows)
+* [Prepare Build environment on Linux](#preparing-build-environment-on-linux)
+
+  * [Start building on windows .2](#start-build-on-windows)
+  * [Start building on Linux .2](#start-building-on-linux)
 
 
 For Build Status and GitLab Sync status go [here](https://github.com/Mealman1551/ADC?tab=readme-ov-file#build--sync-status)
@@ -66,10 +70,10 @@ Please note: ~~ADC can currently only pack files, folders aren't supported yet.~
 ### Prerequisites
 
 ***Users***
-#### Windows
+Windows
 - Windows 8 or higher
-#### Linux
-- A Modern Linux distro that has at least glibc 2.31 (glibc 2.31 support was introduced on 26-08-2025)
+Linux
+- A Modern Linux distro that has at least glibc 2.31
 
 ***Developers:***
 - Python3
@@ -233,7 +237,8 @@ You can ofc run the source code but official binaries and/or setups are not comp
 >[!Note]
 >Please note that for compiling on Python3.13 and up you need a C compiler, on Linux GCC is enough, on Windows its more complex, ADC will be compiled with CLang, you need Visual Studio latest Build Tools for this. If you are like me still on Python 3.12 you can compile ADC without a C compiler as Python 3.12 has MinGW.
 
-### Windows
+
+### Building on Windows
 
 #### Installing make on Windows
 
@@ -259,8 +264,7 @@ choco install make
 
 After installing `make`, you will need to restart.
 
-
-### Setting Up Environment for Windows
+#### Preparing build environment on Windows
 
 1. Install Python 3.12.x: [Download here](https://www.python.org/ftp/python/3.12.10/python-3.12.10-amd64.exe) (64-bit).
 
@@ -278,9 +282,8 @@ After installing `make`, you will need to restart.
 make deps-windows
 ```
 
-This installs all required Python libraries, Nuitka, and SCons.
 
-### Compile on Windows
+#### Start building on Windows
 
 Run the compilation command:
 
@@ -296,36 +299,38 @@ After compiling, open the `dist` folder to find `ADC_Archiver_1.4.0.exe` and run
 
 ---
 
-### Linux
+### Building on Linux
 
-Python is preinstalled on most Linux distributions.
+#### Preparing build environment on Linux
 
-1. Download the source code: [source_code.tar.gz](https://github.com/Mealman1551/ArchivedDataCodec/archive/refs/heads/main.tar.gz)
-
-2. Open a terminal in the source folder.
-
-3. Install pip:
+1.
 
 ```bash
-sudo apt install pip
+sudo apt install build-essential pip python3-tk make patchelf ccache scons
 ```
 
-4. Install additional system packages:
+2. Python is preinstalled on most Linux distributions. use:
 
 ```bash
-sudo apt install python3-tk patchelf ccache
+python3 --version
 ```
 
-5. Install dependencies and build tools via `make`:
+to know your Python version.
+
+3. Download the source code: [source_code.tar.gz](https://github.com/Mealman1551/ArchivedDataCodec/archive/refs/heads/main.tar.gz)
+
+4. Open a terminal in the source folder.
+
+
+5. Install additional dependencies and build tools via `make`:
 
 ```bash
 make deps-linux
 ```
 
-
 6. Restart or logoff to apply packages
 
-### Compile on Linux
+#### Start building on Linux
 
 Run:
 
@@ -333,7 +338,7 @@ Run:
 make linux
 ```
 
-After compiling, run the executable:
+After compiling, run the executable in the `dist` folder:
 
 ```bash
 ./ADC_Archiver_1.4.2.bin
