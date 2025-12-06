@@ -314,8 +314,8 @@ sudo apt install build-essential pip python3-tk make patchelf ccache scons
 ```bash
 python3 --version
 ```
+Python 3.10 and up is required
 
-to know your Python version.
 
 3. Download the source code: [source_code.tar.gz](https://github.com/Mealman1551/ArchivedDataCodec/archive/refs/heads/main.tar.gz)
 
