@@ -15,7 +15,11 @@ deps-windows:
 	python -m pip install -r requirements.txt
 	python -m pip install nuitka scons
 
+debug-linux:
+	python3 -m nuitka --debug --onefile --standalone --enable-plugin=tk-inter --output-dir=dist $(SRC)
+
+debug-windows:
+	python -m nuitka --debug --onefile --standalone --enable-plugin=tk-inter  --windows-icon-from-ico=ADCIcon.ico --output-dir=dist $(SRC)
+
 clean:
-	rm -rf build dist
-
-
+	rm -rf dist
