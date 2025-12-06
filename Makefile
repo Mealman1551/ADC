@@ -12,8 +12,8 @@ deps-linux:
 	pip install nuitka scons --break-system-packages
 
 deps-windows:
-	pip install -r requirements.txt
-	pip install nuitka scons
+	python -m pip install -r requirements.txt
+	python -m pip install nuitka scons
 
 clean:
 	rm -rf build dist
