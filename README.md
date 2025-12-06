@@ -240,7 +240,12 @@ You can ofc run the source code but official binaries and/or setups are not comp
 
 ### Building on Windows
 
-#### Installing make on Windows
+
+After installing `make`, you will need to restart.
+
+#### Preparing build environment on Windows
+
+##### Installing Make
 
 To use the `make` commands in this repository on Windows, you need GNU Make. Here are some options:
 
@@ -262,9 +267,7 @@ If you have [Chocolatey](https://chocolatey.org/) installed, open an elevated Po
 choco install make
 ```
 
-After installing `make`, you will need to restart.
-
-#### Preparing build environment on Windows
+Now its time to prepare the building environment:
 
 1. Install Python 3.12.x: [Download here](https://www.python.org/ftp/python/3.12.10/python-3.12.10-amd64.exe) (64-bit).
 
@@ -291,9 +294,14 @@ Run the compilation command:
 make windows
 ```
 
+Open the folder with the binary
+
 ```powershell
 cd dist
 ```
+
+
+
 
 ```powershell
 ./ADC_Archiver_1.4.2.exe
