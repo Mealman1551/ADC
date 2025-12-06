@@ -240,9 +240,6 @@ You can ofc run the source code but official binaries and/or setups are not comp
 
 ### Building on Windows
 
-
-After installing `make`, you will need to restart.
-
 #### Preparing build environment on Windows
 
 ##### Installing Make
