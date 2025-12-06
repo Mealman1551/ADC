@@ -306,9 +306,6 @@ Open the folder with the binary
 cd dist
 ```
 
-
-
-
 ```powershell
 ./ADC_Archiver_1.4.2.exe
 ```
@@ -361,6 +358,22 @@ cd dist
 ```bash
 ./ADC_Archiver_1.4.2.bin
 ```
+
+#### Building with Debugging
+>[!Caution]
+>Only use the Debugging mode if you get errors or segmentation errors.
+
+Windows:
+```powershell
+make debug-windows
+```
+
+Linux:
+```bash
+make debug-linux
+```
+
+
 
 ---
 
