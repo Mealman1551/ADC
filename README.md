@@ -242,6 +242,8 @@ You can ofc run the source code but official binaries and/or setups are not comp
 
 #### Preparing build environment on Windows
 
+Please disable Windows Defender as it will stop compilation due to a not signed and new binary.
+
 ##### Installing Make
 
 To use the `make` commands in this repository on Windows, you need GNU Make. Here are some options:
