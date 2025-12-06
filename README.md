@@ -247,9 +247,9 @@ You can ofc run the source code but official binaries and/or setups are not comp
 To use the `make` commands in this repository on Windows, you need GNU Make. Here are some options:
 
 
-##### Option 1 — winget (Recommended)
+##### Option 1 — WinGet (Recommended)
 
-If you have winget, run:
+If you have WinGet, run:
 
 ```
 winget install GnuWin32.Make
