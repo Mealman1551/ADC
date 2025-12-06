@@ -255,6 +255,8 @@ If you have WinGet, run:
 winget install GnuWin32.Make
 ```
 
+For this option you need to add `Make` in path. [Find out more on how to do this here.](https://leangaurav.medium.com/how-to-setup-install-gnu-make-on-windows-324480f1da69)
+
 
 ##### Option 2 — Chocolatey
 
