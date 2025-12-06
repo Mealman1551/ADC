@@ -291,7 +291,7 @@ make deps-windows
 
 #### Start building on Windows
 
->[!Waring]
+>[!Warning]
 >Do ***NOT*** run the binary while compiling!
 
 Run the compilation command:
