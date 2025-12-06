@@ -338,7 +338,9 @@ Run:
 make linux
 ```
 
-After compiling, run the executable in the `dist` folder:
+```bash
+cd dist
+```
 
 ```bash
 ./ADC_Archiver_1.4.2.bin
