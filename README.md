@@ -272,7 +272,7 @@ Now its time to prepare the building environment:
 
 check afterwards which version with `python --version`, 3.10 and up is supported.
 
-3. Download a C compiler, however not open source, i would recommend Visual Studio Build Tools.
+3. Download a C compiler, however not open source, i would recommend [Visual Studio Build Tools](https://visualstudio.microsoft.com/downloads/?q=build+tools#build-tools-for-visual-studio-2026).
 
 4. Download and extract the source code: [source_code.zip](https://github.com/Mealman1551/ArchivedDataCodec/archive/refs/heads/main.zip)
 
