@@ -291,7 +291,9 @@ Run the compilation command:
 make windows
 ```
 
-After compiling, open the `dist` folder to find `ADC_Archiver_1.4.0.exe` and run it:
+```powershell
+cd dist
+```
 
 ```powershell
 ./ADC_Archiver_1.4.2.exe
