@@ -6,7 +6,11 @@ import os
 import shlex
 import getpass
 from pathlib import Path
-from libadc.archive import create_adc_archive, extract_adc_archive
+from libadc.archive import (
+    InvalidArchivePasswordError,
+    create_adc_archive,
+    extract_adc_archive,
+)
 
 
 def parse_path_input(value):
@@ -97,10 +101,6 @@ def prompt_for_extraction_output_dir():
     value = input("Extraction directory [.]: ").strip()
     parsed = parse_path_input(value if value else ".")
 
-    # Create directory if it doesn't exist
-    if parsed and not os.path.exists(parsed):
-        os.makedirs(parsed, exist_ok=True)
-
     return parsed
 
 
@@ -165,7 +165,11 @@ def run_headless_flow(argv):
         else:
             output_dir = prompt_for_extraction_output_dir()
 
-        extract_adc_archive(archive_path, output_dir)
+        try:
+            extract_adc_archive(archive_path, output_dir)
+        except InvalidArchivePasswordError as exc:
+            print(f"Error: {exc}")
+            return
         print(f"Archive extracted to: {output_dir}")
 
     else:
