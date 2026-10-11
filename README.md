@@ -101,55 +101,6 @@ ADC 1.5.0 Source code download
 | Windows   | [sourcecode.zip](https://github.com/Mealman1551/ArchivedDataCodec/archive/refs/heads/development/1.5.zip)       |
 | Linux     | [sourcecode.tar.gz](https://github.com/Mealman1551/ArchivedDataCodec/archive/refs/heads/development/1.5.tar.gz) |
 
-
-<!--
-### Windows
-
-1. Download the official installer here: [![Windows](https://custom-icon-badges.demolab.com/badge/Windows-0078D6?logo=windows11&logoColor=white)](https://github.com/Mealman1551/ArchivedDataCodec/releases/download/v1.4.5/adc1.4.5_amd64setup.exe)
-
-### Linux
-
-#### Tarball
-
-Download the tarball and run `install.sh`; this will copy the files to `/opt` and make a symlink to `/usr/local/bin`.
-
-To remove, run `remove.sh` in the same tarball.
-
-[Download tarball](https://github.com/Mealman1551/ArchivedDataCodec/releases/download/v1.4.5/adc.tar.xz)
-
-#### Command
-
-Dependencies:
-
-1. wget
-2. xz-utils
-
-Run:
-
-```bash
-wget -O- "https://raw.githubusercontent.com/The-ADC-Archiver-Project/webscripts/refs/heads/main/install.sh" | bash
-```
-
-To remove ADC you can run:
-
-```bash
-wget -O- https://raw.githubusercontent.com/The-ADC-Archiver-Project/webscripts/refs/heads/main/uninstall.sh | bash
-```
-
-### ADC is installed but command `adc` doesn't work?
-
-Run this:
-
-```bash
-sudo ln -sf /opt/adc/adc /usr/local/bin/adc && hash -r && adc
-```
-
-ADC has multiple mirrors:
-
-- [GitHub (Recommended)](https://github.com/Mealman1551/ArchivedDataCodec/releases/latest)
-- [SourceForge](https://sourceforge.net/projects/adc-archiver)
-- [GitLab](https://gitlab.com/Mealman1551/ADC-mirror) -->
-
 ### Unix (BSD, Solaris)
 
 1. Install Python 3
@@ -219,7 +170,7 @@ Contributions are welcome! See the [CONTRIBUTING.md](/docs/CONTRIBUTING.md) file
 
 ## Contact
 
-Have questions or want to learn more? open issues on the main repository on GitHub.
+Have questions or want to learn more? open issues on the main repository on GitHub. (Mealman1551/ArchivedDataCodec)
 
 ---
 
@@ -282,7 +233,7 @@ python3 --version
 ##### Cloning the repository
 
 ```bash
-git clone --branch rc/1.5 --single-branch https://github.com/Mealman1551/ArchivedDataCodec.git
+git clone --branch development/1.5 --single-branch https://github.com/Mealman1551/ArchivedDataCodec.git
 ```
 
 Enter directory:
