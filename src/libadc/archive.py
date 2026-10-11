@@ -11,11 +11,15 @@ import zlib
 import pyzipper
 from functools import lru_cache
 from progress.bar import Bar
-from cryptography.fernet import Fernet
+from cryptography.fernet import Fernet, InvalidToken
 
 from .compression import parma_compress, parma_decompress, read_binary_file
 from .crypto import derive_key_from_password
 from .constants import ADC_HEADER, ADC_HEADER_V1, SALT_SIZE
+
+
+class InvalidArchivePasswordError(Exception):
+    """Raised when an encrypted ADC archive cannot be authenticated."""
 
 
 def _normalize_path(path):
@@ -202,9 +206,9 @@ def extract_adc_archive(archive_path, output_dir, format=None, password=None):
 
     base_name = os.path.splitext(os.path.basename(archive_path))[0]
     dest_dir = os.path.join(output_dir, base_name)
-    os.makedirs(dest_dir, exist_ok=True)
 
     if format == "tar":
+        os.makedirs(dest_dir, exist_ok=True)
         with tarfile.open(archive_path, "r:*") as tar:
             members = tar.getmembers()
             with Bar("Extracting files...", max=len(members)) as bar:
@@ -215,6 +219,7 @@ def extract_adc_archive(archive_path, output_dir, format=None, password=None):
         return
 
     if format == "zip":
+        os.makedirs(dest_dir, exist_ok=True)
         with pyzipper.AESZipFile(archive_path, "r") as zf:
             encoded_password = _encode_password(password)
             if encoded_password is not None:
@@ -238,6 +243,7 @@ def extract_adc_archive(archive_path, output_dir, format=None, password=None):
         return
 
     if format == "7z":
+        os.makedirs(dest_dir, exist_ok=True)
         with py7zr.SevenZipFile(archive_path, "r") as archive:
             try:
                 allnames = archive.getnames()
@@ -307,10 +313,12 @@ def extract_adc_archive(archive_path, output_dir, format=None, password=None):
                     data = fernet.decrypt(data)
                 files_to_extract.append((filename, data, crc32_expected))
                 file_count += 1
-            except Exception as e:
-                print(f"Error decrypting {filename}: {e}")
-                continue
+            except InvalidToken as exc:
+                raise InvalidArchivePasswordError(
+                    "Incorrect password or damaged ADC archive."
+                ) from exc
 
+        os.makedirs(dest_dir, exist_ok=True)
         with Bar("Extracting files...", max=file_count) as bar:
             for filename, compressed_data, crc32_expected in files_to_extract:
                 decompressed_data = parma_decompress(compressed_data)
