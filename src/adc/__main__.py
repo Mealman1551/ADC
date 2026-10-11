@@ -11,7 +11,11 @@ from colorama import init
 from libadc.constants import YELLOW, PURPLE, GREEN, reset, VERSION
 from .updater import check_and_show_update
 from .ascii_art import print_banner, get_info_banner
-from libadc.archive import create_adc_archive, extract_adc_archive
+from libadc.archive import (
+    InvalidArchivePasswordError,
+    create_adc_archive,
+    extract_adc_archive,
+)
 from .ui import (
     select_files_for_archiving,
     select_directory_for_extraction,
@@ -52,7 +56,10 @@ def main():
     if adc_file_arg:
         output_dir = os.path.dirname(os.path.abspath(adc_file_arg))
         print(f"{YELLOW}Auto-extracting {adc_file_arg} to {output_dir}{reset}")
-        extract_adc_archive(adc_file_arg, output_dir)
+        try:
+            extract_adc_archive(adc_file_arg, output_dir)
+        except InvalidArchivePasswordError as exc:
+            print(f"Error: {exc}")
         return
 
     has_cli_args = len([arg for arg in sys.argv[1:] if arg != "--headless"]) > 0
@@ -128,7 +135,11 @@ You can download the stable version of ADC Archiver on GitHub releases:
                 continue
 
             extraction_dir = select_directory_for_extraction() or "."
-            extract_adc_archive(archive, extraction_dir)
+            try:
+                extract_adc_archive(archive, extraction_dir)
+            except InvalidArchivePasswordError as exc:
+                print(f"Error: {exc}")
+                continue
             print(f"\n[INFO] Archive extracted to: {extraction_dir}\n")
 
         elif command == "i":
