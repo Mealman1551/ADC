@@ -1,7 +1,12 @@
 import os
 import zlib
 
-from libadc.archive import create_adc_archive, extract_adc_archive, _list_files_in_path
+from libadc.archive import (
+    create_adc_archive,
+    extract_adc_archive,
+    _list_files_in_path,
+)
+from adc.headless import run_headless_flow
 from libadc.compression import read_binary_file, parma_compress
 
 def test_create_and_extract(tmp_path, monkeypatch):
@@ -21,6 +26,28 @@ def test_create_and_extract(tmp_path, monkeypatch):
 
     extracted_file = output_dir.joinpath("test").joinpath("hello.txt")
     assert extracted_file.read_bytes() == b"Hello ADC!"
+
+
+def test_wrong_adc_password_reports_error_without_creating_output_dir(
+    tmp_path, monkeypatch, capsys
+):
+    file_path = tmp_path / "secret.txt"
+    file_path.write_bytes(b"Secret content")
+
+    archive_path = tmp_path / "protected.adc"
+    create_adc_archive(
+        [str(file_path)],
+        str(archive_path),
+        format="adc",
+        password="test-password",
+    )
+    monkeypatch.setattr("libadc.archive.getpass.getpass", lambda _: "wrong-password")
+
+    output_dir = tmp_path / "extract"
+    run_headless_flow(["adc", "e", str(archive_path), str(output_dir)])
+
+    assert "Error: Incorrect password or damaged ADC archive." in capsys.readouterr().out
+    assert not output_dir.exists()
 
 
 def test_read_binary_file_refreshes_after_write(tmp_path):
