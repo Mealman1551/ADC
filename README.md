@@ -260,7 +260,7 @@ make debug-linux
 To install:
 
 ```bash
-make install # Linux only
+make install #Linux only
 ```
 
 ---
