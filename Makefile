@@ -10,7 +10,7 @@ linux:
 	PYTHONPATH=src python3 -m nuitka --standalone --onefile --enable-plugin=tk-inter --include-package=libadc --include-package=adc --output-dir=dist $(SRC)
 
 windows:
-	set PYTHONPATH=src && python -m nuitka --standalone --onefile --enable-plugin=tk-inter --include-package=libadc --include-package=adc --windows-icon-from-ico=assets/ADCIcon.ico --output-dir=dist $(SRC)
+	set PYTHONPATH=src && python -m nuitka --standalone --msvc=latest --onefile --enable-plugin=tk-inter --include-package=libadc --include-package=adc --windows-icon-from-ico=assets/ADCIcon.ico --output-dir=dist $(SRC)
 
 deps-linux:
 	python3 -m pip install -r requirements.txt --break-system-packages
